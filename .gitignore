@@ -1,0 +1,5 @@
+# Written by LovableCAD (ADR-0020)
+*.tmp
+# Exported files are made again from the design; the crash-recovery snapshots are covered by git.
+exports/
+snapshots/
