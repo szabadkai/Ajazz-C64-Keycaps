@@ -7482,6 +7482,13 @@
           ],
           "radius": "homing_r"
         }
+      ],
+      "accept_findings": [
+        {
+          "rule": "clearance",
+          "key": "ink_key_j",
+          "reason": "display-only legend inlay modelled in the engraving on purpose"
+        }
       ]
     },
     {
