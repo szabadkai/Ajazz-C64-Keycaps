@@ -645,12 +645,43 @@
       "value": 0.15,
       "unit": "mm",
       "description": "Thickness of the eggshell legend inlays lying on the engraving floors (display only)"
+    },
+    "homing_len": {
+      "value": 5,
+      "unit": "mm",
+      "description": "Homing bar length on F and J (left to right)"
+    },
+    "homing_w": {
+      "value": 1,
+      "unit": "mm",
+      "description": "Homing bar width (front to back)"
+    },
+    "homing_h": {
+      "value": 0.5,
+      "unit": "mm",
+      "description": "Homing bar height above the dish, measured normal to the dish"
+    },
+    "homing_inset": {
+      "value": 2,
+      "unit": "mm",
+      "description": "Homing bar centre line, back from the top front edge (before the rim fillet)"
+    },
+    "homing_r": {
+      "value": 0.35,
+      "unit": "mm",
+      "description": "Round on the homing bar's top edges, so it reads by touch without a sharp edge"
+    },
+    "homing_y": {
+      "value": "-sa_top / 2 + homing_inset",
+      "unit": "mm",
+      "description": "Homing bar centre y on a row 3 key"
     }
   },
   "parts": [
     {
       "id": "k_r3_1u",
       "name": "SA R3 1u - A",
+      "color": "#3b2a20",
       "features": [
         {
           "id": "r3_1u_top",
@@ -964,6 +995,7 @@
         },
         {
           "id": "r3_1u_front_plane",
+          "name": "Front legend floor",
           "type": "datum",
           "plane": "xz",
           "offset": "sa_r3_legend_y + front_legend_depth * cos(sa_r3_legend_tilt)",
@@ -971,8 +1003,7 @@
             0,
             "sa_r3_legend_z - front_legend_depth * sin(sa_r3_legend_tilt)"
           ],
-          "tilt": "sa_r3_legend_tilt",
-          "name": "Front legend floor"
+          "tilt": "sa_r3_legend_tilt"
         },
         {
           "id": "r3_1u_front_legend",
@@ -993,12 +1024,12 @@
           "direction": "reverse",
           "operation": "subtract"
         }
-      ],
-      "color": "#3b2a20"
+      ]
     },
     {
       "id": "k_r1_1u",
       "name": "SA R1 1u - Esc",
+      "color": "#3b2a20",
       "features": [
         {
           "id": "r1_1u_top",
@@ -1310,12 +1341,12 @@
           "direction": "normal",
           "operation": "subtract"
         }
-      ],
-      "color": "#3b2a20"
+      ]
     },
     {
       "id": "k_r1_2u",
       "name": "SA R1 2u - Backspace",
+      "color": "#3b2a20",
       "features": [
         {
           "id": "r1_2u_top",
@@ -1735,12 +1766,12 @@
           "direction": "normal",
           "operation": "subtract"
         }
-      ],
-      "color": "#3b2a20"
+      ]
     },
     {
       "id": "k_r2_1u",
       "name": "SA R2 1u - Q",
+      "color": "#3b2a20",
       "features": [
         {
           "id": "r2_1u_top",
@@ -2083,12 +2114,12 @@
           "direction": "reverse",
           "operation": "subtract"
         }
-      ],
-      "color": "#3b2a20"
+      ]
     },
     {
       "id": "k_r2_1_5u",
       "name": "SA R2 1.5u - Tab",
+      "color": "#3b2a20",
       "features": [
         {
           "id": "r2_15u_top",
@@ -2488,12 +2519,12 @@
           "direction": "normal",
           "operation": "subtract"
         }
-      ],
-      "color": "#3b2a20"
+      ]
     },
     {
       "id": "k_r3_1_75u",
       "name": "SA R3 1.75u - Caps Lock",
+      "color": "#3b2a20",
       "features": [
         {
           "id": "r3_175u_top",
@@ -2893,12 +2924,12 @@
           "direction": "normal",
           "operation": "subtract"
         }
-      ],
-      "color": "#3b2a20"
+      ]
     },
     {
       "id": "k_r3_2_25u",
       "name": "SA R3 2.25u - Return",
+      "color": "#3b2a20",
       "features": [
         {
           "id": "r3_225u_top",
@@ -3295,20 +3326,20 @@
           },
           "plane": "xy",
           "offset": "sa_r3_h - dish_depth - legend_depth",
-          "distance": "dish_depth + legend_depth + 1",
-          "direction": "normal",
-          "operation": "subtract",
           "center": [
             0,
             "legend_glyph_lift"
-          ]
+          ],
+          "distance": "dish_depth + legend_depth + 1",
+          "direction": "normal",
+          "operation": "subtract"
         }
-      ],
-      "color": "#3b2a20"
+      ]
     },
     {
       "id": "k_r3_6_25u",
       "name": "SA R3 6.25u - Space",
+      "color": "#3b2a20",
       "features": [
         {
           "id": "r3_625u_top",
@@ -3499,12 +3530,12 @@
           "anchor": "center",
           "operation": "intersect"
         }
-      ],
-      "color": "#3b2a20"
+      ]
     },
     {
       "id": "k_r4_1u",
       "name": "SA R4 1u - Z",
+      "color": "#3b2a20",
       "features": [
         {
           "id": "r4_1u_top",
@@ -3847,12 +3878,12 @@
           "direction": "reverse",
           "operation": "subtract"
         }
-      ],
-      "color": "#3b2a20"
+      ]
     },
     {
       "id": "k_r4_1_25u",
       "name": "SA R4 1.25u - Left Ctrl",
+      "color": "#3b2a20",
       "features": [
         {
           "id": "r4_125u_top",
@@ -4245,12 +4276,12 @@
           "direction": "normal",
           "operation": "subtract"
         }
-      ],
-      "color": "#3b2a20"
+      ]
     },
     {
       "id": "k_r4_1_75u",
       "name": "SA R4 1.75u - Right Shift",
+      "color": "#3b2a20",
       "features": [
         {
           "id": "r4_175u_top",
@@ -4650,12 +4681,12 @@
           "direction": "normal",
           "operation": "subtract"
         }
-      ],
-      "color": "#3b2a20"
+      ]
     },
     {
       "id": "k_r4_2_25u",
       "name": "SA R4 2.25u - Left Shift",
+      "color": "#3b2a20",
       "features": [
         {
           "id": "r4_225u_top",
@@ -5067,12 +5098,12 @@
           "direction": "normal",
           "operation": "subtract"
         }
-      ],
-      "color": "#3b2a20"
+      ]
     },
     {
       "id": "key_s",
       "name": "SA R3 1u - S",
+      "color": "#3b2a20",
       "features": [
         {
           "id": "key_s_r3_1u_top",
@@ -5415,12 +5446,12 @@
           "direction": "reverse",
           "operation": "subtract"
         }
-      ],
-      "color": "#3b2a20"
+      ]
     },
     {
       "id": "key_d",
       "name": "SA R3 1u - D",
+      "color": "#3b2a20",
       "features": [
         {
           "id": "key_d_r3_1u_top",
@@ -5763,12 +5794,12 @@
           "direction": "reverse",
           "operation": "subtract"
         }
-      ],
-      "color": "#3b2a20"
+      ]
     },
     {
       "id": "key_f",
       "name": "SA R3 1u - F",
+      "color": "#3b2a20",
       "features": [
         {
           "id": "key_f_r3_1u_top",
@@ -6110,13 +6141,161 @@
           "distance": "front_legend_depth + 1",
           "direction": "reverse",
           "operation": "subtract"
+        },
+        {
+          "id": "key_f_home_bar",
+          "type": "extrude",
+          "profile": {
+            "shape": "slot",
+            "length": "homing_len",
+            "width": "homing_w"
+          },
+          "plane": "xy",
+          "offset": "sa_r3_h - dish_depth",
+          "center": [
+            0,
+            "homing_y"
+          ],
+          "distance": "dish_depth + homing_h + 1",
+          "operation": "add"
+        },
+        {
+          "id": "key_f_home_sk",
+          "type": "sketch",
+          "plane": "xz",
+          "offset": "sa_r3_yc",
+          "entities": [
+            {
+              "id": "o",
+              "type": "point",
+              "at": [
+                0,
+                0
+              ]
+            },
+            {
+              "id": "c",
+              "type": "point",
+              "at": [
+                0,
+                36.88
+              ]
+            },
+            {
+              "id": "p2",
+              "type": "point",
+              "at": [
+                24.68,
+                36.88
+              ]
+            },
+            {
+              "id": "p1",
+              "type": "point",
+              "at": [
+                -24.68,
+                36.88
+              ]
+            },
+            {
+              "id": "cap",
+              "type": "arc",
+              "center": "c",
+              "from": "p2",
+              "to": "p1"
+            },
+            {
+              "id": "base",
+              "type": "line",
+              "from": "p1",
+              "to": "p2"
+            }
+          ],
+          "constraints": [
+            {
+              "id": "k0",
+              "type": "fixed",
+              "point": "o"
+            },
+            {
+              "id": "k1",
+              "type": "horizontal_distance",
+              "a": "o",
+              "b": "c",
+              "value": 0
+            },
+            {
+              "id": "k2",
+              "type": "vertical_distance",
+              "a": "o",
+              "b": "c",
+              "value": "sa_r3_zc"
+            },
+            {
+              "id": "k3",
+              "type": "horizontal_distance",
+              "a": "c",
+              "b": "p2",
+              "value": "dish_r - homing_h"
+            },
+            {
+              "id": "k4",
+              "type": "vertical_distance",
+              "a": "c",
+              "b": "p2",
+              "value": 0
+            },
+            {
+              "id": "k6",
+              "type": "vertical_distance",
+              "a": "c",
+              "b": "p1",
+              "value": 0
+            },
+            {
+              "id": "k7",
+              "type": "horizontal_distance",
+              "a": "p1",
+              "b": "c",
+              "value": "dish_r - homing_h"
+            }
+          ]
+        },
+        {
+          "id": "key_f_home_top",
+          "type": "revolve",
+          "profile": {
+            "shape": "sketch",
+            "sketch": "key_f_home_sk"
+          },
+          "axis": {
+            "along": "u",
+            "through": [
+              0,
+              "sa_r3_zc"
+            ]
+          },
+          "operation": "subtract"
+        },
+        {
+          "id": "key_f_home_round",
+          "type": "fillet",
+          "edges": [
+            {
+              "between": [
+                "key_f_home_bar",
+                "key_f_home_top"
+              ]
+            }
+          ],
+          "radius": "homing_r"
         }
-      ],
-      "color": "#3b2a20"
+      ]
     },
     {
       "id": "key_g",
       "name": "SA R3 1u - G",
+      "color": "#3b2a20",
       "features": [
         {
           "id": "key_g_r3_1u_top",
@@ -6459,12 +6638,12 @@
           "direction": "reverse",
           "operation": "subtract"
         }
-      ],
-      "color": "#3b2a20"
+      ]
     },
     {
       "id": "key_h",
       "name": "SA R3 1u - H",
+      "color": "#3b2a20",
       "features": [
         {
           "id": "key_h_r3_1u_top",
@@ -6807,12 +6986,12 @@
           "direction": "reverse",
           "operation": "subtract"
         }
-      ],
-      "color": "#3b2a20"
+      ]
     },
     {
       "id": "key_j",
       "name": "SA R3 1u - J",
+      "color": "#3b2a20",
       "features": [
         {
           "id": "key_j_r3_1u_top",
@@ -7154,13 +7333,161 @@
           "distance": "front_legend_depth + 1",
           "direction": "reverse",
           "operation": "subtract"
+        },
+        {
+          "id": "key_j_home_bar",
+          "type": "extrude",
+          "profile": {
+            "shape": "slot",
+            "length": "homing_len",
+            "width": "homing_w"
+          },
+          "plane": "xy",
+          "offset": "sa_r3_h - dish_depth",
+          "center": [
+            0,
+            "homing_y"
+          ],
+          "distance": "dish_depth + homing_h + 1",
+          "operation": "add"
+        },
+        {
+          "id": "key_j_home_sk",
+          "type": "sketch",
+          "plane": "xz",
+          "offset": "sa_r3_yc",
+          "entities": [
+            {
+              "id": "o",
+              "type": "point",
+              "at": [
+                0,
+                0
+              ]
+            },
+            {
+              "id": "c",
+              "type": "point",
+              "at": [
+                0,
+                36.88
+              ]
+            },
+            {
+              "id": "p2",
+              "type": "point",
+              "at": [
+                24.68,
+                36.88
+              ]
+            },
+            {
+              "id": "p1",
+              "type": "point",
+              "at": [
+                -24.68,
+                36.88
+              ]
+            },
+            {
+              "id": "cap",
+              "type": "arc",
+              "center": "c",
+              "from": "p2",
+              "to": "p1"
+            },
+            {
+              "id": "base",
+              "type": "line",
+              "from": "p1",
+              "to": "p2"
+            }
+          ],
+          "constraints": [
+            {
+              "id": "k0",
+              "type": "fixed",
+              "point": "o"
+            },
+            {
+              "id": "k1",
+              "type": "horizontal_distance",
+              "a": "o",
+              "b": "c",
+              "value": 0
+            },
+            {
+              "id": "k2",
+              "type": "vertical_distance",
+              "a": "o",
+              "b": "c",
+              "value": "sa_r3_zc"
+            },
+            {
+              "id": "k3",
+              "type": "horizontal_distance",
+              "a": "c",
+              "b": "p2",
+              "value": "dish_r - homing_h"
+            },
+            {
+              "id": "k4",
+              "type": "vertical_distance",
+              "a": "c",
+              "b": "p2",
+              "value": 0
+            },
+            {
+              "id": "k6",
+              "type": "vertical_distance",
+              "a": "c",
+              "b": "p1",
+              "value": 0
+            },
+            {
+              "id": "k7",
+              "type": "horizontal_distance",
+              "a": "p1",
+              "b": "c",
+              "value": "dish_r - homing_h"
+            }
+          ]
+        },
+        {
+          "id": "key_j_home_top",
+          "type": "revolve",
+          "profile": {
+            "shape": "sketch",
+            "sketch": "key_j_home_sk"
+          },
+          "axis": {
+            "along": "u",
+            "through": [
+              0,
+              "sa_r3_zc"
+            ]
+          },
+          "operation": "subtract"
+        },
+        {
+          "id": "key_j_home_round",
+          "type": "fillet",
+          "edges": [
+            {
+              "between": [
+                "key_j_home_bar",
+                "key_j_home_top"
+              ]
+            }
+          ],
+          "radius": "homing_r"
         }
-      ],
-      "color": "#3b2a20"
+      ]
     },
     {
       "id": "key_k",
       "name": "SA R3 1u - K",
+      "color": "#3b2a20",
       "features": [
         {
           "id": "key_k_r3_1u_top",
@@ -7503,12 +7830,12 @@
           "direction": "reverse",
           "operation": "subtract"
         }
-      ],
-      "color": "#3b2a20"
+      ]
     },
     {
       "id": "key_l",
       "name": "SA R3 1u - L",
+      "color": "#3b2a20",
       "features": [
         {
           "id": "key_l_r3_1u_top",
@@ -7851,12 +8178,12 @@
           "direction": "reverse",
           "operation": "subtract"
         }
-      ],
-      "color": "#3b2a20"
+      ]
     },
     {
       "id": "key_semicolon",
       "name": "SA R3 1u - ; :",
+      "color": "#3b2a20",
       "features": [
         {
           "id": "key_semicolon_r3_1u_top",
@@ -8169,12 +8496,12 @@
           "direction": "normal",
           "operation": "subtract"
         }
-      ],
-      "color": "#3b2a20"
+      ]
     },
     {
       "id": "key_quote",
       "name": "SA R3 1u - ' \"",
+      "color": "#3b2a20",
       "features": [
         {
           "id": "key_quote_r3_1u_top",
@@ -8487,12 +8814,12 @@
           "direction": "normal",
           "operation": "subtract"
         }
-      ],
-      "color": "#3b2a20"
+      ]
     },
     {
       "id": "key_pgdn",
       "name": "SA R3 1u - PgDn",
+      "color": "#3b2a20",
       "features": [
         {
           "id": "key_pgdn_r3_1u_top",
@@ -8805,12 +9132,12 @@
           "direction": "normal",
           "operation": "subtract"
         }
-      ],
-      "color": "#3b2a20"
+      ]
     },
     {
       "id": "key_w",
       "name": "SA R2 1u - W",
+      "color": "#3b2a20",
       "features": [
         {
           "id": "key_w_r2_1u_top",
@@ -9153,12 +9480,12 @@
           "direction": "reverse",
           "operation": "subtract"
         }
-      ],
-      "color": "#3b2a20"
+      ]
     },
     {
       "id": "key_e",
       "name": "SA R2 1u - E",
+      "color": "#3b2a20",
       "features": [
         {
           "id": "key_e_r2_1u_top",
@@ -9501,12 +9828,12 @@
           "direction": "reverse",
           "operation": "subtract"
         }
-      ],
-      "color": "#3b2a20"
+      ]
     },
     {
       "id": "key_r",
       "name": "SA R2 1u - R",
+      "color": "#3b2a20",
       "features": [
         {
           "id": "key_r_r2_1u_top",
@@ -9849,12 +10176,12 @@
           "direction": "reverse",
           "operation": "subtract"
         }
-      ],
-      "color": "#3b2a20"
+      ]
     },
     {
       "id": "key_t",
       "name": "SA R2 1u - T",
+      "color": "#3b2a20",
       "features": [
         {
           "id": "key_t_r2_1u_top",
@@ -10197,12 +10524,12 @@
           "direction": "reverse",
           "operation": "subtract"
         }
-      ],
-      "color": "#3b2a20"
+      ]
     },
     {
       "id": "key_y",
       "name": "SA R2 1u - Y",
+      "color": "#3b2a20",
       "features": [
         {
           "id": "key_y_r2_1u_top",
@@ -10545,12 +10872,12 @@
           "direction": "reverse",
           "operation": "subtract"
         }
-      ],
-      "color": "#3b2a20"
+      ]
     },
     {
       "id": "key_u",
       "name": "SA R2 1u - U",
+      "color": "#3b2a20",
       "features": [
         {
           "id": "key_u_r2_1u_top",
@@ -10893,12 +11220,12 @@
           "direction": "reverse",
           "operation": "subtract"
         }
-      ],
-      "color": "#3b2a20"
+      ]
     },
     {
       "id": "key_i",
       "name": "SA R2 1u - I",
+      "color": "#3b2a20",
       "features": [
         {
           "id": "key_i_r2_1u_top",
@@ -11241,12 +11568,12 @@
           "direction": "reverse",
           "operation": "subtract"
         }
-      ],
-      "color": "#3b2a20"
+      ]
     },
     {
       "id": "key_o",
       "name": "SA R2 1u - O",
+      "color": "#3b2a20",
       "features": [
         {
           "id": "key_o_r2_1u_top",
@@ -11589,12 +11916,12 @@
           "direction": "reverse",
           "operation": "subtract"
         }
-      ],
-      "color": "#3b2a20"
+      ]
     },
     {
       "id": "key_p",
       "name": "SA R2 1u - P",
+      "color": "#3b2a20",
       "features": [
         {
           "id": "key_p_r2_1u_top",
@@ -11937,12 +12264,12 @@
           "direction": "reverse",
           "operation": "subtract"
         }
-      ],
-      "color": "#3b2a20"
+      ]
     },
     {
       "id": "key_lbracket",
       "name": "SA R2 1u - [ {",
+      "color": "#3b2a20",
       "features": [
         {
           "id": "key_lbracket_r2_1u_top",
@@ -12286,12 +12613,12 @@
           "direction": "reverse",
           "operation": "subtract"
         }
-      ],
-      "color": "#3b2a20"
+      ]
     },
     {
       "id": "key_rbracket",
       "name": "SA R2 1u - ] }",
+      "color": "#3b2a20",
       "features": [
         {
           "id": "key_rbracket_r2_1u_top",
@@ -12635,12 +12962,12 @@
           "direction": "reverse",
           "operation": "subtract"
         }
-      ],
-      "color": "#3b2a20"
+      ]
     },
     {
       "id": "key_pgup",
       "name": "SA R2 1u - PgUp",
+      "color": "#3b2a20",
       "features": [
         {
           "id": "key_pgup_r2_1u_top",
@@ -12953,12 +13280,12 @@
           "direction": "normal",
           "operation": "subtract"
         }
-      ],
-      "color": "#3b2a20"
+      ]
     },
     {
       "id": "key_f1",
       "name": "SA R1 1u - F1",
+      "color": "#3b2a20",
       "features": [
         {
           "id": "key_f1_r1_1u_top",
@@ -13270,12 +13597,12 @@
           "direction": "normal",
           "operation": "subtract"
         }
-      ],
-      "color": "#3b2a20"
+      ]
     },
     {
       "id": "key_f2",
       "name": "SA R1 1u - F2",
+      "color": "#3b2a20",
       "features": [
         {
           "id": "key_f2_r1_1u_top",
@@ -13587,12 +13914,12 @@
           "direction": "normal",
           "operation": "subtract"
         }
-      ],
-      "color": "#3b2a20"
+      ]
     },
     {
       "id": "key_f3",
       "name": "SA R1 1u - F3",
+      "color": "#3b2a20",
       "features": [
         {
           "id": "key_f3_r1_1u_top",
@@ -13904,12 +14231,12 @@
           "direction": "normal",
           "operation": "subtract"
         }
-      ],
-      "color": "#3b2a20"
+      ]
     },
     {
       "id": "key_f4",
       "name": "SA R1 1u - F4",
+      "color": "#3b2a20",
       "features": [
         {
           "id": "key_f4_r1_1u_top",
@@ -14221,12 +14548,12 @@
           "direction": "normal",
           "operation": "subtract"
         }
-      ],
-      "color": "#3b2a20"
+      ]
     },
     {
       "id": "key_f5",
       "name": "SA R1 1u - F5",
+      "color": "#3b2a20",
       "features": [
         {
           "id": "key_f5_r1_1u_top",
@@ -14538,12 +14865,12 @@
           "direction": "normal",
           "operation": "subtract"
         }
-      ],
-      "color": "#3b2a20"
+      ]
     },
     {
       "id": "key_f6",
       "name": "SA R1 1u - F6",
+      "color": "#3b2a20",
       "features": [
         {
           "id": "key_f6_r1_1u_top",
@@ -14855,12 +15182,12 @@
           "direction": "normal",
           "operation": "subtract"
         }
-      ],
-      "color": "#3b2a20"
+      ]
     },
     {
       "id": "key_f7",
       "name": "SA R1 1u - F7",
+      "color": "#3b2a20",
       "features": [
         {
           "id": "key_f7_r1_1u_top",
@@ -15172,12 +15499,12 @@
           "direction": "normal",
           "operation": "subtract"
         }
-      ],
-      "color": "#3b2a20"
+      ]
     },
     {
       "id": "key_f8",
       "name": "SA R1 1u - F8",
+      "color": "#3b2a20",
       "features": [
         {
           "id": "key_f8_r1_1u_top",
@@ -15489,12 +15816,12 @@
           "direction": "normal",
           "operation": "subtract"
         }
-      ],
-      "color": "#3b2a20"
+      ]
     },
     {
       "id": "key_f9",
       "name": "SA R1 1u - F9",
+      "color": "#3b2a20",
       "features": [
         {
           "id": "key_f9_r1_1u_top",
@@ -15806,12 +16133,12 @@
           "direction": "normal",
           "operation": "subtract"
         }
-      ],
-      "color": "#3b2a20"
+      ]
     },
     {
       "id": "key_f10",
       "name": "SA R1 1u - F10",
+      "color": "#3b2a20",
       "features": [
         {
           "id": "key_f10_r1_1u_top",
@@ -16123,12 +16450,12 @@
           "direction": "normal",
           "operation": "subtract"
         }
-      ],
-      "color": "#3b2a20"
+      ]
     },
     {
       "id": "key_f11",
       "name": "SA R1 1u - F11",
+      "color": "#3b2a20",
       "features": [
         {
           "id": "key_f11_r1_1u_top",
@@ -16440,12 +16767,12 @@
           "direction": "normal",
           "operation": "subtract"
         }
-      ],
-      "color": "#3b2a20"
+      ]
     },
     {
       "id": "key_f12",
       "name": "SA R1 1u - F12",
+      "color": "#3b2a20",
       "features": [
         {
           "id": "key_f12_r1_1u_top",
@@ -16757,12 +17084,12 @@
           "direction": "normal",
           "operation": "subtract"
         }
-      ],
-      "color": "#3b2a20"
+      ]
     },
     {
       "id": "key_grave",
       "name": "SA R1 1u - ` ~",
+      "color": "#3b2a20",
       "features": [
         {
           "id": "key_grave_r1_1u_top",
@@ -17106,12 +17433,12 @@
           "direction": "reverse",
           "operation": "subtract"
         }
-      ],
-      "color": "#3b2a20"
+      ]
     },
     {
       "id": "key_1",
       "name": "SA R1 1u - 1 !",
+      "color": "#3b2a20",
       "features": [
         {
           "id": "key_1_r1_1u_top",
@@ -17459,12 +17786,12 @@
           "direction": "reverse",
           "operation": "subtract"
         }
-      ],
-      "color": "#3b2a20"
+      ]
     },
     {
       "id": "key_2",
       "name": "SA R1 1u - 2 @",
+      "color": "#3b2a20",
       "features": [
         {
           "id": "key_2_r1_1u_top",
@@ -17812,12 +18139,12 @@
           "direction": "reverse",
           "operation": "subtract"
         }
-      ],
-      "color": "#3b2a20"
+      ]
     },
     {
       "id": "key_3",
       "name": "SA R1 1u - 3 #",
+      "color": "#3b2a20",
       "features": [
         {
           "id": "key_3_r1_1u_top",
@@ -18165,12 +18492,12 @@
           "direction": "reverse",
           "operation": "subtract"
         }
-      ],
-      "color": "#3b2a20"
+      ]
     },
     {
       "id": "key_4",
       "name": "SA R1 1u - 4 $",
+      "color": "#3b2a20",
       "features": [
         {
           "id": "key_4_r1_1u_top",
@@ -18518,12 +18845,12 @@
           "direction": "reverse",
           "operation": "subtract"
         }
-      ],
-      "color": "#3b2a20"
+      ]
     },
     {
       "id": "key_5",
       "name": "SA R1 1u - 5 %",
+      "color": "#3b2a20",
       "features": [
         {
           "id": "key_5_r1_1u_top",
@@ -18871,12 +19198,12 @@
           "direction": "reverse",
           "operation": "subtract"
         }
-      ],
-      "color": "#3b2a20"
+      ]
     },
     {
       "id": "key_6",
       "name": "SA R1 1u - 6 ^",
+      "color": "#3b2a20",
       "features": [
         {
           "id": "key_6_r1_1u_top",
@@ -19224,12 +19551,12 @@
           "direction": "reverse",
           "operation": "subtract"
         }
-      ],
-      "color": "#3b2a20"
+      ]
     },
     {
       "id": "key_7",
       "name": "SA R1 1u - 7 &",
+      "color": "#3b2a20",
       "features": [
         {
           "id": "key_7_r1_1u_top",
@@ -19577,12 +19904,12 @@
           "direction": "reverse",
           "operation": "subtract"
         }
-      ],
-      "color": "#3b2a20"
+      ]
     },
     {
       "id": "key_8",
       "name": "SA R1 1u - 8 *",
+      "color": "#3b2a20",
       "features": [
         {
           "id": "key_8_r1_1u_top",
@@ -19930,12 +20257,12 @@
           "direction": "reverse",
           "operation": "subtract"
         }
-      ],
-      "color": "#3b2a20"
+      ]
     },
     {
       "id": "key_9",
       "name": "SA R1 1u - 9 (",
+      "color": "#3b2a20",
       "features": [
         {
           "id": "key_9_r1_1u_top",
@@ -20283,12 +20610,12 @@
           "direction": "reverse",
           "operation": "subtract"
         }
-      ],
-      "color": "#3b2a20"
+      ]
     },
     {
       "id": "key_0",
       "name": "SA R1 1u - 0 )",
+      "color": "#3b2a20",
       "features": [
         {
           "id": "key_0_r1_1u_top",
@@ -20636,12 +20963,12 @@
           "direction": "reverse",
           "operation": "subtract"
         }
-      ],
-      "color": "#3b2a20"
+      ]
     },
     {
       "id": "key_minus",
       "name": "SA R1 1u - - _",
+      "color": "#3b2a20",
       "features": [
         {
           "id": "key_minus_r1_1u_top",
@@ -20985,12 +21312,12 @@
           "direction": "reverse",
           "operation": "subtract"
         }
-      ],
-      "color": "#3b2a20"
+      ]
     },
     {
       "id": "key_equal",
       "name": "SA R1 1u - = +",
+      "color": "#3b2a20",
       "features": [
         {
           "id": "key_equal_r1_1u_top",
@@ -21334,12 +21661,12 @@
           "direction": "reverse",
           "operation": "subtract"
         }
-      ],
-      "color": "#3b2a20"
+      ]
     },
     {
       "id": "key_del",
       "name": "SA R1 1u - Del",
+      "color": "#3b2a20",
       "features": [
         {
           "id": "key_del_r1_1u_top",
@@ -21651,12 +21978,12 @@
           "direction": "normal",
           "operation": "subtract"
         }
-      ],
-      "color": "#3b2a20"
+      ]
     },
     {
       "id": "key_x",
       "name": "SA R4 1u - X",
+      "color": "#3b2a20",
       "features": [
         {
           "id": "key_x_r4_1u_top",
@@ -21999,12 +22326,12 @@
           "direction": "reverse",
           "operation": "subtract"
         }
-      ],
-      "color": "#3b2a20"
+      ]
     },
     {
       "id": "key_c",
       "name": "SA R4 1u - C",
+      "color": "#3b2a20",
       "features": [
         {
           "id": "key_c_r4_1u_top",
@@ -22347,12 +22674,12 @@
           "direction": "reverse",
           "operation": "subtract"
         }
-      ],
-      "color": "#3b2a20"
+      ]
     },
     {
       "id": "key_v",
       "name": "SA R4 1u - V",
+      "color": "#3b2a20",
       "features": [
         {
           "id": "key_v_r4_1u_top",
@@ -22695,12 +23022,12 @@
           "direction": "reverse",
           "operation": "subtract"
         }
-      ],
-      "color": "#3b2a20"
+      ]
     },
     {
       "id": "key_b",
       "name": "SA R4 1u - B",
+      "color": "#3b2a20",
       "features": [
         {
           "id": "key_b_r4_1u_top",
@@ -23043,12 +23370,12 @@
           "direction": "reverse",
           "operation": "subtract"
         }
-      ],
-      "color": "#3b2a20"
+      ]
     },
     {
       "id": "key_n",
       "name": "SA R4 1u - N",
+      "color": "#3b2a20",
       "features": [
         {
           "id": "key_n_r4_1u_top",
@@ -23391,12 +23718,12 @@
           "direction": "reverse",
           "operation": "subtract"
         }
-      ],
-      "color": "#3b2a20"
+      ]
     },
     {
       "id": "key_m",
       "name": "SA R4 1u - M",
+      "color": "#3b2a20",
       "features": [
         {
           "id": "key_m_r4_1u_top",
@@ -23739,12 +24066,12 @@
           "direction": "reverse",
           "operation": "subtract"
         }
-      ],
-      "color": "#3b2a20"
+      ]
     },
     {
       "id": "key_comma",
       "name": "SA R4 1u - , <",
+      "color": "#3b2a20",
       "features": [
         {
           "id": "key_comma_r4_1u_top",
@@ -24057,12 +24384,12 @@
           "direction": "normal",
           "operation": "subtract"
         }
-      ],
-      "color": "#3b2a20"
+      ]
     },
     {
       "id": "key_period",
       "name": "SA R4 1u - . >",
+      "color": "#3b2a20",
       "features": [
         {
           "id": "key_period_r4_1u_top",
@@ -24375,12 +24702,12 @@
           "direction": "normal",
           "operation": "subtract"
         }
-      ],
-      "color": "#3b2a20"
+      ]
     },
     {
       "id": "key_slash",
       "name": "SA R4 1u - / ?",
+      "color": "#3b2a20",
       "features": [
         {
           "id": "key_slash_r4_1u_top",
@@ -24693,12 +25020,12 @@
           "direction": "normal",
           "operation": "subtract"
         }
-      ],
-      "color": "#3b2a20"
+      ]
     },
     {
       "id": "key_up",
       "name": "SA R4 1u - Up",
+      "color": "#3b2a20",
       "features": [
         {
           "id": "key_up_r4_1u_top",
@@ -25010,12 +25337,12 @@
           "direction": "normal",
           "operation": "subtract"
         }
-      ],
-      "color": "#3b2a20"
+      ]
     },
     {
       "id": "key_end",
       "name": "SA R4 1u - End",
+      "color": "#3b2a20",
       "features": [
         {
           "id": "key_end_r4_1u_top",
@@ -25327,12 +25654,12 @@
           "direction": "normal",
           "operation": "subtract"
         }
-      ],
-      "color": "#3b2a20"
+      ]
     },
     {
       "id": "key_ralt",
       "name": "SA R4 1u - Right Alt",
+      "color": "#3b2a20",
       "features": [
         {
           "id": "key_ralt_r4_1u_top",
@@ -25644,12 +25971,12 @@
           "direction": "normal",
           "operation": "subtract"
         }
-      ],
-      "color": "#3b2a20"
+      ]
     },
     {
       "id": "key_fn",
       "name": "SA R4 1u - Fn",
+      "color": "#3b2a20",
       "features": [
         {
           "id": "key_fn_r4_1u_top",
@@ -25961,12 +26288,12 @@
           "direction": "normal",
           "operation": "subtract"
         }
-      ],
-      "color": "#3b2a20"
+      ]
     },
     {
       "id": "key_rctrl",
       "name": "SA R4 1u - Right Ctrl",
+      "color": "#3b2a20",
       "features": [
         {
           "id": "key_rctrl_r4_1u_top",
@@ -26278,12 +26605,12 @@
           "direction": "normal",
           "operation": "subtract"
         }
-      ],
-      "color": "#3b2a20"
+      ]
     },
     {
       "id": "key_left",
       "name": "SA R4 1u - Left",
+      "color": "#3b2a20",
       "features": [
         {
           "id": "key_left_r4_1u_top",
@@ -26595,12 +26922,12 @@
           "direction": "normal",
           "operation": "subtract"
         }
-      ],
-      "color": "#3b2a20"
+      ]
     },
     {
       "id": "key_down",
       "name": "SA R4 1u - Down",
+      "color": "#3b2a20",
       "features": [
         {
           "id": "key_down_r4_1u_top",
@@ -26912,12 +27239,12 @@
           "direction": "normal",
           "operation": "subtract"
         }
-      ],
-      "color": "#3b2a20"
+      ]
     },
     {
       "id": "key_right",
       "name": "SA R4 1u - Right",
+      "color": "#3b2a20",
       "features": [
         {
           "id": "key_right_r4_1u_top",
@@ -27229,12 +27556,12 @@
           "direction": "normal",
           "operation": "subtract"
         }
-      ],
-      "color": "#3b2a20"
+      ]
     },
     {
       "id": "key_lwin",
       "name": "SA R4 1.25u - Win (C=)",
+      "color": "#3b2a20",
       "features": [
         {
           "id": "key_lwin_r4_125u_top",
@@ -27627,12 +27954,12 @@
           "direction": "normal",
           "operation": "subtract"
         }
-      ],
-      "color": "#3b2a20"
+      ]
     },
     {
       "id": "key_lalt",
       "name": "SA R4 1.25u - Left Alt",
+      "color": "#3b2a20",
       "features": [
         {
           "id": "key_lalt_r4_125u_top",
@@ -28025,12 +28352,12 @@
           "direction": "normal",
           "operation": "subtract"
         }
-      ],
-      "color": "#3b2a20"
+      ]
     },
     {
       "id": "key_backslash",
       "name": "SA R2 1.5u - \\ |",
+      "color": "#3b2a20",
       "features": [
         {
           "id": "key_backslash_r2_15u_top",
@@ -28461,8 +28788,7 @@
           "direction": "reverse",
           "operation": "subtract"
         }
-      ],
-      "color": "#3b2a20"
+      ]
     },
     {
       "id": "ink_k_r3_1u",

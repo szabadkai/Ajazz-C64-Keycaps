@@ -1,6 +1,6 @@
 {
-  "savedAt": "2026-10-07T11:24:23.472Z",
-  "hash": "sha256:f707b547b3baa931",
+  "savedAt": "2026-10-13T05:17:46.445Z",
+  "hash": "sha256:d389270767f47ee9",
   "schemaVersion": 2,
   "parts": {
     "k_r3_1u": {
@@ -144,14 +144,14 @@
       "faceRefs": "3c0d30ffe900"
     },
     "key_f": {
-      "volume": 1626.337,
+      "volume": 1628.455,
       "size": [
         18.4,
         18.4,
         12.9585
       ],
-      "faces": 81,
-      "faceRefs": "f1daabc82aa1"
+      "faces": 90,
+      "faceRefs": "a65a7a769647"
     },
     "key_g": {
       "volume": 1626.176,
@@ -174,14 +174,14 @@
       "faceRefs": "aa324b4324a1"
     },
     "key_j": {
-      "volume": 1626.095,
+      "volume": 1628.213,
       "size": [
         18.4,
         18.4,
         12.9585
       ],
-      "faces": 82,
-      "faceRefs": "cebca4d3d4ef"
+      "faces": 91,
+      "faceRefs": "6d9dc8a3f855"
     },
     "key_k": {
       "volume": 1624.684,
@@ -1617,5 +1617,7 @@
   "assembly": {
     "instances": "7d57b7633cea",
     "hardware": "e3b0c44298fc"
-  }
+  },
+  "geometry": "8e0a5390fb1af339",
+  "naming": 3
 }
