@@ -1,8 +1,48 @@
 {
-  "savedAt": "2026-10-13T05:18:39.312Z",
-  "hash": "sha256:2c62750c358f1ab2",
+  "savedAt": "2026-10-13T06:09:28.912Z",
+  "hash": "sha256:604d1364c31cbb5d",
   "schemaVersion": 2,
   "parts": {
+    "key_recipe": {
+      "volume": 1624.794,
+      "size": [
+        18.4,
+        18.4,
+        12.9585
+      ],
+      "faces": 98,
+      "faceRefs": "1a08104ab025"
+    },
+    "key_recipe_2": {
+      "volume": 2218.421,
+      "size": [
+        27.925,
+        18.4,
+        12.9585
+      ],
+      "faces": 74,
+      "faceRefs": "1dfd9c6ed8d4"
+    },
+    "key_recipe_3": {
+      "volume": 1944.118,
+      "size": [
+        23.1626,
+        18.4,
+        13.0142
+      ],
+      "faces": 107,
+      "faceRefs": "cd4768b87dad"
+    },
+    "ink_recipe": {
+      "volume": 1.797,
+      "size": [
+        7.5572,
+        9.8538,
+        4.2547
+      ],
+      "faces": 55,
+      "faceRefs": "c2ce9fc003a9"
+    },
     "k_r3_1u": {
       "volume": 1624.794,
       "size": [
@@ -11,7 +51,7 @@
         12.9585
       ],
       "faces": 98,
-      "faceRefs": "842185ec7ec4"
+      "faceRefs": "6a8891065a0d"
     },
     "k_r1_1u": {
       "volume": 1887.299,
@@ -21,7 +61,7 @@
         17.0177
       ],
       "faces": 98,
-      "faceRefs": "0632cb3420cd"
+      "faceRefs": "40ce1ba61096"
     },
     "k_r1_2u": {
       "volume": 3694.572,
@@ -41,7 +81,7 @@
         14.3016
       ],
       "faces": 98,
-      "faceRefs": "ef2ed08e8f6d"
+      "faceRefs": "100dc37a95bf"
     },
     "k_r2_1_5u": {
       "volume": 2269.736,
@@ -51,7 +91,7 @@
         14.3016
       ],
       "faces": 93,
-      "faceRefs": "6a39639349bd"
+      "faceRefs": "344aa7625b4b"
     },
     "k_r3_1_75u": {
       "volume": 2501.154,
@@ -61,7 +101,7 @@
         12.9585
       ],
       "faces": 162,
-      "faceRefs": "6f61bed41544"
+      "faceRefs": "b494bf4dd570"
     },
     "k_r3_2_25u": {
       "volume": 3466.501,
@@ -91,7 +131,7 @@
         14.489
       ],
       "faces": 93,
-      "faceRefs": "29333a86cb41"
+      "faceRefs": "898efe2a4228"
     },
     "k_r4_1_25u": {
       "volume": 1990.837,
@@ -101,7 +141,7 @@
         14.5622
       ],
       "faces": 107,
-      "faceRefs": "f382722be25a"
+      "faceRefs": "7c13212d1c31"
     },
     "k_r4_1_75u": {
       "volume": 2568.63,
@@ -111,7 +151,7 @@
         14.489
       ],
       "faces": 114,
-      "faceRefs": "ead25219e337"
+      "faceRefs": "4a235b624c9b"
     },
     "k_r4_2_25u": {
       "volume": 3557.501,
@@ -131,7 +171,7 @@
         12.9585
       ],
       "faces": 109,
-      "faceRefs": "80d3bbb0b323"
+      "faceRefs": "3bed98071798"
     },
     "key_d": {
       "volume": 1625.356,
@@ -141,7 +181,7 @@
         12.9585
       ],
       "faces": 84,
-      "faceRefs": "3c0d30ffe900"
+      "faceRefs": "e4d9c77e0bec"
     },
     "key_f": {
       "volume": 1628.455,
@@ -151,7 +191,7 @@
         12.9585
       ],
       "faces": 90,
-      "faceRefs": "a65a7a769647"
+      "faceRefs": "26dd4cbef726"
     },
     "key_g": {
       "volume": 1626.176,
@@ -161,7 +201,7 @@
         12.9585
       ],
       "faces": 84,
-      "faceRefs": "e1d7eba4d9a4"
+      "faceRefs": "4553048cb27b"
     },
     "key_h": {
       "volume": 1625.583,
@@ -171,7 +211,7 @@
         12.9585
       ],
       "faces": 81,
-      "faceRefs": "aa324b4324a1"
+      "faceRefs": "ce5c2e2eaa87"
     },
     "key_j": {
       "volume": 1628.213,
@@ -181,7 +221,7 @@
         12.9585
       ],
       "faces": 91,
-      "faceRefs": "6d9dc8a3f855"
+      "faceRefs": "b186aabf766b"
     },
     "key_k": {
       "volume": 1624.684,
@@ -191,7 +231,7 @@
         12.9585
       ],
       "faces": 85,
-      "faceRefs": "226b519da75e"
+      "faceRefs": "5db501a6096e"
     },
     "key_l": {
       "volume": 1625.997,
@@ -201,7 +241,7 @@
         12.9585
       ],
       "faces": 70,
-      "faceRefs": "cc35461dbc11"
+      "faceRefs": "0cec76242e3c"
     },
     "key_semicolon": {
       "volume": 1629.988,
@@ -211,7 +251,7 @@
         12.9585
       ],
       "faces": 55,
-      "faceRefs": "791ae77b5248"
+      "faceRefs": "9cf0952caea5"
     },
     "key_quote": {
       "volume": 1629.401,
@@ -221,7 +261,7 @@
         12.9585
       ],
       "faces": 58,
-      "faceRefs": "e38f2b0aa1e1"
+      "faceRefs": "62cbb7a04605"
     },
     "key_pgdn": {
       "volume": 1614.778,
@@ -231,7 +271,7 @@
         12.9585
       ],
       "faces": 104,
-      "faceRefs": "de60738aa423"
+      "faceRefs": "7c3dfa864970"
     },
     "key_w": {
       "volume": 1665.949,
@@ -241,7 +281,7 @@
         14.3016
       ],
       "faces": 92,
-      "faceRefs": "b1e489234572"
+      "faceRefs": "3344e70fb6dc"
     },
     "key_e": {
       "volume": 1668.366,
@@ -251,7 +291,7 @@
         14.3016
       ],
       "faces": 91,
-      "faceRefs": "988cdd238430"
+      "faceRefs": "475a9a771936"
     },
     "key_r": {
       "volume": 1667.776,
@@ -261,7 +301,7 @@
         14.3016
       ],
       "faces": 98,
-      "faceRefs": "64ff08765282"
+      "faceRefs": "344066f9eb73"
     },
     "key_t": {
       "volume": 1669.4,
@@ -271,7 +311,7 @@
         14.3016
       ],
       "faces": 77,
-      "faceRefs": "3342593cedde"
+      "faceRefs": "e28f0279143a"
     },
     "key_y": {
       "volume": 1668.809,
@@ -281,7 +321,7 @@
         14.3016
       ],
       "faces": 78,
-      "faceRefs": "46c08620cc5b"
+      "faceRefs": "e5ab66711f27"
     },
     "key_u": {
       "volume": 1667.477,
@@ -291,7 +331,7 @@
         14.3016
       ],
       "faces": 81,
-      "faceRefs": "6cb2beab31eb"
+      "faceRefs": "c1a930dee131"
     },
     "key_i": {
       "volume": 1668.411,
@@ -301,7 +341,7 @@
         14.3016
       ],
       "faces": 77,
-      "faceRefs": "d3ba65cf6d70"
+      "faceRefs": "bdbfbe6da785"
     },
     "key_o": {
       "volume": 1667.143,
@@ -311,7 +351,7 @@
         14.3016
       ],
       "faces": 75,
-      "faceRefs": "5a9be90bde78"
+      "faceRefs": "dc4eaf5c3bf6"
     },
     "key_p": {
       "volume": 1668.044,
@@ -321,7 +361,7 @@
         14.3016
       ],
       "faces": 79,
-      "faceRefs": "de91ac737ccf"
+      "faceRefs": "5109dad46741"
     },
     "key_lbracket": {
       "volume": 1667.081,
@@ -331,7 +371,7 @@
         14.3016
       ],
       "faces": 98,
-      "faceRefs": "105181145d52"
+      "faceRefs": "31cc11e3fe88"
     },
     "key_rbracket": {
       "volume": 1665.685,
@@ -341,7 +381,7 @@
         14.3016
       ],
       "faces": 104,
-      "faceRefs": "2916b70a306c"
+      "faceRefs": "2d9d6c22a1d1"
     },
     "key_pgup": {
       "volume": 1659.188,
@@ -351,7 +391,7 @@
         14.3016
       ],
       "faces": 103,
-      "faceRefs": "9abd5d4116d6"
+      "faceRefs": "991d5256e60e"
     },
     "key_f1": {
       "volume": 1893.111,
@@ -361,7 +401,7 @@
         17.0177
       ],
       "faces": 68,
-      "faceRefs": "8f3c6631c551"
+      "faceRefs": "a0561773e27c"
     },
     "key_f2": {
       "volume": 1892.315,
@@ -371,7 +411,7 @@
         17.0177
       ],
       "faces": 82,
-      "faceRefs": "b11749ac401d"
+      "faceRefs": "fafc65c979b4"
     },
     "key_f3": {
       "volume": 1892.308,
@@ -381,7 +421,7 @@
         17.0177
       ],
       "faces": 86,
-      "faceRefs": "5aba44ae35b9"
+      "faceRefs": "b691f98d62ac"
     },
     "key_f4": {
       "volume": 1892.151,
@@ -391,7 +431,7 @@
         17.0177
       ],
       "faces": 78,
-      "faceRefs": "4b22eb37ca27"
+      "faceRefs": "2e424ed69f4c"
     },
     "key_f5": {
       "volume": 1892.136,
@@ -401,7 +441,7 @@
         17.0177
       ],
       "faces": 81,
-      "faceRefs": "451731c9291f"
+      "faceRefs": "25024fce2182"
     },
     "key_f6": {
       "volume": 1891.833,
@@ -411,7 +451,7 @@
         17.0177
       ],
       "faces": 82,
-      "faceRefs": "1be0968c2d15"
+      "faceRefs": "d3bc5b93c3b2"
     },
     "key_f7": {
       "volume": 1892.766,
@@ -421,7 +461,7 @@
         17.0177
       ],
       "faces": 68,
-      "faceRefs": "6a6e52e791f3"
+      "faceRefs": "9913acf646be"
     },
     "key_f8": {
       "volume": 1891.881,
@@ -431,7 +471,7 @@
         17.0177
       ],
       "faces": 89,
-      "faceRefs": "a1623aac8f72"
+      "faceRefs": "349278f320c4"
     },
     "key_f9": {
       "volume": 1891.836,
@@ -441,7 +481,7 @@
         17.0177
       ],
       "faces": 82,
-      "faceRefs": "2467872472a6"
+      "faceRefs": "d4f1c2363581"
     },
     "key_f10": {
       "volume": 1889.924,
@@ -451,7 +491,7 @@
         17.0177
       ],
       "faces": 99,
-      "faceRefs": "c2da6868f656"
+      "faceRefs": "1e60e945e0ec"
     },
     "key_f11": {
       "volume": 1891.784,
@@ -461,7 +501,7 @@
         17.0177
       ],
       "faces": 77,
-      "faceRefs": "941c33193e79"
+      "faceRefs": "5b97606e93d3"
     },
     "key_f12": {
       "volume": 1890.902,
@@ -471,7 +511,7 @@
         17.0177
       ],
       "faces": 91,
-      "faceRefs": "7bcda1caf1e1"
+      "faceRefs": "30957af83356"
     },
     "key_grave": {
       "volume": 1890.423,
@@ -481,7 +521,7 @@
         17.0177
       ],
       "faces": 157,
-      "faceRefs": "c7f977b2d239"
+      "faceRefs": "10e0f37e63ce"
     },
     "key_1": {
       "volume": 1890.483,
@@ -491,7 +531,7 @@
         17.0177
       ],
       "faces": 98,
-      "faceRefs": "1e8107b1f72e"
+      "faceRefs": "b4f36ba05795"
     },
     "key_2": {
       "volume": 1885.192,
@@ -501,7 +541,7 @@
         17.0177
       ],
       "faces": 151,
-      "faceRefs": "0add15ff7a65"
+      "faceRefs": "c60471e27c13"
     },
     "key_3": {
       "volume": 1887.509,
@@ -511,7 +551,7 @@
         17.0177
       ],
       "faces": 148,
-      "faceRefs": "b433b87abf37"
+      "faceRefs": "dd373f3b7a1e"
     },
     "key_4": {
       "volume": 1887.542,
@@ -521,7 +561,7 @@
         17.0177
       ],
       "faces": 139,
-      "faceRefs": "1dfb30089cd3"
+      "faceRefs": "e2fa71240dc1"
     },
     "key_5": {
       "volume": 1887.441,
@@ -531,7 +571,7 @@
         17.0177
       ],
       "faces": 121,
-      "faceRefs": "cb174fb5d52b"
+      "faceRefs": "d5ef7c41974b"
     },
     "key_6": {
       "volume": 1887.723,
@@ -541,7 +581,7 @@
         17.0177
       ],
       "faces": 119,
-      "faceRefs": "ab34cb41b0f0"
+      "faceRefs": "f3205054ddb4"
     },
     "key_7": {
       "volume": 1889.1,
@@ -551,7 +591,7 @@
         17.0177
       ],
       "faces": 135,
-      "faceRefs": "9e76e2f4cd81"
+      "faceRefs": "9e662bfaca05"
     },
     "key_8": {
       "volume": 1886.847,
@@ -561,7 +601,7 @@
         17.0177
       ],
       "faces": 121,
-      "faceRefs": "9b3c1d74e604"
+      "faceRefs": "0e06305cffa2"
     },
     "key_9": {
       "volume": 1886.357,
@@ -571,7 +611,7 @@
         17.0177
       ],
       "faces": 147,
-      "faceRefs": "93f11a6526ce"
+      "faceRefs": "8c9fad070943"
     },
     "key_0": {
       "volume": 1885.527,
@@ -581,7 +621,7 @@
         17.0177
       ],
       "faces": 168,
-      "faceRefs": "d77bbcd953bb"
+      "faceRefs": "9a95ec085bd5"
     },
     "key_minus": {
       "volume": 1891.484,
@@ -591,7 +631,7 @@
         17.0177
       ],
       "faces": 162,
-      "faceRefs": "82e1386ccfa0"
+      "faceRefs": "ff8a2ab2e3ba"
     },
     "key_equal": {
       "volume": 1887.982,
@@ -601,7 +641,7 @@
         17.0177
       ],
       "faces": 274,
-      "faceRefs": "a98bb2340440"
+      "faceRefs": "7334dc2b977c"
     },
     "key_del": {
       "volume": 1887.691,
@@ -611,7 +651,7 @@
         17.0177
       ],
       "faces": 79,
-      "faceRefs": "ba47704fc596"
+      "faceRefs": "e9e177cea8a6"
     },
     "key_x": {
       "volume": 1665.403,
@@ -621,7 +661,7 @@
         14.489
       ],
       "faces": 103,
-      "faceRefs": "3835c2933c94"
+      "faceRefs": "7493ee107aa8"
     },
     "key_c": {
       "volume": 1666.526,
@@ -631,7 +671,7 @@
         14.489
       ],
       "faces": 83,
-      "faceRefs": "59f9511798af"
+      "faceRefs": "12feb3876b63"
     },
     "key_v": {
       "volume": 1665.771,
@@ -641,7 +681,7 @@
         14.489
       ],
       "faces": 84,
-      "faceRefs": "f5c18581e7e7"
+      "faceRefs": "3ce9c1d41ed1"
     },
     "key_b": {
       "volume": 1664.697,
@@ -651,7 +691,7 @@
         14.489
       ],
       "faces": 93,
-      "faceRefs": "500716c6e80f"
+      "faceRefs": "b0515cc83545"
     },
     "key_n": {
       "volume": 1665.301,
@@ -661,7 +701,7 @@
         14.489
       ],
       "faces": 77,
-      "faceRefs": "6c371acb0abe"
+      "faceRefs": "23520fbbe675"
     },
     "key_m": {
       "volume": 1664.954,
@@ -671,7 +711,7 @@
         14.489
       ],
       "faces": 81,
-      "faceRefs": "5f538cf757d9"
+      "faceRefs": "4eb56ee79511"
     },
     "key_comma": {
       "volume": 1670.216,
@@ -681,7 +721,7 @@
         14.489
       ],
       "faces": 60,
-      "faceRefs": "614a26415b7e"
+      "faceRefs": "6c7cf54dd8e6"
     },
     "key_period": {
       "volume": 1670.329,
@@ -691,7 +731,7 @@
         14.489
       ],
       "faces": 58,
-      "faceRefs": "fba5990e2493"
+      "faceRefs": "179286092c07"
     },
     "key_slash": {
       "volume": 1667.507,
@@ -701,7 +741,7 @@
         14.489
       ],
       "faces": 73,
-      "faceRefs": "c9a63a9b513c"
+      "faceRefs": "a2f4b4ff0071"
     },
     "key_up": {
       "volume": 1670.45,
@@ -711,7 +751,7 @@
         14.489
       ],
       "faces": 51,
-      "faceRefs": "3426558ca0ce"
+      "faceRefs": "77987687cceb"
     },
     "key_end": {
       "volume": 1660.867,
@@ -721,7 +761,7 @@
         14.489
       ],
       "faces": 83,
-      "faceRefs": "f3f2001b9935"
+      "faceRefs": "a112c2389e1f"
     },
     "key_ralt": {
       "volume": 1664.232,
@@ -731,7 +771,7 @@
         14.489
       ],
       "faces": 73,
-      "faceRefs": "4f5c2ee8703f"
+      "faceRefs": "0d85cdf6c776"
     },
     "key_fn": {
       "volume": 1665.629,
@@ -741,7 +781,7 @@
         14.489
       ],
       "faces": 67,
-      "faceRefs": "16f9dc9c0058"
+      "faceRefs": "d86dfeb425ef"
     },
     "key_rctrl": {
       "volume": 1662.964,
@@ -751,7 +791,7 @@
         14.489
       ],
       "faces": 96,
-      "faceRefs": "ced3faefe770"
+      "faceRefs": "ce376eb12d23"
     },
     "key_left": {
       "volume": 1670.325,
@@ -761,7 +801,7 @@
         14.489
       ],
       "faces": 51,
-      "faceRefs": "35825a60ef43"
+      "faceRefs": "ca26aa6e857f"
     },
     "key_down": {
       "volume": 1670.45,
@@ -771,7 +811,7 @@
         14.489
       ],
       "faces": 51,
-      "faceRefs": "ce016d29e157"
+      "faceRefs": "c421cca48636"
     },
     "key_right": {
       "volume": 1670.325,
@@ -781,7 +821,7 @@
         14.489
       ],
       "faces": 51,
-      "faceRefs": "f38e86d06d5d"
+      "faceRefs": "ca7e2a7796d7"
     },
     "key_lwin": {
       "volume": 1985.903,
@@ -791,7 +831,7 @@
         14.5622
       ],
       "faces": 67,
-      "faceRefs": "8532c04a416e"
+      "faceRefs": "155e495ddcdd"
     },
     "key_lalt": {
       "volume": 1991.715,
@@ -801,7 +841,7 @@
         14.5622
       ],
       "faces": 82,
-      "faceRefs": "1e47dbe5e670"
+      "faceRefs": "831d1dce6c6f"
     },
     "key_backslash": {
       "volume": 2272.128,
@@ -811,7 +851,7 @@
         14.3016
       ],
       "faces": 74,
-      "faceRefs": "a1accd7ddfd6"
+      "faceRefs": "64f7fa938c67"
     },
     "ink_k_r3_1u": {
       "volume": 1.797,
@@ -821,7 +861,7 @@
         4.2547
       ],
       "faces": 55,
-      "faceRefs": "3516472047fa"
+      "faceRefs": "8e4b64ba82d9"
     },
     "ink_k_r3_1_75u": {
       "volume": 4.12,
@@ -831,7 +871,7 @@
         0.15000000000000036
       ],
       "faces": 118,
-      "faceRefs": "24fdf633b80f"
+      "faceRefs": "de0e5d5eead9"
     },
     "ink_k_r3_2_25u": {
       "volume": 3.409,
@@ -851,7 +891,7 @@
         4.2547
       ],
       "faces": 67,
-      "faceRefs": "28002ff25e4f"
+      "faceRefs": "50d53007847f"
     },
     "ink_key_d": {
       "volume": 1.602,
@@ -861,7 +901,7 @@
         4.2547
       ],
       "faces": 40,
-      "faceRefs": "3ca372419a76"
+      "faceRefs": "eeffad8233e8"
     },
     "ink_key_f": {
       "volume": 1.34,
@@ -871,7 +911,7 @@
         4.2547
       ],
       "faces": 38,
-      "faceRefs": "621820adc725"
+      "faceRefs": "2e1c9c3501e5"
     },
     "ink_key_g": {
       "volume": 1.369,
@@ -881,7 +921,7 @@
         4.2547
       ],
       "faces": 41,
-      "faceRefs": "bd44957702f3"
+      "faceRefs": "fed35d6d7191"
     },
     "ink_key_h": {
       "volume": 1.547,
@@ -891,7 +931,7 @@
         4.2547
       ],
       "faces": 38,
-      "faceRefs": "009c52922400"
+      "faceRefs": "3521962afe1a"
     },
     "ink_key_j": {
       "volume": 1.412,
@@ -901,7 +941,7 @@
         4.2547
       ],
       "faces": 39,
-      "faceRefs": "d1c9ae99c186"
+      "faceRefs": "eee847ed3543"
     },
     "ink_key_k": {
       "volume": 1.819,
@@ -911,7 +951,7 @@
         4.2547
       ],
       "faces": 42,
-      "faceRefs": "f8799aa055b8"
+      "faceRefs": "31209192f8c2"
     },
     "ink_key_l": {
       "volume": 1.445,
@@ -921,7 +961,7 @@
         4.2547
       ],
       "faces": 28,
-      "faceRefs": "573d1a1cdbf1"
+      "faceRefs": "487c4ccb5703"
     },
     "ink_key_semicolon": {
       "volume": 0.19,
@@ -931,7 +971,7 @@
         0.15000000000000036
       ],
       "faces": 16,
-      "faceRefs": "1bbafc16a5b5"
+      "faceRefs": "45a4d8b99674"
     },
     "ink_key_quote": {
       "volume": 0.294,
@@ -941,7 +981,7 @@
         0.15000000000000036
       ],
       "faces": 18,
-      "faceRefs": "6d555606ab12"
+      "faceRefs": "361e7efba733"
     },
     "ink_key_pgdn": {
       "volume": 3.118,
@@ -951,7 +991,7 @@
         0.15000000000000036
       ],
       "faces": 59,
-      "faceRefs": "4f9635fc927e"
+      "faceRefs": "5d5e3b01d780"
     },
     "ink_k_r2_1u": {
       "volume": 1.939,
@@ -961,7 +1001,7 @@
         5.7543999999999995
       ],
       "faces": 54,
-      "faceRefs": "6477dfa5dfea"
+      "faceRefs": "1f50fb054061"
     },
     "ink_k_r2_1_5u": {
       "volume": 2.032,
@@ -971,7 +1011,7 @@
         0.8769999999999989
       ],
       "faces": 42,
-      "faceRefs": "cba7e5111810"
+      "faceRefs": "232ea2bb0f6a"
     },
     "ink_key_w": {
       "volume": 2.05,
@@ -981,7 +1021,7 @@
         5.7543999999999995
       ],
       "faces": 47,
-      "faceRefs": "a5e650c3cb5b"
+      "faceRefs": "0104d60b495a"
     },
     "ink_key_e": {
       "volume": 1.384,
@@ -991,7 +1031,7 @@
         5.7543999999999995
       ],
       "faces": 46,
-      "faceRefs": "3cb62a622408"
+      "faceRefs": "6745f42ec5c9"
     },
     "ink_key_r": {
       "volume": 1.555,
@@ -1001,7 +1041,7 @@
         5.7543999999999995
       ],
       "faces": 52,
-      "faceRefs": "b07022777fda"
+      "faceRefs": "1a88bbde2521"
     },
     "ink_key_t": {
       "volume": 1.096,
@@ -1011,7 +1051,7 @@
         5.7543999999999995
       ],
       "faces": 34,
-      "faceRefs": "efe4972e7917"
+      "faceRefs": "3e3812c5f7b3"
     },
     "ink_key_y": {
       "volume": 1.28,
@@ -1021,7 +1061,7 @@
         5.7543999999999995
       ],
       "faces": 35,
-      "faceRefs": "f7c6da028575"
+      "faceRefs": "a58470754ec0"
     },
     "ink_key_u": {
       "volume": 1.632,
@@ -1031,7 +1071,7 @@
         5.7543999999999995
       ],
       "faces": 38,
-      "faceRefs": "8d62f4b522fa"
+      "faceRefs": "ef68689b5797"
     },
     "ink_key_i": {
       "volume": 1.416,
@@ -1041,7 +1081,7 @@
         5.7543999999999995
       ],
       "faces": 34,
-      "faceRefs": "3bc18b2da2b7"
+      "faceRefs": "02fc7f65f6e8"
     },
     "ink_key_o": {
       "volume": 1.755,
@@ -1051,7 +1091,7 @@
         5.7543999999999995
       ],
       "faces": 32,
-      "faceRefs": "2ed32589ea6b"
+      "faceRefs": "2b742f16fdc7"
     },
     "ink_key_p": {
       "volume": 1.495,
@@ -1061,7 +1101,7 @@
         5.7543999999999995
       ],
       "faces": 36,
-      "faceRefs": "c5a516505feb"
+      "faceRefs": "93eb9d06f5e6"
     },
     "ink_key_lbracket": {
       "volume": 1.499,
@@ -1071,7 +1111,7 @@
         6.2733
       ],
       "faces": 57,
-      "faceRefs": "f14129a75146"
+      "faceRefs": "b0b28e4e0212"
     },
     "ink_key_rbracket": {
       "volume": 1.911,
@@ -1081,7 +1121,7 @@
         6.2733
       ],
       "faces": 62,
-      "faceRefs": "79e9a9763375"
+      "faceRefs": "af95495aff9a"
     },
     "ink_key_backslash": {
       "volume": 1.122,
@@ -1091,7 +1131,7 @@
         6.128100000000001
       ],
       "faces": 28,
-      "faceRefs": "6bba54ed6fd8"
+      "faceRefs": "6e1bab9a4dd4"
     },
     "ink_key_pgup": {
       "volume": 2.749,
@@ -1101,7 +1141,7 @@
         1.8940000000000001
       ],
       "faces": 59,
-      "faceRefs": "9f2b4fab8bf0"
+      "faceRefs": "d335936c71f7"
     },
     "ink_k_r4_1u": {
       "volume": 1.587,
@@ -1111,7 +1151,7 @@
         3.4604999999999997
       ],
       "faces": 51,
-      "faceRefs": "1246de621816"
+      "faceRefs": "aecf37303e2b"
     },
     "ink_k_r4_1_25u": {
       "volume": 1.821,
@@ -1121,7 +1161,7 @@
         0.9169
       ],
       "faces": 56,
-      "faceRefs": "f222d03c6330"
+      "faceRefs": "1717b89b1e74"
     },
     "ink_k_r4_1_75u": {
       "volume": 2.139,
@@ -1131,7 +1171,7 @@
         0.9169
       ],
       "faces": 70,
-      "faceRefs": "2fef1cec2f87"
+      "faceRefs": "74a00037c2dd"
     },
     "ink_k_r4_2_25u": {
       "volume": 2.139,
@@ -1141,7 +1181,7 @@
         0.9169
       ],
       "faces": 70,
-      "faceRefs": "1c7b6ed152e6"
+      "faceRefs": "6f1b61813a8e"
     },
     "ink_key_x": {
       "volume": 1.762,
@@ -1151,7 +1191,7 @@
         3.4604999999999997
       ],
       "faces": 61,
-      "faceRefs": "0f5328a429fa"
+      "faceRefs": "e4f399fe6bde"
     },
     "ink_key_c": {
       "volume": 1.42,
@@ -1161,7 +1201,7 @@
         3.4604999999999997
       ],
       "faces": 40,
-      "faceRefs": "c80b535eee35"
+      "faceRefs": "8d5f07b30d63"
     },
     "ink_key_v": {
       "volume": 1.665,
@@ -1171,7 +1211,7 @@
         3.4604999999999997
       ],
       "faces": 39,
-      "faceRefs": "26a163b64b15"
+      "faceRefs": "039ec0f0b764"
     },
     "ink_key_b": {
       "volume": 1.958,
@@ -1181,7 +1221,7 @@
         3.4604999999999997
       ],
       "faces": 47,
-      "faceRefs": "f72cc80da887"
+      "faceRefs": "6bfcf646ca07"
     },
     "ink_key_n": {
       "volume": 1.772,
@@ -1191,7 +1231,7 @@
         3.4604999999999997
       ],
       "faces": 34,
-      "faceRefs": "94afb1d30887"
+      "faceRefs": "77d0a897cfca"
     },
     "ink_key_m": {
       "volume": 1.831,
@@ -1201,7 +1241,7 @@
         3.4604999999999997
       ],
       "faces": 37,
-      "faceRefs": "3f1266a9a1cc"
+      "faceRefs": "2aa13e4016fc"
     },
     "ink_key_comma": {
       "volume": 0.249,
@@ -1211,7 +1251,7 @@
         2.1251999999999995
       ],
       "faces": 19,
-      "faceRefs": "162970b88e63"
+      "faceRefs": "ae343c9ea828"
     },
     "ink_key_period": {
       "volume": 0.229,
@@ -1221,7 +1261,7 @@
         2.0378999999999987
       ],
       "faces": 17,
-      "faceRefs": "3b432afbeb98"
+      "faceRefs": "5c7356a3e63a"
     },
     "ink_key_slash": {
       "volume": 0.783,
@@ -1231,7 +1271,7 @@
         2.237499999999999
       ],
       "faces": 33,
-      "faceRefs": "93757c522f63"
+      "faceRefs": "1847be5f5198"
     },
     "ink_key_up": {
       "volume": 0.283,
@@ -1241,7 +1281,7 @@
         1.0199999999999996
       ],
       "faces": 9,
-      "faceRefs": "0efeca56b1e6"
+      "faceRefs": "ecaefe505ed9"
     },
     "ink_key_end": {
       "volume": 2.368,
@@ -1251,7 +1291,7 @@
         1.0199999999999996
       ],
       "faces": 40,
-      "faceRefs": "086777f35aed"
+      "faceRefs": "7a3bf74cd112"
     },
     "ink_key_ralt": {
       "volume": 1.616,
@@ -1261,7 +1301,7 @@
         1.0199999999999996
       ],
       "faces": 31,
-      "faceRefs": "324752f72d79"
+      "faceRefs": "bc765dabf892"
     },
     "ink_key_fn": {
       "volume": 1.464,
@@ -1271,7 +1311,7 @@
         1.0199999999999996
       ],
       "faces": 24,
-      "faceRefs": "60a414e25dfd"
+      "faceRefs": "76efee88e56d"
     },
     "ink_key_rctrl": {
       "volume": 1.821,
@@ -1281,7 +1321,7 @@
         0.9169
       ],
       "faces": 56,
-      "faceRefs": "361c75b1dece"
+      "faceRefs": "59b43d893f82"
     },
     "ink_key_left": {
       "volume": 0.315,
@@ -1291,7 +1331,7 @@
         0.39620000000000033
       ],
       "faces": 9,
-      "faceRefs": "bed88619e436"
+      "faceRefs": "1cdcba70e8a1"
     },
     "ink_key_down": {
       "volume": 0.283,
@@ -1301,7 +1341,7 @@
         1.0199999999999996
       ],
       "faces": 9,
-      "faceRefs": "67333a118187"
+      "faceRefs": "61e83457aa90"
     },
     "ink_key_right": {
       "volume": 0.315,
@@ -1311,7 +1351,7 @@
         0.39620000000000033
       ],
       "faces": 9,
-      "faceRefs": "9faa0f557c4c"
+      "faceRefs": "272f72401b64"
     },
     "ink_key_lwin": {
       "volume": 3.075,
@@ -1321,7 +1361,7 @@
         1.6109999999999989
       ],
       "faces": 18,
-      "faceRefs": "50fe33d2976a"
+      "faceRefs": "1cfe98d31a60"
     },
     "ink_key_lalt": {
       "volume": 1.616,
@@ -1331,7 +1371,7 @@
         1.0199999999999996
       ],
       "faces": 31,
-      "faceRefs": "5e650e26419e"
+      "faceRefs": "ed109b69a0ec"
     },
     "ink_k_r1_1u": {
       "volume": 1.9,
@@ -1341,7 +1381,7 @@
         1.4406000000000017
       ],
       "faces": 56,
-      "faceRefs": "ecd044087cb5"
+      "faceRefs": "0a1e484fb021"
     },
     "ink_key_f1": {
       "volume": 0.688,
@@ -1351,7 +1391,7 @@
         1.2474000000000007
       ],
       "faces": 27,
-      "faceRefs": "5a05e0fe44d2"
+      "faceRefs": "10e348da3cc6"
     },
     "ink_key_f2": {
       "volume": 0.86,
@@ -1361,7 +1401,7 @@
         1.2474000000000007
       ],
       "faces": 41,
-      "faceRefs": "e6cd9b1b6b06"
+      "faceRefs": "09fd496268c4"
     },
     "ink_key_f3": {
       "volume": 0.86,
@@ -1371,7 +1411,7 @@
         1.2474000000000007
       ],
       "faces": 45,
-      "faceRefs": "8988c84bc939"
+      "faceRefs": "40b8ec17d553"
     },
     "ink_key_f4": {
       "volume": 0.902,
@@ -1381,7 +1421,7 @@
         1.2474000000000007
       ],
       "faces": 34,
-      "faceRefs": "5d6373298fcf"
+      "faceRefs": "69b16c46c070"
     },
     "ink_key_f5": {
       "volume": 0.914,
@@ -1391,7 +1431,7 @@
         1.2474000000000007
       ],
       "faces": 39,
-      "faceRefs": "734adb8df94a"
+      "faceRefs": "593a95fd15b3"
     },
     "ink_key_f6": {
       "volume": 0.992,
@@ -1401,7 +1441,7 @@
         1.2474000000000007
       ],
       "faces": 40,
-      "faceRefs": "7bad6eb3b967"
+      "faceRefs": "2038f2febe89"
     },
     "ink_key_f7": {
       "volume": 0.761,
@@ -1411,7 +1451,7 @@
         1.2474000000000007
       ],
       "faces": 27,
-      "faceRefs": "8b3e6f6038e0"
+      "faceRefs": "db4f52c2aa45"
     },
     "ink_key_f8": {
       "volume": 0.976,
@@ -1421,7 +1461,7 @@
         1.2474000000000007
       ],
       "faces": 46,
-      "faceRefs": "8b6b2c37ce3f"
+      "faceRefs": "2776f7fdaeab"
     },
     "ink_key_f9": {
       "volume": 0.986,
@@ -1431,7 +1471,7 @@
         1.2474000000000007
       ],
       "faces": 40,
-      "faceRefs": "73af95f5956d"
+      "faceRefs": "e584e4430da9"
     },
     "ink_key_f10": {
       "volume": 1.369,
@@ -1441,7 +1481,7 @@
         1.2474000000000007
       ],
       "faces": 55,
-      "faceRefs": "87b8914b8f30"
+      "faceRefs": "819ec6c4e12a"
     },
     "ink_key_f11": {
       "volume": 0.968,
@@ -1451,7 +1491,7 @@
         1.2474000000000007
       ],
       "faces": 36,
-      "faceRefs": "9511becfd752"
+      "faceRefs": "ac4c9ad74862"
     },
     "ink_key_f12": {
       "volume": 1.14,
@@ -1461,7 +1501,7 @@
         1.2474000000000007
       ],
       "faces": 50,
-      "faceRefs": "1b1f53654ff2"
+      "faceRefs": "1c137f0f5ff5"
     },
     "ink_k_r1_2u": {
       "volume": 3.727,
@@ -1471,7 +1511,7 @@
         1.2873
       ],
       "faces": 118,
-      "faceRefs": "8a4a31d495a6"
+      "faceRefs": "1b25ace7633c"
     },
     "ink_key_del": {
       "volume": 1.879,
@@ -1481,7 +1521,7 @@
         1.4406000000000017
       ],
       "faces": 36,
-      "faceRefs": "9358dc0960b4"
+      "faceRefs": "e1e5f195c503"
     },
     "ink_key_grave": {
       "volume": 1.524,
@@ -1491,7 +1531,7 @@
         7.405200000000001
       ],
       "faces": 113,
-      "faceRefs": "3d2898bd5d2b"
+      "faceRefs": "0ef3af1583a3"
     },
     "ink_key_minus": {
       "volume": 1.206,
@@ -1501,7 +1541,7 @@
         6.6008
       ],
       "faces": 116,
-      "faceRefs": "5172666487d9"
+      "faceRefs": "5c886e6980bf"
     },
     "ink_key_equal": {
       "volume": 2.033,
@@ -1511,7 +1551,7 @@
         7.7318
       ],
       "faces": 218,
-      "faceRefs": "57ecfc92d99b"
+      "faceRefs": "a8e95da8e12d"
     },
     "ink_key_1": {
       "volume": 1.32,
@@ -1521,7 +1561,7 @@
         7.433700000000001
       ],
       "faces": 59,
-      "faceRefs": "2b7b2290cbf8"
+      "faceRefs": "1b142dd91d2b"
     },
     "ink_key_2": {
       "volume": 2.455,
@@ -1531,7 +1571,7 @@
         7.3686
       ],
       "faces": 110,
-      "faceRefs": "8bf1aa1e654e"
+      "faceRefs": "a2918f066e23"
     },
     "ink_key_3": {
       "volume": 1.954,
@@ -1541,7 +1581,7 @@
         7.341
       ],
       "faces": 106,
-      "faceRefs": "2b149158a17c"
+      "faceRefs": "cbb7116aac0d"
     },
     "ink_key_4": {
       "volume": 1.942,
@@ -1551,7 +1591,7 @@
         7.4059
       ],
       "faces": 95,
-      "faceRefs": "d9c19fb42dc7"
+      "faceRefs": "0dd3872d0262"
     },
     "ink_key_5": {
       "volume": 1.991,
@@ -1561,7 +1601,7 @@
         7.296500000000001
       ],
       "faces": 80,
-      "faceRefs": "fb4d8fb999e8"
+      "faceRefs": "1debe9b94076"
     },
     "ink_key_6": {
       "volume": 1.895,
@@ -1571,7 +1611,7 @@
         7.433700000000001
       ],
       "faces": 78,
-      "faceRefs": "67326fa13632"
+      "faceRefs": "6612494cf33e"
     },
     "ink_key_7": {
       "volume": 1.7,
@@ -1581,7 +1621,7 @@
         7.1572000000000005
       ],
       "faces": 92,
-      "faceRefs": "8cb9ee2741bf"
+      "faceRefs": "25487c1a1146"
     },
     "ink_key_8": {
       "volume": 2.059,
@@ -1591,7 +1631,7 @@
         7.335400000000001
       ],
       "faces": 79,
-      "faceRefs": "b55d3fb57d74"
+      "faceRefs": "659cce0c2c95"
     },
     "ink_key_9": {
       "volume": 2.444,
@@ -1601,7 +1641,7 @@
         10.8489
       ],
       "faces": 107,
-      "faceRefs": "8f5092dab5ff"
+      "faceRefs": "7d17ffa7326a"
     },
     "ink_key_0": {
       "volume": 2.635,
@@ -1611,11 +1651,11 @@
         10.8489
       ],
       "faces": 127,
-      "faceRefs": "b6cd269f70e4"
+      "faceRefs": "a50b4f936977"
     }
   },
   "assembly": {
-    "instances": "7d57b7633cea",
+    "instances": "7e89d9917be1",
     "hardware": "e3b0c44298fc"
   },
   "geometry": "8e0a5390fb1af339",
