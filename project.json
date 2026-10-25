@@ -10078,6 +10078,29 @@
             ]
           },
           "operation": "subtract"
+        },
+        {
+          "id": "key_kp_enter_legend_recut",
+          "name": "Legend re-cut after stab stems",
+          "type": "extrude",
+          "profile": {
+            "shape": "text",
+            "text": "R\nE\nT\nU\nR\nN",
+            "size": "legend_vert_size",
+            "font": "C64 Keyboard",
+            "align": "center",
+            "anchor": "middle",
+            "line_spacing": "legend_vert_spacing"
+          },
+          "datum": "key_recipe_2_legend_plane",
+          "center": [
+            0,
+            "(dish_depth + legend_depth) * sin(key_tilt) / cos(key_tilt)"
+          ],
+          "rotation": -90,
+          "distance": "dish_depth + legend_depth + 1",
+          "direction": "normal",
+          "operation": "subtract"
         }
       ]
     },
