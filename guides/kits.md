@@ -1,7 +1,7 @@
 ---
 title: Keycap kits: what to print for each board
 summary: Which keycap groups and parts make up each legend option (C64, plain, blank) and each ANSI board size (60%, 65%, 75%, TKL, full size, tsangan).
-keywords: kit, layout, 60%, 65%, 75%, TKL, full size, tsangan, print files, which keys
+keywords: kit, layout, 60%, 65%, 75%, tkl, full size, tsangan, print files, which keys
 always: true
 ---
 
@@ -53,3 +53,13 @@ the 2u cap turned upright, for vertical stabilizers.
   groups you don't need in the slicer, or export single parts from the app.
 - Plain legends currently use the C64 Keyboard font (caps only): the geometry server only loaded that
   font. Switch the plain set to Roboto Bold once it loads.
+
+## Exporting one set at a time
+
+Every part belongs to exactly one set (each set has its own spacebars: brown `k_space_7u` in the C64 add-on, light `p_space_6_25u` / `p_space_7u` in the plain set, `blank_space_*` in the blanks). To export one set as its own STEP and 3MF: in one temporary transaction, mark every part of the other sets `reference: "helper"` (and set their inks' `printWith: null`, since an inlay can't print with a construction body), export the whole design, then undo. Helper parts are left out of STEP and 3MF.
+
+2026-10-25 exports (design before the temporary changes: sha256:72fcac111ec1912e):
+- C64 75%: `exports/keycaps-7ce64e81.step` / `.3mf`
+- C64 add-on: `exports/keycaps-85627423.step` / `.3mf`
+- Blank: `exports/keycaps-e8ff5f65.step` / `.3mf`
+- Plain: `exports/keycaps-bfd3f6cf.step` / `.3mf`
