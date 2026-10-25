@@ -8714,7 +8714,8 @@
           }
         }
       },
-      "features": []
+      "features": [],
+      "color": "#3b2a20"
     },
     {
       "id": "ink_key_home",
@@ -8738,7 +8739,1842 @@
         }
       },
       "features": [],
-      "printWith": "key_home"
+      "printWith": "key_home",
+      "color": "#f0ead6"
+    },
+    {
+      "id": "key_prtsc",
+      "name": "SA R1 1u - Print Screen",
+      "color": "#3b2a20",
+      "link": {
+        "from": "key_recipe",
+        "values": {
+          "key_h": "sa_r1_h",
+          "key_tilt": "sa_r1_tilt"
+        },
+        "edits": {
+          "key_recipe_legend": {
+            "name": "Legend: PRT SC",
+            "profile": {
+              "text": "PRT\nSC",
+              "size": "legend_mod_size",
+              "line_spacing": "legend_pair_spacing"
+            }
+          },
+          "key_recipe_front_legend": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": []
+    },
+    {
+      "id": "ink_key_prtsc",
+      "name": "Print Screen legend inlay",
+      "color": "#f0ead6",
+      "link": {
+        "from": "ink_recipe",
+        "values": {
+          "key_h": "sa_r1_h",
+          "key_tilt": "sa_r1_tilt"
+        },
+        "edits": {
+          "ink_recipe_top": {
+            "profile": {
+              "text": "PRT\nSC",
+              "size": "legend_mod_size",
+              "line_spacing": "legend_pair_spacing"
+            }
+          },
+          "ink_recipe_front": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": [],
+      "printWith": "key_prtsc"
+    },
+    {
+      "id": "key_scrlk",
+      "name": "SA R1 1u - Scroll Lock",
+      "color": "#3b2a20",
+      "link": {
+        "from": "key_recipe",
+        "values": {
+          "key_h": "sa_r1_h",
+          "key_tilt": "sa_r1_tilt"
+        },
+        "edits": {
+          "key_recipe_legend": {
+            "name": "Legend: SCR LK",
+            "profile": {
+              "text": "SCR\nLK",
+              "size": "legend_mod_size",
+              "line_spacing": "legend_pair_spacing"
+            }
+          },
+          "key_recipe_front_legend": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": []
+    },
+    {
+      "id": "ink_key_scrlk",
+      "name": "Scroll Lock legend inlay",
+      "color": "#f0ead6",
+      "link": {
+        "from": "ink_recipe",
+        "values": {
+          "key_h": "sa_r1_h",
+          "key_tilt": "sa_r1_tilt"
+        },
+        "edits": {
+          "ink_recipe_top": {
+            "profile": {
+              "text": "SCR\nLK",
+              "size": "legend_mod_size",
+              "line_spacing": "legend_pair_spacing"
+            }
+          },
+          "ink_recipe_front": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": [],
+      "printWith": "key_scrlk"
+    },
+    {
+      "id": "key_pause",
+      "name": "SA R1 1u - Pause (RUN STOP)",
+      "color": "#3b2a20",
+      "link": {
+        "from": "key_recipe",
+        "values": {
+          "key_h": "sa_r1_h",
+          "key_tilt": "sa_r1_tilt"
+        },
+        "edits": {
+          "key_recipe_legend": {
+            "name": "Legend: RUN STOP",
+            "profile": {
+              "text": "",
+              "size": "legend_glyph_size"
+            }
+          },
+          "key_recipe_front_legend": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": []
+    },
+    {
+      "id": "ink_key_pause",
+      "name": "Pause legend inlay",
+      "color": "#f0ead6",
+      "link": {
+        "from": "ink_recipe",
+        "values": {
+          "key_h": "sa_r1_h",
+          "key_tilt": "sa_r1_tilt"
+        },
+        "edits": {
+          "ink_recipe_top": {
+            "profile": {
+              "text": "",
+              "size": "legend_glyph_size"
+            }
+          },
+          "ink_recipe_front": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": [],
+      "printWith": "key_pause"
+    },
+    {
+      "id": "key_ins",
+      "name": "SA R1 1u - Insert",
+      "color": "#3b2a20",
+      "link": {
+        "from": "key_recipe",
+        "values": {
+          "key_h": "sa_r1_h",
+          "key_tilt": "sa_r1_tilt"
+        },
+        "edits": {
+          "key_recipe_legend": {
+            "name": "Legend: INS",
+            "profile": {
+              "text": "INS",
+              "size": "legend_mod_size"
+            }
+          },
+          "key_recipe_front_legend": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": []
+    },
+    {
+      "id": "ink_key_ins",
+      "name": "Insert legend inlay",
+      "color": "#f0ead6",
+      "link": {
+        "from": "ink_recipe",
+        "values": {
+          "key_h": "sa_r1_h",
+          "key_tilt": "sa_r1_tilt"
+        },
+        "edits": {
+          "ink_recipe_top": {
+            "profile": {
+              "text": "INS",
+              "size": "legend_mod_size"
+            }
+          },
+          "ink_recipe_front": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": [],
+      "printWith": "key_ins"
+    },
+    {
+      "id": "key_pgup_r1",
+      "name": "SA R1 1u - PgUp",
+      "color": "#3b2a20",
+      "link": {
+        "from": "key_recipe",
+        "values": {
+          "key_h": "sa_r1_h",
+          "key_tilt": "sa_r1_tilt"
+        },
+        "edits": {
+          "key_recipe_legend": {
+            "name": "Legend: PG UP",
+            "profile": {
+              "text": "PG\nUP",
+              "size": "legend_mod_size",
+              "line_spacing": "legend_pair_spacing"
+            }
+          },
+          "key_recipe_front_legend": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": []
+    },
+    {
+      "id": "ink_key_pgup_r1",
+      "name": "PgUp (R1) legend inlay",
+      "color": "#f0ead6",
+      "link": {
+        "from": "ink_recipe",
+        "values": {
+          "key_h": "sa_r1_h",
+          "key_tilt": "sa_r1_tilt"
+        },
+        "edits": {
+          "ink_recipe_top": {
+            "profile": {
+              "text": "PG\nUP",
+              "size": "legend_mod_size",
+              "line_spacing": "legend_pair_spacing"
+            }
+          },
+          "ink_recipe_front": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": [],
+      "printWith": "key_pgup_r1"
+    },
+    {
+      "id": "key_numlk",
+      "name": "SA R1 1u - Num Lock",
+      "color": "#3b2a20",
+      "link": {
+        "from": "key_recipe",
+        "values": {
+          "key_h": "sa_r1_h",
+          "key_tilt": "sa_r1_tilt"
+        },
+        "edits": {
+          "key_recipe_legend": {
+            "name": "Legend: NUM LOCK",
+            "profile": {
+              "text": "NUM\nLOCK",
+              "size": "legend_mod_size",
+              "line_spacing": "legend_pair_spacing"
+            }
+          },
+          "key_recipe_front_legend": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": []
+    },
+    {
+      "id": "ink_key_numlk",
+      "name": "Num Lock legend inlay",
+      "color": "#f0ead6",
+      "link": {
+        "from": "ink_recipe",
+        "values": {
+          "key_h": "sa_r1_h",
+          "key_tilt": "sa_r1_tilt"
+        },
+        "edits": {
+          "ink_recipe_top": {
+            "profile": {
+              "text": "NUM\nLOCK",
+              "size": "legend_mod_size",
+              "line_spacing": "legend_pair_spacing"
+            }
+          },
+          "ink_recipe_front": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": [],
+      "printWith": "key_numlk"
+    },
+    {
+      "id": "key_kp_slash",
+      "name": "SA R1 1u - Numpad /",
+      "color": "#3b2a20",
+      "link": {
+        "from": "key_recipe",
+        "values": {
+          "key_h": "sa_r1_h",
+          "key_tilt": "sa_r1_tilt"
+        },
+        "edits": {
+          "key_recipe_legend": {
+            "name": "Legend: /",
+            "profile": {
+              "text": "/"
+            }
+          },
+          "key_recipe_front_legend": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": []
+    },
+    {
+      "id": "ink_key_kp_slash",
+      "name": "Numpad / legend inlay",
+      "color": "#f0ead6",
+      "link": {
+        "from": "ink_recipe",
+        "values": {
+          "key_h": "sa_r1_h",
+          "key_tilt": "sa_r1_tilt"
+        },
+        "edits": {
+          "ink_recipe_top": {
+            "profile": {
+              "text": "/"
+            }
+          },
+          "ink_recipe_front": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": [],
+      "printWith": "key_kp_slash"
+    },
+    {
+      "id": "key_kp_star",
+      "name": "SA R1 1u - Numpad *",
+      "color": "#3b2a20",
+      "link": {
+        "from": "key_recipe",
+        "values": {
+          "key_h": "sa_r1_h",
+          "key_tilt": "sa_r1_tilt"
+        },
+        "edits": {
+          "key_recipe_legend": {
+            "name": "Legend: *",
+            "profile": {
+              "text": "*"
+            }
+          },
+          "key_recipe_front_legend": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": []
+    },
+    {
+      "id": "ink_key_kp_star",
+      "name": "Numpad * legend inlay",
+      "color": "#f0ead6",
+      "link": {
+        "from": "ink_recipe",
+        "values": {
+          "key_h": "sa_r1_h",
+          "key_tilt": "sa_r1_tilt"
+        },
+        "edits": {
+          "ink_recipe_top": {
+            "profile": {
+              "text": "*"
+            }
+          },
+          "ink_recipe_front": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": [],
+      "printWith": "key_kp_star"
+    },
+    {
+      "id": "key_kp_minus",
+      "name": "SA R1 1u - Numpad -",
+      "color": "#3b2a20",
+      "link": {
+        "from": "key_recipe",
+        "values": {
+          "key_h": "sa_r1_h",
+          "key_tilt": "sa_r1_tilt"
+        },
+        "edits": {
+          "key_recipe_legend": {
+            "name": "Legend: -",
+            "profile": {
+              "text": "-"
+            }
+          },
+          "key_recipe_front_legend": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": []
+    },
+    {
+      "id": "ink_key_kp_minus",
+      "name": "Numpad - legend inlay",
+      "color": "#f0ead6",
+      "link": {
+        "from": "ink_recipe",
+        "values": {
+          "key_h": "sa_r1_h",
+          "key_tilt": "sa_r1_tilt"
+        },
+        "edits": {
+          "ink_recipe_top": {
+            "profile": {
+              "text": "-"
+            }
+          },
+          "ink_recipe_front": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": [],
+      "printWith": "key_kp_minus"
+    },
+    {
+      "id": "key_del_r2",
+      "name": "SA R2 1u - Del",
+      "color": "#3b2a20",
+      "link": {
+        "from": "key_recipe",
+        "values": {
+          "key_h": "sa_r2_h",
+          "key_tilt": "sa_r2_tilt"
+        },
+        "edits": {
+          "key_recipe_legend": {
+            "name": "Legend: DEL",
+            "profile": {
+              "text": "DEL",
+              "size": "legend_mod_size"
+            }
+          },
+          "key_recipe_front_legend": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": []
+    },
+    {
+      "id": "ink_key_del_r2",
+      "name": "Del (R2) legend inlay",
+      "color": "#f0ead6",
+      "link": {
+        "from": "ink_recipe",
+        "values": {
+          "key_h": "sa_r2_h",
+          "key_tilt": "sa_r2_tilt"
+        },
+        "edits": {
+          "ink_recipe_top": {
+            "profile": {
+              "text": "DEL",
+              "size": "legend_mod_size"
+            }
+          },
+          "ink_recipe_front": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": [],
+      "printWith": "key_del_r2"
+    },
+    {
+      "id": "key_end_r2",
+      "name": "SA R2 1u - End",
+      "color": "#3b2a20",
+      "link": {
+        "from": "key_recipe",
+        "values": {
+          "key_h": "sa_r2_h",
+          "key_tilt": "sa_r2_tilt"
+        },
+        "edits": {
+          "key_recipe_legend": {
+            "name": "Legend: END",
+            "profile": {
+              "text": "END",
+              "size": "legend_mod_size"
+            }
+          },
+          "key_recipe_front_legend": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": []
+    },
+    {
+      "id": "ink_key_end_r2",
+      "name": "End (R2) legend inlay",
+      "color": "#f0ead6",
+      "link": {
+        "from": "ink_recipe",
+        "values": {
+          "key_h": "sa_r2_h",
+          "key_tilt": "sa_r2_tilt"
+        },
+        "edits": {
+          "ink_recipe_top": {
+            "profile": {
+              "text": "END",
+              "size": "legend_mod_size"
+            }
+          },
+          "ink_recipe_front": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": [],
+      "printWith": "key_end_r2"
+    },
+    {
+      "id": "key_pgdn_r2",
+      "name": "SA R2 1u - PgDn",
+      "color": "#3b2a20",
+      "link": {
+        "from": "key_recipe",
+        "values": {
+          "key_h": "sa_r2_h",
+          "key_tilt": "sa_r2_tilt"
+        },
+        "edits": {
+          "key_recipe_legend": {
+            "name": "Legend: PG DN",
+            "profile": {
+              "text": "PG\nDN",
+              "size": "legend_mod_size",
+              "line_spacing": "legend_pair_spacing"
+            }
+          },
+          "key_recipe_front_legend": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": []
+    },
+    {
+      "id": "ink_key_pgdn_r2",
+      "name": "PgDn (R2) legend inlay",
+      "color": "#f0ead6",
+      "link": {
+        "from": "ink_recipe",
+        "values": {
+          "key_h": "sa_r2_h",
+          "key_tilt": "sa_r2_tilt"
+        },
+        "edits": {
+          "ink_recipe_top": {
+            "profile": {
+              "text": "PG\nDN",
+              "size": "legend_mod_size",
+              "line_spacing": "legend_pair_spacing"
+            }
+          },
+          "ink_recipe_front": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": [],
+      "printWith": "key_pgdn_r2"
+    },
+    {
+      "id": "key_kp7",
+      "name": "SA R2 1u - Numpad 7",
+      "color": "#3b2a20",
+      "link": {
+        "from": "key_recipe",
+        "values": {
+          "key_h": "sa_r2_h",
+          "key_tilt": "sa_r2_tilt"
+        },
+        "edits": {
+          "key_recipe_legend": {
+            "name": "Legend: 7",
+            "profile": {
+              "text": "7"
+            }
+          },
+          "key_recipe_front_legend": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": []
+    },
+    {
+      "id": "ink_key_kp7",
+      "name": "Numpad 7 legend inlay",
+      "color": "#f0ead6",
+      "link": {
+        "from": "ink_recipe",
+        "values": {
+          "key_h": "sa_r2_h",
+          "key_tilt": "sa_r2_tilt"
+        },
+        "edits": {
+          "ink_recipe_top": {
+            "profile": {
+              "text": "7"
+            }
+          },
+          "ink_recipe_front": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": [],
+      "printWith": "key_kp7"
+    },
+    {
+      "id": "key_kp8",
+      "name": "SA R2 1u - Numpad 8",
+      "color": "#3b2a20",
+      "link": {
+        "from": "key_recipe",
+        "values": {
+          "key_h": "sa_r2_h",
+          "key_tilt": "sa_r2_tilt"
+        },
+        "edits": {
+          "key_recipe_legend": {
+            "name": "Legend: 8",
+            "profile": {
+              "text": "8"
+            }
+          },
+          "key_recipe_front_legend": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": []
+    },
+    {
+      "id": "ink_key_kp8",
+      "name": "Numpad 8 legend inlay",
+      "color": "#f0ead6",
+      "link": {
+        "from": "ink_recipe",
+        "values": {
+          "key_h": "sa_r2_h",
+          "key_tilt": "sa_r2_tilt"
+        },
+        "edits": {
+          "ink_recipe_top": {
+            "profile": {
+              "text": "8"
+            }
+          },
+          "ink_recipe_front": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": [],
+      "printWith": "key_kp8"
+    },
+    {
+      "id": "key_kp9",
+      "name": "SA R2 1u - Numpad 9",
+      "color": "#3b2a20",
+      "link": {
+        "from": "key_recipe",
+        "values": {
+          "key_h": "sa_r2_h",
+          "key_tilt": "sa_r2_tilt"
+        },
+        "edits": {
+          "key_recipe_legend": {
+            "name": "Legend: 9",
+            "profile": {
+              "text": "9"
+            }
+          },
+          "key_recipe_front_legend": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": []
+    },
+    {
+      "id": "ink_key_kp9",
+      "name": "Numpad 9 legend inlay",
+      "color": "#f0ead6",
+      "link": {
+        "from": "ink_recipe",
+        "values": {
+          "key_h": "sa_r2_h",
+          "key_tilt": "sa_r2_tilt"
+        },
+        "edits": {
+          "ink_recipe_top": {
+            "profile": {
+              "text": "9"
+            }
+          },
+          "ink_recipe_front": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": [],
+      "printWith": "key_kp9"
+    },
+    {
+      "id": "key_kp4",
+      "name": "SA R3 1u - Numpad 4",
+      "color": "#3b2a20",
+      "link": {
+        "from": "key_recipe",
+        "values": {
+          "key_h": "sa_r3_h",
+          "key_tilt": "sa_r3_tilt"
+        },
+        "edits": {
+          "key_recipe_legend": {
+            "name": "Legend: 4",
+            "profile": {
+              "text": "4"
+            }
+          },
+          "key_recipe_front_legend": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": []
+    },
+    {
+      "id": "ink_key_kp4",
+      "name": "Numpad 4 legend inlay",
+      "color": "#f0ead6",
+      "link": {
+        "from": "ink_recipe",
+        "values": {
+          "key_h": "sa_r3_h",
+          "key_tilt": "sa_r3_tilt"
+        },
+        "edits": {
+          "ink_recipe_top": {
+            "profile": {
+              "text": "4"
+            }
+          },
+          "ink_recipe_front": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": [],
+      "printWith": "key_kp4"
+    },
+    {
+      "id": "key_kp5",
+      "name": "SA R3 1u - Numpad 5",
+      "color": "#3b2a20",
+      "link": {
+        "from": "key_recipe",
+        "values": {
+          "key_h": "sa_r3_h",
+          "key_tilt": "sa_r3_tilt"
+        },
+        "edits": {
+          "key_recipe_legend": {
+            "name": "Legend: 5",
+            "profile": {
+              "text": "5"
+            }
+          },
+          "key_recipe_front_legend": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": []
+    },
+    {
+      "id": "ink_key_kp5",
+      "name": "Numpad 5 legend inlay",
+      "color": "#f0ead6",
+      "link": {
+        "from": "ink_recipe",
+        "values": {
+          "key_h": "sa_r3_h",
+          "key_tilt": "sa_r3_tilt"
+        },
+        "edits": {
+          "ink_recipe_top": {
+            "profile": {
+              "text": "5"
+            }
+          },
+          "ink_recipe_front": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": [],
+      "printWith": "key_kp5"
+    },
+    {
+      "id": "key_kp6",
+      "name": "SA R3 1u - Numpad 6",
+      "color": "#3b2a20",
+      "link": {
+        "from": "key_recipe",
+        "values": {
+          "key_h": "sa_r3_h",
+          "key_tilt": "sa_r3_tilt"
+        },
+        "edits": {
+          "key_recipe_legend": {
+            "name": "Legend: 6",
+            "profile": {
+              "text": "6"
+            }
+          },
+          "key_recipe_front_legend": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": []
+    },
+    {
+      "id": "ink_key_kp6",
+      "name": "Numpad 6 legend inlay",
+      "color": "#f0ead6",
+      "link": {
+        "from": "ink_recipe",
+        "values": {
+          "key_h": "sa_r3_h",
+          "key_tilt": "sa_r3_tilt"
+        },
+        "edits": {
+          "ink_recipe_top": {
+            "profile": {
+              "text": "6"
+            }
+          },
+          "ink_recipe_front": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": [],
+      "printWith": "key_kp6"
+    },
+    {
+      "id": "key_kp1",
+      "name": "SA R4 1u - Numpad 1",
+      "color": "#3b2a20",
+      "link": {
+        "from": "key_recipe",
+        "values": {
+          "key_h": "sa_r4_h",
+          "key_tilt": "sa_r4_tilt"
+        },
+        "edits": {
+          "key_recipe_legend": {
+            "name": "Legend: 1",
+            "profile": {
+              "text": "1"
+            }
+          },
+          "key_recipe_front_legend": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": []
+    },
+    {
+      "id": "ink_key_kp1",
+      "name": "Numpad 1 legend inlay",
+      "color": "#f0ead6",
+      "link": {
+        "from": "ink_recipe",
+        "values": {
+          "key_h": "sa_r4_h",
+          "key_tilt": "sa_r4_tilt"
+        },
+        "edits": {
+          "ink_recipe_top": {
+            "profile": {
+              "text": "1"
+            }
+          },
+          "ink_recipe_front": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": [],
+      "printWith": "key_kp1"
+    },
+    {
+      "id": "key_kp2",
+      "name": "SA R4 1u - Numpad 2",
+      "color": "#3b2a20",
+      "link": {
+        "from": "key_recipe",
+        "values": {
+          "key_h": "sa_r4_h",
+          "key_tilt": "sa_r4_tilt"
+        },
+        "edits": {
+          "key_recipe_legend": {
+            "name": "Legend: 2",
+            "profile": {
+              "text": "2"
+            }
+          },
+          "key_recipe_front_legend": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": []
+    },
+    {
+      "id": "ink_key_kp2",
+      "name": "Numpad 2 legend inlay",
+      "color": "#f0ead6",
+      "link": {
+        "from": "ink_recipe",
+        "values": {
+          "key_h": "sa_r4_h",
+          "key_tilt": "sa_r4_tilt"
+        },
+        "edits": {
+          "ink_recipe_top": {
+            "profile": {
+              "text": "2"
+            }
+          },
+          "ink_recipe_front": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": [],
+      "printWith": "key_kp2"
+    },
+    {
+      "id": "key_kp3",
+      "name": "SA R4 1u - Numpad 3",
+      "color": "#3b2a20",
+      "link": {
+        "from": "key_recipe",
+        "values": {
+          "key_h": "sa_r4_h",
+          "key_tilt": "sa_r4_tilt"
+        },
+        "edits": {
+          "key_recipe_legend": {
+            "name": "Legend: 3",
+            "profile": {
+              "text": "3"
+            }
+          },
+          "key_recipe_front_legend": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": []
+    },
+    {
+      "id": "ink_key_kp3",
+      "name": "Numpad 3 legend inlay",
+      "color": "#f0ead6",
+      "link": {
+        "from": "ink_recipe",
+        "values": {
+          "key_h": "sa_r4_h",
+          "key_tilt": "sa_r4_tilt"
+        },
+        "edits": {
+          "ink_recipe_top": {
+            "profile": {
+              "text": "3"
+            }
+          },
+          "ink_recipe_front": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": [],
+      "printWith": "key_kp3"
+    },
+    {
+      "id": "key_kp_dot",
+      "name": "SA R4 1u - Numpad .",
+      "color": "#3b2a20",
+      "link": {
+        "from": "key_recipe",
+        "values": {
+          "key_h": "sa_r4_h",
+          "key_tilt": "sa_r4_tilt"
+        },
+        "edits": {
+          "key_recipe_legend": {
+            "name": "Legend: .",
+            "profile": {
+              "text": "."
+            }
+          },
+          "key_recipe_front_legend": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": []
+    },
+    {
+      "id": "ink_key_kp_dot",
+      "name": "Numpad . legend inlay",
+      "color": "#f0ead6",
+      "link": {
+        "from": "ink_recipe",
+        "values": {
+          "key_h": "sa_r4_h",
+          "key_tilt": "sa_r4_tilt"
+        },
+        "edits": {
+          "ink_recipe_top": {
+            "profile": {
+              "text": "."
+            }
+          },
+          "ink_recipe_front": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": [],
+      "printWith": "key_kp_dot"
+    },
+    {
+      "id": "key_ts_win",
+      "name": "SA R4 1u - Win (C=), tsangan",
+      "color": "#3b2a20",
+      "link": {
+        "from": "key_recipe",
+        "values": {
+          "key_h": "sa_r4_h",
+          "key_tilt": "sa_r4_tilt"
+        },
+        "edits": {
+          "key_recipe_legend": {
+            "name": "Legend: Commodore logo",
+            "profile": {
+              "text": "",
+              "size": "legend_logo_size"
+            }
+          },
+          "key_recipe_front_legend": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": []
+    },
+    {
+      "id": "ink_key_ts_win",
+      "name": "Tsangan Win legend inlay",
+      "color": "#f0ead6",
+      "link": {
+        "from": "ink_recipe",
+        "values": {
+          "key_h": "sa_r4_h",
+          "key_tilt": "sa_r4_tilt"
+        },
+        "edits": {
+          "ink_recipe_top": {
+            "profile": {
+              "text": "",
+              "size": "legend_logo_size"
+            }
+          },
+          "ink_recipe_front": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": [],
+      "printWith": "key_ts_win"
+    },
+    {
+      "id": "key_kp_plus",
+      "name": "SA R3 2u - Numpad + (upright)",
+      "color": "#3b2a20",
+      "link": {
+        "from": "key_recipe_2",
+        "values": {
+          "key_h": "sa_r3_h",
+          "key_tilt": "sa_r3_tilt",
+          "key_dw_2": "unit * (2 - 1)"
+        },
+        "edits": {
+          "key_recipe_2_legend": {
+            "name": "Legend: +",
+            "profile": {
+              "text": "+",
+              "size": "legend_size"
+            }
+          },
+          "key_recipe_2_front_legend": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": [
+        {
+          "id": "key_kp_plus_stab_r",
+          "type": "pattern.linear",
+          "features": [
+            "key_recipe_2_stem",
+            "key_recipe_2_cross_x",
+            "key_recipe_2_cross_y"
+          ],
+          "direction": "+x",
+          "count": 2,
+          "spacing": "stab_2u"
+        },
+        {
+          "id": "key_kp_plus_stab_l",
+          "type": "pattern.linear",
+          "features": [
+            "key_recipe_2_stem",
+            "key_recipe_2_cross_x",
+            "key_recipe_2_cross_y"
+          ],
+          "direction": "-x",
+          "count": 2,
+          "spacing": "stab_2u"
+        },
+        {
+          "id": "key_kp_plus_stab_trim",
+          "type": "revolve",
+          "profile": {
+            "shape": "sketch",
+            "sketch": "key_recipe_2_dish_sk"
+          },
+          "axis": {
+            "along": "u",
+            "through": [
+              0,
+              "key_zc"
+            ]
+          },
+          "operation": "subtract"
+        }
+      ]
+    },
+    {
+      "id": "ink_key_kp_plus",
+      "name": "Numpad + legend inlay",
+      "color": "#f0ead6",
+      "link": {
+        "from": "ink_recipe",
+        "values": {
+          "key_h": "sa_r3_h",
+          "key_tilt": "sa_r3_tilt"
+        },
+        "edits": {
+          "ink_recipe_top": {
+            "profile": {
+              "text": "+"
+            }
+          },
+          "ink_recipe_front": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": [],
+      "printWith": "key_kp_plus"
+    },
+    {
+      "id": "key_kp_enter",
+      "name": "SA R3 2u - Numpad Enter (upright)",
+      "color": "#3b2a20",
+      "link": {
+        "from": "key_recipe_2",
+        "values": {
+          "key_h": "sa_r3_h",
+          "key_tilt": "sa_r3_tilt",
+          "key_dw_2": "unit * (2 - 1)"
+        },
+        "edits": {
+          "key_recipe_2_legend": {
+            "name": "Legend: ENTER",
+            "profile": {
+              "text": "EN\nTER",
+              "size": "legend_mod_size",
+              "line_spacing": "legend_pair_spacing"
+            },
+            "rotation": -90
+          },
+          "key_recipe_2_front_legend": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": [
+        {
+          "id": "key_kp_enter_stab_r",
+          "type": "pattern.linear",
+          "features": [
+            "key_recipe_2_stem",
+            "key_recipe_2_cross_x",
+            "key_recipe_2_cross_y"
+          ],
+          "direction": "+x",
+          "count": 2,
+          "spacing": "stab_2u"
+        },
+        {
+          "id": "key_kp_enter_stab_l",
+          "type": "pattern.linear",
+          "features": [
+            "key_recipe_2_stem",
+            "key_recipe_2_cross_x",
+            "key_recipe_2_cross_y"
+          ],
+          "direction": "-x",
+          "count": 2,
+          "spacing": "stab_2u"
+        },
+        {
+          "id": "key_kp_enter_stab_trim",
+          "type": "revolve",
+          "profile": {
+            "shape": "sketch",
+            "sketch": "key_recipe_2_dish_sk"
+          },
+          "axis": {
+            "along": "u",
+            "through": [
+              0,
+              "key_zc"
+            ]
+          },
+          "operation": "subtract"
+        }
+      ]
+    },
+    {
+      "id": "ink_key_kp_enter",
+      "name": "Numpad Enter legend inlay",
+      "color": "#f0ead6",
+      "link": {
+        "from": "ink_recipe",
+        "values": {
+          "key_h": "sa_r3_h",
+          "key_tilt": "sa_r3_tilt"
+        },
+        "edits": {
+          "ink_recipe_top": {
+            "profile": {
+              "text": "EN\nTER",
+              "size": "legend_mod_size",
+              "line_spacing": "legend_pair_spacing"
+            },
+            "rotation": -90
+          },
+          "ink_recipe_front": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": [],
+      "printWith": "key_kp_enter"
+    },
+    {
+      "id": "key_kp0",
+      "name": "SA R4 2u - Numpad 0",
+      "color": "#3b2a20",
+      "link": {
+        "from": "key_recipe_2",
+        "values": {
+          "key_h": "sa_r4_h",
+          "key_tilt": "sa_r4_tilt",
+          "key_dw_2": "unit * (2 - 1)"
+        },
+        "edits": {
+          "key_recipe_2_legend": {
+            "name": "Legend: 0",
+            "profile": {
+              "text": "0",
+              "size": "legend_size"
+            }
+          },
+          "key_recipe_2_front_legend": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": [
+        {
+          "id": "key_kp0_stab_r",
+          "type": "pattern.linear",
+          "features": [
+            "key_recipe_2_stem",
+            "key_recipe_2_cross_x",
+            "key_recipe_2_cross_y"
+          ],
+          "direction": "+x",
+          "count": 2,
+          "spacing": "stab_2u"
+        },
+        {
+          "id": "key_kp0_stab_l",
+          "type": "pattern.linear",
+          "features": [
+            "key_recipe_2_stem",
+            "key_recipe_2_cross_x",
+            "key_recipe_2_cross_y"
+          ],
+          "direction": "-x",
+          "count": 2,
+          "spacing": "stab_2u"
+        },
+        {
+          "id": "key_kp0_stab_trim",
+          "type": "revolve",
+          "profile": {
+            "shape": "sketch",
+            "sketch": "key_recipe_2_dish_sk"
+          },
+          "axis": {
+            "along": "u",
+            "through": [
+              0,
+              "key_zc"
+            ]
+          },
+          "operation": "subtract"
+        }
+      ]
+    },
+    {
+      "id": "ink_key_kp0",
+      "name": "Numpad 0 legend inlay",
+      "color": "#f0ead6",
+      "link": {
+        "from": "ink_recipe",
+        "values": {
+          "key_h": "sa_r4_h",
+          "key_tilt": "sa_r4_tilt"
+        },
+        "edits": {
+          "ink_recipe_top": {
+            "profile": {
+              "text": "0"
+            }
+          },
+          "ink_recipe_front": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": [],
+      "printWith": "key_kp0"
+    },
+    {
+      "id": "key_rshift_275",
+      "name": "SA R4 2.75u - Right Shift",
+      "color": "#3b2a20",
+      "link": {
+        "from": "key_recipe_2",
+        "values": {
+          "key_h": "sa_r4_h",
+          "key_tilt": "sa_r4_tilt",
+          "key_dw_2": "unit * (2.75 - 1)"
+        },
+        "edits": {
+          "key_recipe_2_legend": {
+            "name": "Legend: SHIFT",
+            "profile": {
+              "text": "",
+              "size": "legend_glyph_size"
+            },
+            "center": [
+              0,
+              "(dish_depth + legend_depth) * sin(key_tilt) / cos(key_tilt) + legend_glyph_lift"
+            ]
+          },
+          "key_recipe_2_front_legend": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": [
+        {
+          "id": "key_rshift_275_stab_r",
+          "type": "pattern.linear",
+          "features": [
+            "key_recipe_2_stem",
+            "key_recipe_2_cross_x",
+            "key_recipe_2_cross_y"
+          ],
+          "direction": "+x",
+          "count": 2,
+          "spacing": "stab_2u"
+        },
+        {
+          "id": "key_rshift_275_stab_l",
+          "type": "pattern.linear",
+          "features": [
+            "key_recipe_2_stem",
+            "key_recipe_2_cross_x",
+            "key_recipe_2_cross_y"
+          ],
+          "direction": "-x",
+          "count": 2,
+          "spacing": "stab_2u"
+        },
+        {
+          "id": "key_rshift_275_stab_trim",
+          "type": "revolve",
+          "profile": {
+            "shape": "sketch",
+            "sketch": "key_recipe_2_dish_sk"
+          },
+          "axis": {
+            "along": "u",
+            "through": [
+              0,
+              "key_zc"
+            ]
+          },
+          "operation": "subtract"
+        }
+      ]
+    },
+    {
+      "id": "ink_key_rshift_275",
+      "name": "Right Shift (2.75u) legend inlay",
+      "color": "#f0ead6",
+      "link": {
+        "from": "ink_recipe",
+        "values": {
+          "key_h": "sa_r4_h",
+          "key_tilt": "sa_r4_tilt"
+        },
+        "edits": {
+          "ink_recipe_top": {
+            "profile": {
+              "text": "",
+              "size": "legend_glyph_size"
+            },
+            "center": [
+              0,
+              "(dish_depth + legend_depth) * sin(key_tilt) / cos(key_tilt) + legend_glyph_lift"
+            ]
+          },
+          "ink_recipe_front": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": [],
+      "printWith": "key_rshift_275"
+    },
+    {
+      "id": "key_ralt_125",
+      "name": "SA R4 1.25u - Right Alt",
+      "color": "#3b2a20",
+      "link": {
+        "from": "key_recipe_2",
+        "values": {
+          "key_h": "sa_r4_h",
+          "key_tilt": "sa_r4_tilt",
+          "key_dw_2": "unit * (1.25 - 1)"
+        },
+        "edits": {
+          "key_recipe_2_legend": {
+            "name": "Legend: ALT",
+            "profile": {
+              "text": "ALT",
+              "size": "legend_mod_size"
+            }
+          },
+          "key_recipe_2_front_legend": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": []
+    },
+    {
+      "id": "ink_key_ralt_125",
+      "name": "Right Alt (1.25u) legend inlay",
+      "color": "#f0ead6",
+      "link": {
+        "from": "ink_recipe",
+        "values": {
+          "key_h": "sa_r4_h",
+          "key_tilt": "sa_r4_tilt"
+        },
+        "edits": {
+          "ink_recipe_top": {
+            "profile": {
+              "text": "ALT",
+              "size": "legend_mod_size"
+            }
+          },
+          "ink_recipe_front": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": [],
+      "printWith": "key_ralt_125"
+    },
+    {
+      "id": "key_rwin_125",
+      "name": "SA R4 1.25u - Right Win (C=)",
+      "color": "#3b2a20",
+      "link": {
+        "from": "key_recipe_2",
+        "values": {
+          "key_h": "sa_r4_h",
+          "key_tilt": "sa_r4_tilt",
+          "key_dw_2": "unit * (1.25 - 1)"
+        },
+        "edits": {
+          "key_recipe_2_legend": {
+            "name": "Legend: Commodore logo",
+            "profile": {
+              "text": "",
+              "size": "legend_logo_size"
+            }
+          },
+          "key_recipe_2_front_legend": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": []
+    },
+    {
+      "id": "ink_key_rwin_125",
+      "name": "Right Win legend inlay",
+      "color": "#f0ead6",
+      "link": {
+        "from": "ink_recipe",
+        "values": {
+          "key_h": "sa_r4_h",
+          "key_tilt": "sa_r4_tilt"
+        },
+        "edits": {
+          "ink_recipe_top": {
+            "profile": {
+              "text": "",
+              "size": "legend_logo_size"
+            }
+          },
+          "ink_recipe_front": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": [],
+      "printWith": "key_rwin_125"
+    },
+    {
+      "id": "key_menu_125",
+      "name": "SA R4 1.25u - Menu",
+      "color": "#3b2a20",
+      "link": {
+        "from": "key_recipe_2",
+        "values": {
+          "key_h": "sa_r4_h",
+          "key_tilt": "sa_r4_tilt",
+          "key_dw_2": "unit * (1.25 - 1)"
+        },
+        "edits": {
+          "key_recipe_2_legend": {
+            "name": "Legend: MENU",
+            "profile": {
+              "text": "MENU",
+              "size": "legend_mod_size"
+            }
+          },
+          "key_recipe_2_front_legend": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": []
+    },
+    {
+      "id": "ink_key_menu_125",
+      "name": "Menu legend inlay",
+      "color": "#f0ead6",
+      "link": {
+        "from": "ink_recipe",
+        "values": {
+          "key_h": "sa_r4_h",
+          "key_tilt": "sa_r4_tilt"
+        },
+        "edits": {
+          "ink_recipe_top": {
+            "profile": {
+              "text": "MENU",
+              "size": "legend_mod_size"
+            }
+          },
+          "ink_recipe_front": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": [],
+      "printWith": "key_menu_125"
+    },
+    {
+      "id": "key_rctrl_125",
+      "name": "SA R4 1.25u - Right Ctrl",
+      "color": "#3b2a20",
+      "link": {
+        "from": "key_recipe_2",
+        "values": {
+          "key_h": "sa_r4_h",
+          "key_tilt": "sa_r4_tilt",
+          "key_dw_2": "unit * (1.25 - 1)"
+        },
+        "edits": {
+          "key_recipe_2_legend": {
+            "name": "Legend: CTRL",
+            "profile": {
+              "text": "",
+              "size": "legend_glyph_size"
+            },
+            "center": [
+              0,
+              "(dish_depth + legend_depth) * sin(key_tilt) / cos(key_tilt) + legend_glyph_lift"
+            ]
+          },
+          "key_recipe_2_front_legend": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": []
+    },
+    {
+      "id": "ink_key_rctrl_125",
+      "name": "Right Ctrl (1.25u) legend inlay",
+      "color": "#f0ead6",
+      "link": {
+        "from": "ink_recipe",
+        "values": {
+          "key_h": "sa_r4_h",
+          "key_tilt": "sa_r4_tilt"
+        },
+        "edits": {
+          "ink_recipe_top": {
+            "profile": {
+              "text": "",
+              "size": "legend_glyph_size"
+            },
+            "center": [
+              0,
+              "(dish_depth + legend_depth) * sin(key_tilt) / cos(key_tilt) + legend_glyph_lift"
+            ]
+          },
+          "ink_recipe_front": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": [],
+      "printWith": "key_rctrl_125"
+    },
+    {
+      "id": "key_ts_ctrl",
+      "name": "SA R4 1.5u - Ctrl, tsangan",
+      "color": "#3b2a20",
+      "link": {
+        "from": "key_recipe_2",
+        "values": {
+          "key_h": "sa_r4_h",
+          "key_tilt": "sa_r4_tilt",
+          "key_dw_2": "unit * (1.5 - 1)"
+        },
+        "edits": {
+          "key_recipe_2_legend": {
+            "name": "Legend: CTRL",
+            "profile": {
+              "text": "",
+              "size": "legend_glyph_size"
+            },
+            "center": [
+              0,
+              "(dish_depth + legend_depth) * sin(key_tilt) / cos(key_tilt) + legend_glyph_lift"
+            ]
+          },
+          "key_recipe_2_front_legend": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": []
+    },
+    {
+      "id": "ink_key_ts_ctrl",
+      "name": "Tsangan Ctrl legend inlay",
+      "color": "#f0ead6",
+      "link": {
+        "from": "ink_recipe",
+        "values": {
+          "key_h": "sa_r4_h",
+          "key_tilt": "sa_r4_tilt"
+        },
+        "edits": {
+          "ink_recipe_top": {
+            "profile": {
+              "text": "",
+              "size": "legend_glyph_size"
+            },
+            "center": [
+              0,
+              "(dish_depth + legend_depth) * sin(key_tilt) / cos(key_tilt) + legend_glyph_lift"
+            ]
+          },
+          "ink_recipe_front": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": [],
+      "printWith": "key_ts_ctrl"
+    },
+    {
+      "id": "key_ts_alt",
+      "name": "SA R4 1.5u - Alt, tsangan",
+      "color": "#3b2a20",
+      "link": {
+        "from": "key_recipe_2",
+        "values": {
+          "key_h": "sa_r4_h",
+          "key_tilt": "sa_r4_tilt",
+          "key_dw_2": "unit * (1.5 - 1)"
+        },
+        "edits": {
+          "key_recipe_2_legend": {
+            "name": "Legend: ALT",
+            "profile": {
+              "text": "ALT",
+              "size": "legend_mod_size"
+            }
+          },
+          "key_recipe_2_front_legend": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": []
+    },
+    {
+      "id": "ink_key_ts_alt",
+      "name": "Tsangan Alt legend inlay",
+      "color": "#f0ead6",
+      "link": {
+        "from": "ink_recipe",
+        "values": {
+          "key_h": "sa_r4_h",
+          "key_tilt": "sa_r4_tilt"
+        },
+        "edits": {
+          "ink_recipe_top": {
+            "profile": {
+              "text": "ALT",
+              "size": "legend_mod_size"
+            }
+          },
+          "ink_recipe_front": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": [],
+      "printWith": "key_ts_alt"
     }
   ],
   "requirements": [
@@ -12229,7 +14065,7 @@
         "placement": {
           "translate": [
             "c64x_x0 + unit * 1.5",
-            "c64x_y0 - unit * 1.75",
+            "c64x_y0 - unit * 1.5",
             0
           ]
         }
@@ -12242,7 +14078,954 @@
         "placement": {
           "translate": [
             "c64x_x0 + unit * 1.5",
-            "c64x_y0 - unit * 1.75",
+            "c64x_y0 - unit * 1.5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "key_prtsc",
+        "part": "key_prtsc",
+        "name": "Print Screen",
+        "group": "c64_addon",
+        "placement": {
+          "translate": [
+            "c64x_x0 + unit * 0.5",
+            "c64x_y0 - unit * 0.5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "ink_key_prtsc",
+        "part": "ink_key_prtsc",
+        "name": "Print Screen legend",
+        "group": "c64_addon",
+        "placement": {
+          "translate": [
+            "c64x_x0 + unit * 0.5",
+            "c64x_y0 - unit * 0.5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "key_scrlk",
+        "part": "key_scrlk",
+        "name": "Scroll Lock",
+        "group": "c64_addon",
+        "placement": {
+          "translate": [
+            "c64x_x0 + unit * 1.5",
+            "c64x_y0 - unit * 0.5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "ink_key_scrlk",
+        "part": "ink_key_scrlk",
+        "name": "Scroll Lock legend",
+        "group": "c64_addon",
+        "placement": {
+          "translate": [
+            "c64x_x0 + unit * 1.5",
+            "c64x_y0 - unit * 0.5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "key_pause",
+        "part": "key_pause",
+        "name": "Pause",
+        "group": "c64_addon",
+        "placement": {
+          "translate": [
+            "c64x_x0 + unit * 2.5",
+            "c64x_y0 - unit * 0.5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "ink_key_pause",
+        "part": "ink_key_pause",
+        "name": "Pause legend",
+        "group": "c64_addon",
+        "placement": {
+          "translate": [
+            "c64x_x0 + unit * 2.5",
+            "c64x_y0 - unit * 0.5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "key_ins",
+        "part": "key_ins",
+        "name": "Insert",
+        "group": "c64_addon",
+        "placement": {
+          "translate": [
+            "c64x_x0 + unit * 0.5",
+            "c64x_y0 - unit * 1.5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "ink_key_ins",
+        "part": "ink_key_ins",
+        "name": "Insert legend",
+        "group": "c64_addon",
+        "placement": {
+          "translate": [
+            "c64x_x0 + unit * 0.5",
+            "c64x_y0 - unit * 1.5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "key_pgup_r1",
+        "part": "key_pgup_r1",
+        "name": "Page Up",
+        "group": "c64_addon",
+        "placement": {
+          "translate": [
+            "c64x_x0 + unit * 2.5",
+            "c64x_y0 - unit * 1.5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "ink_key_pgup_r1",
+        "part": "ink_key_pgup_r1",
+        "name": "Page Up legend",
+        "group": "c64_addon",
+        "placement": {
+          "translate": [
+            "c64x_x0 + unit * 2.5",
+            "c64x_y0 - unit * 1.5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "key_numlk",
+        "part": "key_numlk",
+        "name": "Num Lock",
+        "group": "c64_addon",
+        "placement": {
+          "translate": [
+            "c64x_x0 + unit * 4",
+            "c64x_y0 - unit * 1.5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "ink_key_numlk",
+        "part": "ink_key_numlk",
+        "name": "Num Lock legend",
+        "group": "c64_addon",
+        "placement": {
+          "translate": [
+            "c64x_x0 + unit * 4",
+            "c64x_y0 - unit * 1.5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "key_kp_slash",
+        "part": "key_kp_slash",
+        "name": "Numpad /",
+        "group": "c64_addon",
+        "placement": {
+          "translate": [
+            "c64x_x0 + unit * 5",
+            "c64x_y0 - unit * 1.5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "ink_key_kp_slash",
+        "part": "ink_key_kp_slash",
+        "name": "Numpad / legend",
+        "group": "c64_addon",
+        "placement": {
+          "translate": [
+            "c64x_x0 + unit * 5",
+            "c64x_y0 - unit * 1.5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "key_kp_star",
+        "part": "key_kp_star",
+        "name": "Numpad *",
+        "group": "c64_addon",
+        "placement": {
+          "translate": [
+            "c64x_x0 + unit * 6",
+            "c64x_y0 - unit * 1.5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "ink_key_kp_star",
+        "part": "ink_key_kp_star",
+        "name": "Numpad * legend",
+        "group": "c64_addon",
+        "placement": {
+          "translate": [
+            "c64x_x0 + unit * 6",
+            "c64x_y0 - unit * 1.5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "key_kp_minus",
+        "part": "key_kp_minus",
+        "name": "Numpad -",
+        "group": "c64_addon",
+        "placement": {
+          "translate": [
+            "c64x_x0 + unit * 7",
+            "c64x_y0 - unit * 1.5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "ink_key_kp_minus",
+        "part": "ink_key_kp_minus",
+        "name": "Numpad - legend",
+        "group": "c64_addon",
+        "placement": {
+          "translate": [
+            "c64x_x0 + unit * 7",
+            "c64x_y0 - unit * 1.5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "key_del_r2",
+        "part": "key_del_r2",
+        "name": "Delete",
+        "group": "c64_addon",
+        "placement": {
+          "translate": [
+            "c64x_x0 + unit * 0.5",
+            "c64x_y0 - unit * 2.5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "ink_key_del_r2",
+        "part": "ink_key_del_r2",
+        "name": "Delete legend",
+        "group": "c64_addon",
+        "placement": {
+          "translate": [
+            "c64x_x0 + unit * 0.5",
+            "c64x_y0 - unit * 2.5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "key_end_r2",
+        "part": "key_end_r2",
+        "name": "End",
+        "group": "c64_addon",
+        "placement": {
+          "translate": [
+            "c64x_x0 + unit * 1.5",
+            "c64x_y0 - unit * 2.5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "ink_key_end_r2",
+        "part": "ink_key_end_r2",
+        "name": "End legend",
+        "group": "c64_addon",
+        "placement": {
+          "translate": [
+            "c64x_x0 + unit * 1.5",
+            "c64x_y0 - unit * 2.5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "key_pgdn_r2",
+        "part": "key_pgdn_r2",
+        "name": "Page Down",
+        "group": "c64_addon",
+        "placement": {
+          "translate": [
+            "c64x_x0 + unit * 2.5",
+            "c64x_y0 - unit * 2.5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "ink_key_pgdn_r2",
+        "part": "ink_key_pgdn_r2",
+        "name": "Page Down legend",
+        "group": "c64_addon",
+        "placement": {
+          "translate": [
+            "c64x_x0 + unit * 2.5",
+            "c64x_y0 - unit * 2.5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "key_kp7",
+        "part": "key_kp7",
+        "name": "Numpad 7",
+        "group": "c64_addon",
+        "placement": {
+          "translate": [
+            "c64x_x0 + unit * 4",
+            "c64x_y0 - unit * 2.5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "ink_key_kp7",
+        "part": "ink_key_kp7",
+        "name": "Numpad 7 legend",
+        "group": "c64_addon",
+        "placement": {
+          "translate": [
+            "c64x_x0 + unit * 4",
+            "c64x_y0 - unit * 2.5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "key_kp8",
+        "part": "key_kp8",
+        "name": "Numpad 8",
+        "group": "c64_addon",
+        "placement": {
+          "translate": [
+            "c64x_x0 + unit * 5",
+            "c64x_y0 - unit * 2.5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "ink_key_kp8",
+        "part": "ink_key_kp8",
+        "name": "Numpad 8 legend",
+        "group": "c64_addon",
+        "placement": {
+          "translate": [
+            "c64x_x0 + unit * 5",
+            "c64x_y0 - unit * 2.5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "key_kp9",
+        "part": "key_kp9",
+        "name": "Numpad 9",
+        "group": "c64_addon",
+        "placement": {
+          "translate": [
+            "c64x_x0 + unit * 6",
+            "c64x_y0 - unit * 2.5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "ink_key_kp9",
+        "part": "ink_key_kp9",
+        "name": "Numpad 9 legend",
+        "group": "c64_addon",
+        "placement": {
+          "translate": [
+            "c64x_x0 + unit * 6",
+            "c64x_y0 - unit * 2.5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "key_kp4",
+        "part": "key_kp4",
+        "name": "Numpad 4",
+        "group": "c64_addon",
+        "placement": {
+          "translate": [
+            "c64x_x0 + unit * 4",
+            "c64x_y0 - unit * 3.5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "ink_key_kp4",
+        "part": "ink_key_kp4",
+        "name": "Numpad 4 legend",
+        "group": "c64_addon",
+        "placement": {
+          "translate": [
+            "c64x_x0 + unit * 4",
+            "c64x_y0 - unit * 3.5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "key_kp5",
+        "part": "key_kp5",
+        "name": "Numpad 5",
+        "group": "c64_addon",
+        "placement": {
+          "translate": [
+            "c64x_x0 + unit * 5",
+            "c64x_y0 - unit * 3.5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "ink_key_kp5",
+        "part": "ink_key_kp5",
+        "name": "Numpad 5 legend",
+        "group": "c64_addon",
+        "placement": {
+          "translate": [
+            "c64x_x0 + unit * 5",
+            "c64x_y0 - unit * 3.5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "key_kp6",
+        "part": "key_kp6",
+        "name": "Numpad 6",
+        "group": "c64_addon",
+        "placement": {
+          "translate": [
+            "c64x_x0 + unit * 6",
+            "c64x_y0 - unit * 3.5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "ink_key_kp6",
+        "part": "ink_key_kp6",
+        "name": "Numpad 6 legend",
+        "group": "c64_addon",
+        "placement": {
+          "translate": [
+            "c64x_x0 + unit * 6",
+            "c64x_y0 - unit * 3.5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "key_kp1",
+        "part": "key_kp1",
+        "name": "Numpad 1",
+        "group": "c64_addon",
+        "placement": {
+          "translate": [
+            "c64x_x0 + unit * 4",
+            "c64x_y0 - unit * 4.5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "ink_key_kp1",
+        "part": "ink_key_kp1",
+        "name": "Numpad 1 legend",
+        "group": "c64_addon",
+        "placement": {
+          "translate": [
+            "c64x_x0 + unit * 4",
+            "c64x_y0 - unit * 4.5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "key_kp2",
+        "part": "key_kp2",
+        "name": "Numpad 2",
+        "group": "c64_addon",
+        "placement": {
+          "translate": [
+            "c64x_x0 + unit * 5",
+            "c64x_y0 - unit * 4.5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "ink_key_kp2",
+        "part": "ink_key_kp2",
+        "name": "Numpad 2 legend",
+        "group": "c64_addon",
+        "placement": {
+          "translate": [
+            "c64x_x0 + unit * 5",
+            "c64x_y0 - unit * 4.5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "key_kp3",
+        "part": "key_kp3",
+        "name": "Numpad 3",
+        "group": "c64_addon",
+        "placement": {
+          "translate": [
+            "c64x_x0 + unit * 6",
+            "c64x_y0 - unit * 4.5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "ink_key_kp3",
+        "part": "ink_key_kp3",
+        "name": "Numpad 3 legend",
+        "group": "c64_addon",
+        "placement": {
+          "translate": [
+            "c64x_x0 + unit * 6",
+            "c64x_y0 - unit * 4.5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "key_kp_dot",
+        "part": "key_kp_dot",
+        "name": "Numpad .",
+        "group": "c64_addon",
+        "placement": {
+          "translate": [
+            "c64x_x0 + unit * 6",
+            "c64x_y0 - unit * 5.5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "ink_key_kp_dot",
+        "part": "ink_key_kp_dot",
+        "name": "Numpad . legend",
+        "group": "c64_addon",
+        "placement": {
+          "translate": [
+            "c64x_x0 + unit * 6",
+            "c64x_y0 - unit * 5.5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "key_ts_win",
+        "part": "key_ts_win",
+        "name": "Tsangan Win",
+        "group": "c64_addon",
+        "placement": {
+          "translate": [
+            "c64x_x0 + unit * 10",
+            "c64x_y0 - unit * 2.5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "ink_key_ts_win",
+        "part": "ink_key_ts_win",
+        "name": "Tsangan Win legend",
+        "group": "c64_addon",
+        "placement": {
+          "translate": [
+            "c64x_x0 + unit * 10",
+            "c64x_y0 - unit * 2.5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "key_kp_plus",
+        "part": "key_kp_plus",
+        "name": "Numpad +",
+        "group": "c64_addon",
+        "placement": {
+          "rotate": [
+            {
+              "axis": "z",
+              "angle": 90
+            }
+          ],
+          "translate": [
+            "c64x_x0 + unit * 7",
+            "c64x_y0 - unit * 3",
+            0
+          ]
+        }
+      },
+      {
+        "id": "ink_key_kp_plus",
+        "part": "ink_key_kp_plus",
+        "name": "Numpad + legend",
+        "group": "c64_addon",
+        "placement": {
+          "rotate": [
+            {
+              "axis": "z",
+              "angle": 90
+            }
+          ],
+          "translate": [
+            "c64x_x0 + unit * 7",
+            "c64x_y0 - unit * 3",
+            0
+          ]
+        }
+      },
+      {
+        "id": "key_kp_enter",
+        "part": "key_kp_enter",
+        "name": "Numpad Enter",
+        "group": "c64_addon",
+        "placement": {
+          "rotate": [
+            {
+              "axis": "z",
+              "angle": 90
+            }
+          ],
+          "translate": [
+            "c64x_x0 + unit * 7",
+            "c64x_y0 - unit * 5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "ink_key_kp_enter",
+        "part": "ink_key_kp_enter",
+        "name": "Numpad Enter legend",
+        "group": "c64_addon",
+        "placement": {
+          "rotate": [
+            {
+              "axis": "z",
+              "angle": 90
+            }
+          ],
+          "translate": [
+            "c64x_x0 + unit * 7",
+            "c64x_y0 - unit * 5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "key_kp0",
+        "part": "key_kp0",
+        "name": "Numpad 0",
+        "group": "c64_addon",
+        "placement": {
+          "translate": [
+            "c64x_x0 + unit * 4.5",
+            "c64x_y0 - unit * 5.5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "ink_key_kp0",
+        "part": "ink_key_kp0",
+        "name": "Numpad 0 legend",
+        "group": "c64_addon",
+        "placement": {
+          "translate": [
+            "c64x_x0 + unit * 4.5",
+            "c64x_y0 - unit * 5.5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "key_rshift_275",
+        "part": "key_rshift_275",
+        "name": "Right Shift 2.75u",
+        "group": "c64_addon",
+        "placement": {
+          "translate": [
+            "c64x_x0 + unit * 9.375",
+            "c64x_y0 - unit * 0.5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "ink_key_rshift_275",
+        "part": "ink_key_rshift_275",
+        "name": "Right Shift 2.75u legend",
+        "group": "c64_addon",
+        "placement": {
+          "translate": [
+            "c64x_x0 + unit * 9.375",
+            "c64x_y0 - unit * 0.5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "key_ralt_125",
+        "part": "key_ralt_125",
+        "name": "Right Alt 1.25u",
+        "group": "c64_addon",
+        "placement": {
+          "translate": [
+            "c64x_x0 + unit * 8.625",
+            "c64x_y0 - unit * 1.5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "ink_key_ralt_125",
+        "part": "ink_key_ralt_125",
+        "name": "Right Alt 1.25u legend",
+        "group": "c64_addon",
+        "placement": {
+          "translate": [
+            "c64x_x0 + unit * 8.625",
+            "c64x_y0 - unit * 1.5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "key_rwin_125",
+        "part": "key_rwin_125",
+        "name": "Right Win",
+        "group": "c64_addon",
+        "placement": {
+          "translate": [
+            "c64x_x0 + unit * 9.875",
+            "c64x_y0 - unit * 1.5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "ink_key_rwin_125",
+        "part": "ink_key_rwin_125",
+        "name": "Right Win legend",
+        "group": "c64_addon",
+        "placement": {
+          "translate": [
+            "c64x_x0 + unit * 9.875",
+            "c64x_y0 - unit * 1.5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "key_menu_125",
+        "part": "key_menu_125",
+        "name": "Menu",
+        "group": "c64_addon",
+        "placement": {
+          "translate": [
+            "c64x_x0 + unit * 11.125",
+            "c64x_y0 - unit * 1.5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "ink_key_menu_125",
+        "part": "ink_key_menu_125",
+        "name": "Menu legend",
+        "group": "c64_addon",
+        "placement": {
+          "translate": [
+            "c64x_x0 + unit * 11.125",
+            "c64x_y0 - unit * 1.5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "key_rctrl_125",
+        "part": "key_rctrl_125",
+        "name": "Right Ctrl 1.25u",
+        "group": "c64_addon",
+        "placement": {
+          "translate": [
+            "c64x_x0 + unit * 12.375",
+            "c64x_y0 - unit * 1.5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "ink_key_rctrl_125",
+        "part": "ink_key_rctrl_125",
+        "name": "Right Ctrl 1.25u legend",
+        "group": "c64_addon",
+        "placement": {
+          "translate": [
+            "c64x_x0 + unit * 12.375",
+            "c64x_y0 - unit * 1.5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "key_ts_ctrl",
+        "part": "key_ts_ctrl",
+        "name": "Tsangan Left Ctrl",
+        "group": "c64_addon",
+        "placement": {
+          "translate": [
+            "c64x_x0 + unit * 8.75",
+            "c64x_y0 - unit * 2.5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "ink_key_ts_ctrl",
+        "part": "ink_key_ts_ctrl",
+        "name": "Tsangan Left Ctrl legend",
+        "group": "c64_addon",
+        "placement": {
+          "translate": [
+            "c64x_x0 + unit * 8.75",
+            "c64x_y0 - unit * 2.5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "key_ts_ctrl_r",
+        "part": "key_ts_ctrl",
+        "name": "Tsangan Right Ctrl",
+        "group": "c64_addon",
+        "placement": {
+          "translate": [
+            "c64x_x0 + unit * 10.25",
+            "c64x_y0 - unit * 3.5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "ink_key_ts_ctrl_r",
+        "part": "ink_key_ts_ctrl",
+        "name": "Tsangan Right Ctrl legend",
+        "group": "c64_addon",
+        "placement": {
+          "translate": [
+            "c64x_x0 + unit * 10.25",
+            "c64x_y0 - unit * 3.5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "key_ts_alt",
+        "part": "key_ts_alt",
+        "name": "Tsangan Left Alt",
+        "group": "c64_addon",
+        "placement": {
+          "translate": [
+            "c64x_x0 + unit * 11.25",
+            "c64x_y0 - unit * 2.5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "ink_key_ts_alt",
+        "part": "ink_key_ts_alt",
+        "name": "Tsangan Left Alt legend",
+        "group": "c64_addon",
+        "placement": {
+          "translate": [
+            "c64x_x0 + unit * 11.25",
+            "c64x_y0 - unit * 2.5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "key_ts_alt_r",
+        "part": "key_ts_alt",
+        "name": "Tsangan Right Alt",
+        "group": "c64_addon",
+        "placement": {
+          "translate": [
+            "c64x_x0 + unit * 8.75",
+            "c64x_y0 - unit * 3.5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "ink_key_ts_alt_r",
+        "part": "ink_key_ts_alt",
+        "name": "Tsangan Right Alt legend",
+        "group": "c64_addon",
+        "placement": {
+          "translate": [
+            "c64x_x0 + unit * 8.75",
+            "c64x_y0 - unit * 3.5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "c64_space_7u",
+        "part": "blank_space_7u",
+        "name": "Tsangan Space (C64 kit)",
+        "group": "c64_addon",
+        "placement": {
+          "translate": [
+            "c64x_x0 + unit * 11.5",
+            "c64x_y0 - unit * 5.5",
             0
           ]
         }
