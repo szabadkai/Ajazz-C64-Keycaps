@@ -1,6 +1,6 @@
 {
-  "savedAt": "2026-10-25T13:36:41.988Z",
-  "hash": "sha256:480f446b396bfd2c",
+  "savedAt": "2026-10-25T13:44:37.037Z",
+  "hash": "sha256:7dea15a1ba091e5e",
   "schemaVersion": 2,
   "parts": {
     "key_recipe": {
@@ -1652,10 +1652,20 @@
       ],
       "faces": 127,
       "faceRefs": "a50b4f936977"
+    },
+    "blank_r3_1u": {
+      "volume": 1630.932,
+      "size": [
+        18.4,
+        18.4,
+        12.9585
+      ],
+      "faces": 43,
+      "faceRefs": "3f166e545875"
     }
   },
   "assembly": {
-    "instances": "7e89d9917be1",
+    "instances": "00625f3c37dc",
     "hardware": "e3b0c44298fc"
   },
   "geometry": "0a045783ce637d3a",

@@ -8067,6 +8067,27 @@
         }
       },
       "features": []
+    },
+    {
+      "id": "blank_r3_1u",
+      "name": "Blank SA R3 1u",
+      "color": "#d9d4c7",
+      "link": {
+        "from": "key_recipe",
+        "values": {
+          "key_h": "sa_r3_h",
+          "key_tilt": "sa_r3_tilt"
+        },
+        "edits": {
+          "key_recipe_legend": {
+            "suppressed": true
+          },
+          "key_recipe_front_legend": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": []
     }
   ],
   "requirements": [
