@@ -101,3 +101,4 @@
 {"at":"2026-10-25T15:36:09.476Z","kind":"undo","id":"txn_79c61beb21","author":"ai","reason":"Temporary for export: only the C64 75% set is made","hash":"sha256:85627423dcbf7805"}
 {"at":"2026-10-25T15:36:11.765Z","kind":"undo","id":"txn_1db2288ae4","author":"ai","reason":"Temporary for export: only the C64 add-on is made","hash":"sha256:e8ff5f65f365695e"}
 {"at":"2026-10-25T15:36:13.663Z","kind":"undo","id":"txn_4820e885e6","author":"ai","reason":"Temporary for export: only the blank set is made","hash":"sha256:bfd3f6cf40c6f84b"}
+{"at":"2026-10-25T15:36:15.792Z","kind":"undo","id":"txn_a23e249ca9","author":"ai","reason":"Temporary for export: only the plain set is made (C64, add-on and blanks as construction bodies)","hash":"sha256:72fcac111ec1912e"}
