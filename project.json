@@ -820,6 +820,16 @@
       "value": -140,
       "unit": "mm",
       "description": "Top edge of the blank full-size board in the assembly, below the C64 board"
+    },
+    "c64x_x0": {
+      "value": "16 * unit",
+      "unit": "mm",
+      "description": "Left edge of the C64 add-on caps in the assembly, right of the C64 75% board"
+    },
+    "c64x_y0": {
+      "value": "unit / 2",
+      "unit": "mm",
+      "description": "Top edge of the C64 add-on caps in the assembly, level with the C64 board's top row"
     }
   },
   "parts": [
@@ -8681,6 +8691,54 @@
         }
       },
       "features": []
+    },
+    {
+      "id": "key_home",
+      "name": "SA R1 1u - Home (CLR HOME)",
+      "link": {
+        "from": "key_recipe",
+        "values": {
+          "key_h": "sa_r1_h",
+          "key_tilt": "sa_r1_tilt"
+        },
+        "edits": {
+          "key_recipe_legend": {
+            "name": "Legend: CLR HOME",
+            "profile": {
+              "text": "",
+              "size": "legend_glyph_size"
+            }
+          },
+          "key_recipe_front_legend": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": []
+    },
+    {
+      "id": "ink_key_home",
+      "name": "Home legend inlay",
+      "link": {
+        "from": "ink_recipe",
+        "values": {
+          "key_h": "sa_r1_h",
+          "key_tilt": "sa_r1_tilt"
+        },
+        "edits": {
+          "ink_recipe_top": {
+            "profile": {
+              "text": "",
+              "size": "legend_glyph_size"
+            }
+          },
+          "ink_recipe_front": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": [],
+      "printWith": "key_home"
     }
   ],
   "requirements": [
@@ -12162,6 +12220,32 @@
             0
           ]
         }
+      },
+      {
+        "id": "key_home",
+        "part": "key_home",
+        "name": "Home",
+        "group": "c64_addon",
+        "placement": {
+          "translate": [
+            "c64x_x0 + unit * 1.5",
+            "c64x_y0 - unit * 1.75",
+            0
+          ]
+        }
+      },
+      {
+        "id": "ink_key_home",
+        "part": "ink_key_home",
+        "name": "Home legend",
+        "group": "c64_addon",
+        "placement": {
+          "translate": [
+            "c64x_x0 + unit * 1.5",
+            "c64x_y0 - unit * 1.75",
+            0
+          ]
+        }
       }
     ],
     "groups": [
@@ -12172,6 +12256,10 @@
       {
         "id": "blank_extras",
         "name": "Blank extras: tsangan, 65% and 75%"
+      },
+      {
+        "id": "c64_addon",
+        "name": "C64 add-on: TKL nav, numpad, full-size and tsangan mods"
       }
     ]
   },
