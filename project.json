@@ -805,6 +805,21 @@
       "value": "3 * unit",
       "unit": "mm",
       "description": "Cherry stabilizer stem offset for a 7u spacebar (114.3 mm spacing, Cherry data sheet per keebtalk.com/t/7u-stabilizer-distance and mechkbguide.com stabilizer table)"
+    },
+    "space_u": {
+      "value": 6.25,
+      "unit": "scalar",
+      "description": "Spacebar length in key units (6.25u standard ANSI); the 7u tsangan spacebar overrides it"
+    },
+    "blank_x0": {
+      "value": "-unit / 2",
+      "unit": "mm",
+      "description": "Left edge of the blank full-size board in the assembly (lines its Esc up with the C64 board's)"
+    },
+    "blank_y0": {
+      "value": -140,
+      "unit": "mm",
+      "description": "Top edge of the blank full-size board in the assembly, below the C64 board"
     }
   },
   "parts": [
@@ -3033,7 +3048,7 @@
               "profile": {
                 "shape": "rectangle",
                 "size": [
-                  "cap_base + unit * (6.25 - 1)",
+                  "cap_base + unit * (space_u - 1)",
                   "cap_base"
                 ]
               },
@@ -3043,7 +3058,7 @@
               "profile": {
                 "shape": "rectangle",
                 "size": [
-                  "cap_base - sa_taper / 2 + 2 * side_bulge + unit * (6.25 - 1)",
+                  "cap_base - sa_taper / 2 + 2 * side_bulge + unit * (space_u - 1)",
                   "cap_base - sa_taper / 2 + 2 * side_bulge"
                 ]
               },
@@ -3053,7 +3068,7 @@
               "profile": {
                 "shape": "rectangle",
                 "size": [
-                  "sa_top + unit * (6.25 - 1)",
+                  "sa_top + unit * (space_u - 1)",
                   "sa_top"
                 ]
               },
@@ -3077,7 +3092,7 @@
           "name": "Convex top",
           "type": "primitive.cylinder",
           "radius": "space_crown_r",
-          "height": "unit * 6.25 + 10",
+          "height": "unit * space_u + 10",
           "origin": [
             0,
             "space_crown_r * sin(sa_r3_tilt)",
@@ -3110,7 +3125,7 @@
               "profile": {
                 "shape": "rectangle",
                 "size": [
-                  "cap_base - 2 * wall + unit * (6.25 - 1)",
+                  "cap_base - 2 * wall + unit * (space_u - 1)",
                   "cap_base - 2 * wall"
                 ]
               },
@@ -3120,7 +3135,7 @@
               "profile": {
                 "shape": "rectangle",
                 "size": [
-                  "cap_base - sa_r3_wi + unit * (6.25 - 1)",
+                  "cap_base - sa_r3_wi + unit * (space_u - 1)",
                   "cap_base - sa_r3_wi"
                 ]
               },
@@ -3190,7 +3205,7 @@
           "name": "Trim stems to the convex top",
           "type": "primitive.cylinder",
           "radius": "space_crown_r",
-          "height": "unit * 6.25 + 10",
+          "height": "unit * space_u + 10",
           "origin": [
             0,
             "space_crown_r * sin(sa_r3_tilt)",
@@ -8156,6 +8171,516 @@
           "operation": "subtract"
         }
       ]
+    },
+    {
+      "id": "blank_r1_1u",
+      "name": "Blank SA R1 1u",
+      "color": "#d9d4c7",
+      "link": {
+        "from": "key_recipe",
+        "values": {
+          "key_h": "sa_r1_h",
+          "key_tilt": "sa_r1_tilt"
+        },
+        "edits": {
+          "key_recipe_legend": {
+            "suppressed": true
+          },
+          "key_recipe_front_legend": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": []
+    },
+    {
+      "id": "blank_r2_1u",
+      "name": "Blank SA R2 1u",
+      "color": "#d9d4c7",
+      "link": {
+        "from": "key_recipe",
+        "values": {
+          "key_h": "sa_r2_h",
+          "key_tilt": "sa_r2_tilt"
+        },
+        "edits": {
+          "key_recipe_legend": {
+            "suppressed": true
+          },
+          "key_recipe_front_legend": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": []
+    },
+    {
+      "id": "blank_r4_1u",
+      "name": "Blank SA R4 1u",
+      "color": "#d9d4c7",
+      "link": {
+        "from": "key_recipe",
+        "values": {
+          "key_h": "sa_r4_h",
+          "key_tilt": "sa_r4_tilt"
+        },
+        "edits": {
+          "key_recipe_legend": {
+            "suppressed": true
+          },
+          "key_recipe_front_legend": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": []
+    },
+    {
+      "id": "blank_r2_1_5u",
+      "name": "Blank SA R2 1.5u",
+      "color": "#d9d4c7",
+      "link": {
+        "from": "key_recipe_2",
+        "values": {
+          "key_h": "sa_r2_h",
+          "key_tilt": "sa_r2_tilt",
+          "key_dw_2": "unit * (1.5 - 1)"
+        },
+        "edits": {
+          "key_recipe_2_legend": {
+            "suppressed": true
+          },
+          "key_recipe_2_front_legend": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": []
+    },
+    {
+      "id": "blank_r3_1_75u",
+      "name": "Blank SA R3 1.75u",
+      "color": "#d9d4c7",
+      "link": {
+        "from": "key_recipe_2",
+        "values": {
+          "key_h": "sa_r3_h",
+          "key_tilt": "sa_r3_tilt",
+          "key_dw_2": "unit * (1.75 - 1)"
+        },
+        "edits": {
+          "key_recipe_2_legend": {
+            "suppressed": true
+          },
+          "key_recipe_2_front_legend": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": []
+    },
+    {
+      "id": "blank_r4_1_25u",
+      "name": "Blank SA R4 1.25u",
+      "color": "#d9d4c7",
+      "link": {
+        "from": "key_recipe_2",
+        "values": {
+          "key_h": "sa_r4_h",
+          "key_tilt": "sa_r4_tilt",
+          "key_dw_2": "unit * (1.25 - 1)"
+        },
+        "edits": {
+          "key_recipe_2_legend": {
+            "suppressed": true
+          },
+          "key_recipe_2_front_legend": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": []
+    },
+    {
+      "id": "blank_r4_1_5u",
+      "name": "Blank SA R4 1.5u",
+      "color": "#d9d4c7",
+      "link": {
+        "from": "key_recipe_2",
+        "values": {
+          "key_h": "sa_r4_h",
+          "key_tilt": "sa_r4_tilt",
+          "key_dw_2": "unit * (1.5 - 1)"
+        },
+        "edits": {
+          "key_recipe_2_legend": {
+            "suppressed": true
+          },
+          "key_recipe_2_front_legend": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": []
+    },
+    {
+      "id": "blank_r4_1_75u",
+      "name": "Blank SA R4 1.75u",
+      "color": "#d9d4c7",
+      "link": {
+        "from": "key_recipe_2",
+        "values": {
+          "key_h": "sa_r4_h",
+          "key_tilt": "sa_r4_tilt",
+          "key_dw_2": "unit * (1.75 - 1)"
+        },
+        "edits": {
+          "key_recipe_2_legend": {
+            "suppressed": true
+          },
+          "key_recipe_2_front_legend": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": []
+    },
+    {
+      "id": "blank_r1_2u",
+      "name": "Blank SA R1 2u",
+      "color": "#d9d4c7",
+      "link": {
+        "from": "key_recipe_2",
+        "values": {
+          "key_h": "sa_r1_h",
+          "key_tilt": "sa_r1_tilt",
+          "key_dw_2": "unit * (2 - 1)"
+        },
+        "edits": {
+          "key_recipe_2_legend": {
+            "suppressed": true
+          },
+          "key_recipe_2_front_legend": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": [
+        {
+          "id": "blank_r1_2u_stab_r",
+          "type": "pattern.linear",
+          "features": [
+            "key_recipe_2_stem",
+            "key_recipe_2_cross_x",
+            "key_recipe_2_cross_y"
+          ],
+          "direction": "+x",
+          "count": 2,
+          "spacing": "stab_2u"
+        },
+        {
+          "id": "blank_r1_2u_stab_l",
+          "type": "pattern.linear",
+          "features": [
+            "key_recipe_2_stem",
+            "key_recipe_2_cross_x",
+            "key_recipe_2_cross_y"
+          ],
+          "direction": "-x",
+          "count": 2,
+          "spacing": "stab_2u"
+        },
+        {
+          "id": "blank_r1_2u_stab_trim",
+          "type": "revolve",
+          "profile": {
+            "shape": "sketch",
+            "sketch": "key_recipe_2_dish_sk"
+          },
+          "axis": {
+            "along": "u",
+            "through": [
+              0,
+              "key_zc"
+            ]
+          },
+          "operation": "subtract"
+        }
+      ]
+    },
+    {
+      "id": "blank_r3_2_25u",
+      "name": "Blank SA R3 2.25u",
+      "color": "#d9d4c7",
+      "link": {
+        "from": "key_recipe_2",
+        "values": {
+          "key_h": "sa_r3_h",
+          "key_tilt": "sa_r3_tilt",
+          "key_dw_2": "unit * (2.25 - 1)"
+        },
+        "edits": {
+          "key_recipe_2_legend": {
+            "suppressed": true
+          },
+          "key_recipe_2_front_legend": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": [
+        {
+          "id": "blank_r3_2_25u_stab_r",
+          "type": "pattern.linear",
+          "features": [
+            "key_recipe_2_stem",
+            "key_recipe_2_cross_x",
+            "key_recipe_2_cross_y"
+          ],
+          "direction": "+x",
+          "count": 2,
+          "spacing": "stab_2u"
+        },
+        {
+          "id": "blank_r3_2_25u_stab_l",
+          "type": "pattern.linear",
+          "features": [
+            "key_recipe_2_stem",
+            "key_recipe_2_cross_x",
+            "key_recipe_2_cross_y"
+          ],
+          "direction": "-x",
+          "count": 2,
+          "spacing": "stab_2u"
+        },
+        {
+          "id": "blank_r3_2_25u_stab_trim",
+          "type": "revolve",
+          "profile": {
+            "shape": "sketch",
+            "sketch": "key_recipe_2_dish_sk"
+          },
+          "axis": {
+            "along": "u",
+            "through": [
+              0,
+              "key_zc"
+            ]
+          },
+          "operation": "subtract"
+        }
+      ]
+    },
+    {
+      "id": "blank_r4_2_75u",
+      "name": "Blank SA R4 2.75u",
+      "color": "#d9d4c7",
+      "link": {
+        "from": "key_recipe_2",
+        "values": {
+          "key_h": "sa_r4_h",
+          "key_tilt": "sa_r4_tilt",
+          "key_dw_2": "unit * (2.75 - 1)"
+        },
+        "edits": {
+          "key_recipe_2_legend": {
+            "suppressed": true
+          },
+          "key_recipe_2_front_legend": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": [
+        {
+          "id": "blank_r4_2_75u_stab_r",
+          "type": "pattern.linear",
+          "features": [
+            "key_recipe_2_stem",
+            "key_recipe_2_cross_x",
+            "key_recipe_2_cross_y"
+          ],
+          "direction": "+x",
+          "count": 2,
+          "spacing": "stab_2u"
+        },
+        {
+          "id": "blank_r4_2_75u_stab_l",
+          "type": "pattern.linear",
+          "features": [
+            "key_recipe_2_stem",
+            "key_recipe_2_cross_x",
+            "key_recipe_2_cross_y"
+          ],
+          "direction": "-x",
+          "count": 2,
+          "spacing": "stab_2u"
+        },
+        {
+          "id": "blank_r4_2_75u_stab_trim",
+          "type": "revolve",
+          "profile": {
+            "shape": "sketch",
+            "sketch": "key_recipe_2_dish_sk"
+          },
+          "axis": {
+            "along": "u",
+            "through": [
+              0,
+              "key_zc"
+            ]
+          },
+          "operation": "subtract"
+        }
+      ]
+    },
+    {
+      "id": "blank_r4_2u",
+      "name": "Blank SA R4 2u",
+      "color": "#d9d4c7",
+      "link": {
+        "from": "key_recipe_2",
+        "values": {
+          "key_h": "sa_r4_h",
+          "key_tilt": "sa_r4_tilt",
+          "key_dw_2": "unit * (2 - 1)"
+        },
+        "edits": {
+          "key_recipe_2_legend": {
+            "suppressed": true
+          },
+          "key_recipe_2_front_legend": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": [
+        {
+          "id": "blank_r4_2u_stab_r",
+          "type": "pattern.linear",
+          "features": [
+            "key_recipe_2_stem",
+            "key_recipe_2_cross_x",
+            "key_recipe_2_cross_y"
+          ],
+          "direction": "+x",
+          "count": 2,
+          "spacing": "stab_2u"
+        },
+        {
+          "id": "blank_r4_2u_stab_l",
+          "type": "pattern.linear",
+          "features": [
+            "key_recipe_2_stem",
+            "key_recipe_2_cross_x",
+            "key_recipe_2_cross_y"
+          ],
+          "direction": "-x",
+          "count": 2,
+          "spacing": "stab_2u"
+        },
+        {
+          "id": "blank_r4_2u_stab_trim",
+          "type": "revolve",
+          "profile": {
+            "shape": "sketch",
+            "sketch": "key_recipe_2_dish_sk"
+          },
+          "axis": {
+            "along": "u",
+            "through": [
+              0,
+              "key_zc"
+            ]
+          },
+          "operation": "subtract"
+        }
+      ]
+    },
+    {
+      "id": "blank_r3_2u",
+      "name": "Blank SA R3 2u (numpad + and Enter, turned upright)",
+      "color": "#d9d4c7",
+      "link": {
+        "from": "key_recipe_2",
+        "values": {
+          "key_h": "sa_r3_h",
+          "key_tilt": "sa_r3_tilt",
+          "key_dw_2": "unit * (2 - 1)"
+        },
+        "edits": {
+          "key_recipe_2_legend": {
+            "suppressed": true
+          },
+          "key_recipe_2_front_legend": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": [
+        {
+          "id": "blank_r3_2u_stab_r",
+          "type": "pattern.linear",
+          "features": [
+            "key_recipe_2_stem",
+            "key_recipe_2_cross_x",
+            "key_recipe_2_cross_y"
+          ],
+          "direction": "+x",
+          "count": 2,
+          "spacing": "stab_2u"
+        },
+        {
+          "id": "blank_r3_2u_stab_l",
+          "type": "pattern.linear",
+          "features": [
+            "key_recipe_2_stem",
+            "key_recipe_2_cross_x",
+            "key_recipe_2_cross_y"
+          ],
+          "direction": "-x",
+          "count": 2,
+          "spacing": "stab_2u"
+        },
+        {
+          "id": "blank_r3_2u_stab_trim",
+          "type": "revolve",
+          "profile": {
+            "shape": "sketch",
+            "sketch": "key_recipe_2_dish_sk"
+          },
+          "axis": {
+            "along": "u",
+            "through": [
+              0,
+              "key_zc"
+            ]
+          },
+          "operation": "subtract"
+        }
+      ]
+    },
+    {
+      "id": "blank_space_6_25u",
+      "name": "Blank SA R3 6.25u spacebar",
+      "color": "#d9d4c7",
+      "link": {
+        "from": "k_r3_6_25u"
+      },
+      "features": []
+    },
+    {
+      "id": "blank_space_7u",
+      "name": "Blank SA R3 7u spacebar (tsangan)",
+      "color": "#d9d4c7",
+      "link": {
+        "from": "k_r3_6_25u",
+        "values": {
+          "space_u": 7,
+          "stab_625": "stab_7u"
+        }
+      },
+      "features": []
     }
   ],
   "requirements": [
@@ -8177,6 +8702,30 @@
       "description": "A universal keycap set others can print for common MX keyboards, not just this Ajazz 75%.",
       "pinned": true,
       "source": "user"
+    },
+    {
+      "id": "blank_caps",
+      "type": "text",
+      "value": "Blank (legend-free) caps in every size and row the supported layouts need; the most important part of the universal set",
+      "description": "Blank caps with no legends come in every size and row the layouts need, so the set fits any board and language.",
+      "pinned": true,
+      "source": "user"
+    },
+    {
+      "id": "layout_coverage",
+      "type": "text",
+      "value": "ANSI full size with numpad (104 keys) plus extras for tsangan (1.5u mods, 7u space), 65% and 75% (1.75u right Shift, 1u right mods, nav column)",
+      "description": "Covers ANSI 60%, 65%, 75%, TKL and full size with numpad, plus a tsangan 7u bottom row.",
+      "pinned": false,
+      "source": "designer"
+    },
+    {
+      "id": "stab_spacing",
+      "type": "text",
+      "value": "Cherry-style stabilizer stems: 23.8 mm apart on 2u-2.75u (stab_2u), 100 mm on 6.25u (stab_625), 114.3 mm on 7u (stab_7u); numpad + and Enter are the 2u cap turned upright for vertical stabilizers",
+      "description": "Stabilizer stems sit at Cherry spacing: 23.8 mm on 2–2.75u keys, 100 mm on 6.25u and 114.3 mm on 7u spacebars.",
+      "pinned": false,
+      "source": "designer"
     }
   ],
   "assembly": {
@@ -10086,11 +10635,237 @@
         "part": "blank_r4_2_25u",
         "placement": {
           "translate": [
-            0,
-            -60,
+            "blank_x0 + unit * 1.125",
+            "blank_y0 - unit * 5",
+            0
+          ]
+        },
+        "name": "Left Shift",
+        "group": "blank_full"
+      },
+      {
+        "id": "blank_r1_1u",
+        "part": "blank_r1_1u",
+        "name": "Esc",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 0.5",
+            "blank_y0 - unit * 0.5",
             0
           ]
         }
+      },
+      {
+        "id": "blank_r1_2u",
+        "part": "blank_r1_2u",
+        "name": "Backspace",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 14",
+            "blank_y0 - unit * 2",
+            0
+          ]
+        }
+      },
+      {
+        "id": "blank_r2_1u",
+        "part": "blank_r2_1u",
+        "name": "Q",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 2",
+            "blank_y0 - unit * 3",
+            0
+          ]
+        }
+      },
+      {
+        "id": "blank_r2_1_5u",
+        "part": "blank_r2_1_5u",
+        "name": "Tab",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 0.75",
+            "blank_y0 - unit * 3",
+            0
+          ]
+        }
+      },
+      {
+        "id": "blank_r3_1u",
+        "part": "blank_r3_1u",
+        "name": "A",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 2.25",
+            "blank_y0 - unit * 4",
+            0
+          ]
+        }
+      },
+      {
+        "id": "blank_r3_1_75u",
+        "part": "blank_r3_1_75u",
+        "name": "Caps Lock",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 0.875",
+            "blank_y0 - unit * 4",
+            0
+          ]
+        }
+      },
+      {
+        "id": "blank_r3_2_25u",
+        "part": "blank_r3_2_25u",
+        "name": "Enter",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 13.875",
+            "blank_y0 - unit * 4",
+            0
+          ]
+        }
+      },
+      {
+        "id": "blank_r3_2u",
+        "part": "blank_r3_2u",
+        "name": "Numpad +",
+        "group": "blank_full",
+        "placement": {
+          "rotate": [
+            {
+              "axis": "z",
+              "angle": 90
+            }
+          ],
+          "translate": [
+            "blank_x0 + unit * 22",
+            "blank_y0 - unit * 3.5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "blank_r4_1u",
+        "part": "blank_r4_1u",
+        "name": "Z",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 2.75",
+            "blank_y0 - unit * 5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "blank_r4_2_75u",
+        "part": "blank_r4_2_75u",
+        "name": "Right Shift",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 13.625",
+            "blank_y0 - unit * 5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "blank_r4_1_25u",
+        "part": "blank_r4_1_25u",
+        "name": "Left Ctrl",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 0.625",
+            "blank_y0 - unit * 6",
+            0
+          ]
+        }
+      },
+      {
+        "id": "blank_space_6_25u",
+        "part": "blank_space_6_25u",
+        "name": "Space",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 6.875",
+            "blank_y0 - unit * 6",
+            0
+          ]
+        }
+      },
+      {
+        "id": "blank_r4_2u",
+        "part": "blank_r4_2u",
+        "name": "Numpad 0",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 19.5",
+            "blank_y0 - unit * 6",
+            0
+          ]
+        }
+      },
+      {
+        "id": "blank_r4_1_5u",
+        "part": "blank_r4_1_5u",
+        "name": "Tsangan Left Ctrl",
+        "group": "blank_extras",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 0.75",
+            "blank_y0 - unit * 7.5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "blank_space_7u",
+        "part": "blank_space_7u",
+        "name": "Tsangan Space",
+        "group": "blank_extras",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 7.5",
+            "blank_y0 - unit * 7.5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "blank_r4_1_75u",
+        "part": "blank_r4_1_75u",
+        "name": "65/75% Right Shift",
+        "group": "blank_extras",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 0.875",
+            "blank_y0 - unit * 8.75",
+            0
+          ]
+        }
+      }
+    ],
+    "groups": [
+      {
+        "id": "blank_full",
+        "name": "Blank set: full-size ANSI (104 keys)"
+      },
+      {
+        "id": "blank_extras",
+        "name": "Blank extras: tsangan, 65% and 75%"
       }
     ]
   },

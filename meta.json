@@ -1,6 +1,6 @@
 {
-  "savedAt": "2026-10-25T13:46:02.602Z",
-  "hash": "sha256:d8aba76074745b00",
+  "savedAt": "2026-10-25T13:49:13.800Z",
+  "hash": "sha256:f09af602b3ef40c7",
   "schemaVersion": 2,
   "parts": {
     "key_recipe": {
@@ -1672,10 +1672,160 @@
       ],
       "faces": 91,
       "faceRefs": "89c7921ce972"
+    },
+    "blank_r1_1u": {
+      "volume": 1895.764,
+      "size": [
+        18.4,
+        18.4,
+        17.0177
+      ],
+      "faces": 43,
+      "faceRefs": "27c9a5efd832"
+    },
+    "blank_r2_1u": {
+      "volume": 1673.172,
+      "size": [
+        18.4,
+        18.4,
+        14.3016
+      ],
+      "faces": 43,
+      "faceRefs": "ca54904bce19"
+    },
+    "blank_r4_1u": {
+      "volume": 1671.446,
+      "size": [
+        18.4,
+        18.4,
+        14.489
+      ],
+      "faces": 43,
+      "faceRefs": "f2de42910035"
+    },
+    "blank_r2_1_5u": {
+      "volume": 2276.94,
+      "size": [
+        27.925,
+        18.4,
+        14.3016
+      ],
+      "faces": 49,
+      "faceRefs": "c2f8345c9047"
+    },
+    "blank_r3_1_75u": {
+      "volume": 2519.387,
+      "size": [
+        32.6876,
+        18.4,
+        12.9585
+      ],
+      "faces": 49,
+      "faceRefs": "fa78419cbad4"
+    },
+    "blank_r4_1_25u": {
+      "volume": 1973.008,
+      "size": [
+        23.1626,
+        18.4,
+        14.489
+      ],
+      "faces": 52,
+      "faceRefs": "9608e7b785b1"
+    },
+    "blank_r4_1_5u": {
+      "volume": 2274.568,
+      "size": [
+        27.925,
+        18.4,
+        14.489
+      ],
+      "faces": 49,
+      "faceRefs": "47d920800450"
+    },
+    "blank_r4_1_75u": {
+      "volume": 2576.129,
+      "size": [
+        32.6876,
+        18.4,
+        14.489
+      ],
+      "faces": 49,
+      "faceRefs": "c44ab2e4f35d"
+    },
+    "blank_r1_2u": {
+      "volume": 3707.673,
+      "size": [
+        37.45,
+        18.4,
+        17.0177
+      ],
+      "faces": 91,
+      "faceRefs": "edab921c84f1"
+    },
+    "blank_r3_2_25u": {
+      "volume": 3478.436,
+      "size": [
+        42.2126,
+        18.4,
+        12.9585
+      ],
+      "faces": 91,
+      "faceRefs": "7526842aa27e"
+    },
+    "blank_r4_2_75u": {
+      "volume": 4168.123,
+      "size": [
+        51.7376,
+        18.4,
+        14.489
+      ],
+      "faces": 89,
+      "faceRefs": "26667df16ea6"
+    },
+    "blank_r4_2u": {
+      "volume": 3263.441,
+      "size": [
+        37.45,
+        18.4,
+        14.489
+      ],
+      "faces": 91,
+      "faceRefs": "417be52df57c"
+    },
+    "blank_r3_2u": {
+      "volume": 3182.285,
+      "size": [
+        37.45,
+        18.4,
+        12.9585
+      ],
+      "faces": 91,
+      "faceRefs": "e9c1c5dde563"
+    },
+    "blank_space_6_25u": {
+      "volume": 9818.781,
+      "size": [
+        118.4126,
+        18.4,
+        13.45
+      ],
+      "faces": 83,
+      "faceRefs": "03fd671b54bb"
+    },
+    "blank_space_7u": {
+      "volume": 10915.466,
+      "size": [
+        132.7,
+        18.4,
+        13.45
+      ],
+      "faces": 83,
+      "faceRefs": "951c335ee125"
     }
   },
   "assembly": {
-    "instances": "c6b9b956dea5",
+    "instances": "3c9f0194795b",
     "hardware": "e3b0c44298fc"
   },
   "geometry": "0a045783ce637d3a",
