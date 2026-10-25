@@ -1,6 +1,6 @@
 # Ajazz C64 Keycaps
 
-Commodore 64–style keycaps for MX keyboards, made to print: dark brown SA-profile caps, cream legends in a C64 font, and the PETSCII graphics on the front of every letter key, like on the original breadbin.
+Commodore 64–style keycaps for MX keyboards, made to print: dark brown SA-profile caps, cream legends in the [C64 Keyboard font](https://github.com/szabadkai/c64-keyboard-font), and the PETSCII graphics on the front of every letter key, like on the original breadbin.
 
 ![The C64 75% set on an Ajazz keyboard, printed on a Formlabs Form 4 in Tough 2000](docs/printed.jpg)
 
@@ -47,7 +47,7 @@ C64 legends: the C64 75% set is a complete 75%. For a 65%, leave out the F row. 
 ## Details
 
 - SA profile, sculpted rows R1 (F and number rows), R2, R3 and R4; 19.05 mm key pitch; MX cross stems.
-- Legends in the [C64 Keyboard font](https://github.com/szabadkai/c64-keyboard-font). Each letter key carries its two PETSCII graphics on the front: the Commodore-key graphic on the left, the Shift graphic on the right.
+- Legends in the [C64 Keyboard font](https://github.com/szabadkai/c64-keyboard-font), my reconstruction of the lettering on the original C64 keycaps, PETSCII graphics included. It is a separate project, free to use under CC0. Each letter key carries its two PETSCII graphics on the front: the Commodore-key graphic on the left, the Shift graphic on the right.
 - Colours in the files: C64 caps `#3b2a20` with `#f0ead6` legends; plain caps `#d9d4c7` with `#2a2a2a` legends.
 
 ![The C64 caps up close: Q W E, A S D, Z X C with their PETSCII fronts](docs/petscii.png)
