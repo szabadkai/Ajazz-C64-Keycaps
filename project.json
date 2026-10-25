@@ -12540,6 +12540,1108 @@
       },
       "features": [],
       "printWith": "p_kp_minus"
+    },
+    {
+      "id": "p_tab",
+      "name": "Plain R2 1.5u - Tab",
+      "color": "#d9d4c7",
+      "link": {
+        "from": "key_recipe_2",
+        "values": {
+          "key_h": "sa_r2_h",
+          "key_tilt": "sa_r2_tilt",
+          "key_dw_2": "unit * (1.5 - 1)"
+        },
+        "edits": {
+          "key_recipe_2_legend": {
+            "name": "Legend: TAB",
+            "profile": {
+              "text": "TAB",
+              "size": "plain_mod_size"
+            }
+          },
+          "key_recipe_2_front_legend": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": []
+    },
+    {
+      "id": "ink_p_tab",
+      "name": "Tab plain legend inlay",
+      "color": "#2a2a2a",
+      "link": {
+        "from": "ink_recipe",
+        "values": {
+          "key_h": "sa_r2_h",
+          "key_tilt": "sa_r2_tilt"
+        },
+        "edits": {
+          "ink_recipe_top": {
+            "profile": {
+              "text": "TAB",
+              "size": "plain_mod_size"
+            }
+          },
+          "ink_recipe_front": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": [],
+      "printWith": "p_tab"
+    },
+    {
+      "id": "p_q",
+      "name": "Plain R2 1u - Q",
+      "color": "#d9d4c7",
+      "link": {
+        "from": "key_recipe",
+        "values": {
+          "key_h": "sa_r2_h",
+          "key_tilt": "sa_r2_tilt"
+        },
+        "edits": {
+          "key_recipe_legend": {
+            "name": "Legend: Q",
+            "profile": {
+              "text": "Q",
+              "size": "plain_size"
+            }
+          },
+          "key_recipe_front_legend": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": []
+    },
+    {
+      "id": "ink_p_q",
+      "name": "Q plain legend inlay",
+      "color": "#2a2a2a",
+      "link": {
+        "from": "ink_recipe",
+        "values": {
+          "key_h": "sa_r2_h",
+          "key_tilt": "sa_r2_tilt"
+        },
+        "edits": {
+          "ink_recipe_top": {
+            "profile": {
+              "text": "Q",
+              "size": "plain_size"
+            }
+          },
+          "ink_recipe_front": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": [],
+      "printWith": "p_q"
+    },
+    {
+      "id": "p_w",
+      "name": "Plain R2 1u - W",
+      "color": "#d9d4c7",
+      "link": {
+        "from": "key_recipe",
+        "values": {
+          "key_h": "sa_r2_h",
+          "key_tilt": "sa_r2_tilt"
+        },
+        "edits": {
+          "key_recipe_legend": {
+            "name": "Legend: W",
+            "profile": {
+              "text": "W",
+              "size": "plain_size"
+            }
+          },
+          "key_recipe_front_legend": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": []
+    },
+    {
+      "id": "ink_p_w",
+      "name": "W plain legend inlay",
+      "color": "#2a2a2a",
+      "link": {
+        "from": "ink_recipe",
+        "values": {
+          "key_h": "sa_r2_h",
+          "key_tilt": "sa_r2_tilt"
+        },
+        "edits": {
+          "ink_recipe_top": {
+            "profile": {
+              "text": "W",
+              "size": "plain_size"
+            }
+          },
+          "ink_recipe_front": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": [],
+      "printWith": "p_w"
+    },
+    {
+      "id": "p_e",
+      "name": "Plain R2 1u - E",
+      "color": "#d9d4c7",
+      "link": {
+        "from": "key_recipe",
+        "values": {
+          "key_h": "sa_r2_h",
+          "key_tilt": "sa_r2_tilt"
+        },
+        "edits": {
+          "key_recipe_legend": {
+            "name": "Legend: E",
+            "profile": {
+              "text": "E",
+              "size": "plain_size"
+            }
+          },
+          "key_recipe_front_legend": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": []
+    },
+    {
+      "id": "ink_p_e",
+      "name": "E plain legend inlay",
+      "color": "#2a2a2a",
+      "link": {
+        "from": "ink_recipe",
+        "values": {
+          "key_h": "sa_r2_h",
+          "key_tilt": "sa_r2_tilt"
+        },
+        "edits": {
+          "ink_recipe_top": {
+            "profile": {
+              "text": "E",
+              "size": "plain_size"
+            }
+          },
+          "ink_recipe_front": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": [],
+      "printWith": "p_e"
+    },
+    {
+      "id": "p_r",
+      "name": "Plain R2 1u - R",
+      "color": "#d9d4c7",
+      "link": {
+        "from": "key_recipe",
+        "values": {
+          "key_h": "sa_r2_h",
+          "key_tilt": "sa_r2_tilt"
+        },
+        "edits": {
+          "key_recipe_legend": {
+            "name": "Legend: R",
+            "profile": {
+              "text": "R",
+              "size": "plain_size"
+            }
+          },
+          "key_recipe_front_legend": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": []
+    },
+    {
+      "id": "ink_p_r",
+      "name": "R plain legend inlay",
+      "color": "#2a2a2a",
+      "link": {
+        "from": "ink_recipe",
+        "values": {
+          "key_h": "sa_r2_h",
+          "key_tilt": "sa_r2_tilt"
+        },
+        "edits": {
+          "ink_recipe_top": {
+            "profile": {
+              "text": "R",
+              "size": "plain_size"
+            }
+          },
+          "ink_recipe_front": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": [],
+      "printWith": "p_r"
+    },
+    {
+      "id": "p_t",
+      "name": "Plain R2 1u - T",
+      "color": "#d9d4c7",
+      "link": {
+        "from": "key_recipe",
+        "values": {
+          "key_h": "sa_r2_h",
+          "key_tilt": "sa_r2_tilt"
+        },
+        "edits": {
+          "key_recipe_legend": {
+            "name": "Legend: T",
+            "profile": {
+              "text": "T",
+              "size": "plain_size"
+            }
+          },
+          "key_recipe_front_legend": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": []
+    },
+    {
+      "id": "ink_p_t",
+      "name": "T plain legend inlay",
+      "color": "#2a2a2a",
+      "link": {
+        "from": "ink_recipe",
+        "values": {
+          "key_h": "sa_r2_h",
+          "key_tilt": "sa_r2_tilt"
+        },
+        "edits": {
+          "ink_recipe_top": {
+            "profile": {
+              "text": "T",
+              "size": "plain_size"
+            }
+          },
+          "ink_recipe_front": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": [],
+      "printWith": "p_t"
+    },
+    {
+      "id": "p_y",
+      "name": "Plain R2 1u - Y",
+      "color": "#d9d4c7",
+      "link": {
+        "from": "key_recipe",
+        "values": {
+          "key_h": "sa_r2_h",
+          "key_tilt": "sa_r2_tilt"
+        },
+        "edits": {
+          "key_recipe_legend": {
+            "name": "Legend: Y",
+            "profile": {
+              "text": "Y",
+              "size": "plain_size"
+            }
+          },
+          "key_recipe_front_legend": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": []
+    },
+    {
+      "id": "ink_p_y",
+      "name": "Y plain legend inlay",
+      "color": "#2a2a2a",
+      "link": {
+        "from": "ink_recipe",
+        "values": {
+          "key_h": "sa_r2_h",
+          "key_tilt": "sa_r2_tilt"
+        },
+        "edits": {
+          "ink_recipe_top": {
+            "profile": {
+              "text": "Y",
+              "size": "plain_size"
+            }
+          },
+          "ink_recipe_front": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": [],
+      "printWith": "p_y"
+    },
+    {
+      "id": "p_u",
+      "name": "Plain R2 1u - U",
+      "color": "#d9d4c7",
+      "link": {
+        "from": "key_recipe",
+        "values": {
+          "key_h": "sa_r2_h",
+          "key_tilt": "sa_r2_tilt"
+        },
+        "edits": {
+          "key_recipe_legend": {
+            "name": "Legend: U",
+            "profile": {
+              "text": "U",
+              "size": "plain_size"
+            }
+          },
+          "key_recipe_front_legend": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": []
+    },
+    {
+      "id": "ink_p_u",
+      "name": "U plain legend inlay",
+      "color": "#2a2a2a",
+      "link": {
+        "from": "ink_recipe",
+        "values": {
+          "key_h": "sa_r2_h",
+          "key_tilt": "sa_r2_tilt"
+        },
+        "edits": {
+          "ink_recipe_top": {
+            "profile": {
+              "text": "U",
+              "size": "plain_size"
+            }
+          },
+          "ink_recipe_front": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": [],
+      "printWith": "p_u"
+    },
+    {
+      "id": "p_i",
+      "name": "Plain R2 1u - I",
+      "color": "#d9d4c7",
+      "link": {
+        "from": "key_recipe",
+        "values": {
+          "key_h": "sa_r2_h",
+          "key_tilt": "sa_r2_tilt"
+        },
+        "edits": {
+          "key_recipe_legend": {
+            "name": "Legend: I",
+            "profile": {
+              "text": "I",
+              "size": "plain_size"
+            }
+          },
+          "key_recipe_front_legend": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": []
+    },
+    {
+      "id": "ink_p_i",
+      "name": "I plain legend inlay",
+      "color": "#2a2a2a",
+      "link": {
+        "from": "ink_recipe",
+        "values": {
+          "key_h": "sa_r2_h",
+          "key_tilt": "sa_r2_tilt"
+        },
+        "edits": {
+          "ink_recipe_top": {
+            "profile": {
+              "text": "I",
+              "size": "plain_size"
+            }
+          },
+          "ink_recipe_front": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": [],
+      "printWith": "p_i"
+    },
+    {
+      "id": "p_o",
+      "name": "Plain R2 1u - O",
+      "color": "#d9d4c7",
+      "link": {
+        "from": "key_recipe",
+        "values": {
+          "key_h": "sa_r2_h",
+          "key_tilt": "sa_r2_tilt"
+        },
+        "edits": {
+          "key_recipe_legend": {
+            "name": "Legend: O",
+            "profile": {
+              "text": "O",
+              "size": "plain_size"
+            }
+          },
+          "key_recipe_front_legend": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": []
+    },
+    {
+      "id": "ink_p_o",
+      "name": "O plain legend inlay",
+      "color": "#2a2a2a",
+      "link": {
+        "from": "ink_recipe",
+        "values": {
+          "key_h": "sa_r2_h",
+          "key_tilt": "sa_r2_tilt"
+        },
+        "edits": {
+          "ink_recipe_top": {
+            "profile": {
+              "text": "O",
+              "size": "plain_size"
+            }
+          },
+          "ink_recipe_front": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": [],
+      "printWith": "p_o"
+    },
+    {
+      "id": "p_p",
+      "name": "Plain R2 1u - P",
+      "color": "#d9d4c7",
+      "link": {
+        "from": "key_recipe",
+        "values": {
+          "key_h": "sa_r2_h",
+          "key_tilt": "sa_r2_tilt"
+        },
+        "edits": {
+          "key_recipe_legend": {
+            "name": "Legend: P",
+            "profile": {
+              "text": "P",
+              "size": "plain_size"
+            }
+          },
+          "key_recipe_front_legend": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": []
+    },
+    {
+      "id": "ink_p_p",
+      "name": "P plain legend inlay",
+      "color": "#2a2a2a",
+      "link": {
+        "from": "ink_recipe",
+        "values": {
+          "key_h": "sa_r2_h",
+          "key_tilt": "sa_r2_tilt"
+        },
+        "edits": {
+          "ink_recipe_top": {
+            "profile": {
+              "text": "P",
+              "size": "plain_size"
+            }
+          },
+          "ink_recipe_front": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": [],
+      "printWith": "p_p"
+    },
+    {
+      "id": "p_lbracket",
+      "name": "Plain R2 1u - [ {",
+      "color": "#d9d4c7",
+      "link": {
+        "from": "key_recipe",
+        "values": {
+          "key_h": "sa_r2_h",
+          "key_tilt": "sa_r2_tilt"
+        },
+        "edits": {
+          "key_recipe_legend": {
+            "name": "Legend: { [",
+            "profile": {
+              "text": "{\n[",
+              "size": "plain_pair_size",
+              "line_spacing": "plain_pair_spacing"
+            }
+          },
+          "key_recipe_front_legend": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": []
+    },
+    {
+      "id": "ink_p_lbracket",
+      "name": "[ { plain legend inlay",
+      "color": "#2a2a2a",
+      "link": {
+        "from": "ink_recipe",
+        "values": {
+          "key_h": "sa_r2_h",
+          "key_tilt": "sa_r2_tilt"
+        },
+        "edits": {
+          "ink_recipe_top": {
+            "profile": {
+              "text": "{\n[",
+              "size": "plain_pair_size",
+              "line_spacing": "plain_pair_spacing"
+            }
+          },
+          "ink_recipe_front": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": [],
+      "printWith": "p_lbracket"
+    },
+    {
+      "id": "p_rbracket",
+      "name": "Plain R2 1u - ] }",
+      "color": "#d9d4c7",
+      "link": {
+        "from": "key_recipe",
+        "values": {
+          "key_h": "sa_r2_h",
+          "key_tilt": "sa_r2_tilt"
+        },
+        "edits": {
+          "key_recipe_legend": {
+            "name": "Legend: } ]",
+            "profile": {
+              "text": "}\n]",
+              "size": "plain_pair_size",
+              "line_spacing": "plain_pair_spacing"
+            }
+          },
+          "key_recipe_front_legend": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": []
+    },
+    {
+      "id": "ink_p_rbracket",
+      "name": "] } plain legend inlay",
+      "color": "#2a2a2a",
+      "link": {
+        "from": "ink_recipe",
+        "values": {
+          "key_h": "sa_r2_h",
+          "key_tilt": "sa_r2_tilt"
+        },
+        "edits": {
+          "ink_recipe_top": {
+            "profile": {
+              "text": "}\n]",
+              "size": "plain_pair_size",
+              "line_spacing": "plain_pair_spacing"
+            }
+          },
+          "ink_recipe_front": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": [],
+      "printWith": "p_rbracket"
+    },
+    {
+      "id": "p_backslash",
+      "name": "Plain R2 1.5u - \\ |",
+      "color": "#d9d4c7",
+      "link": {
+        "from": "key_recipe_2",
+        "values": {
+          "key_h": "sa_r2_h",
+          "key_tilt": "sa_r2_tilt",
+          "key_dw_2": "unit * (1.5 - 1)"
+        },
+        "edits": {
+          "key_recipe_2_legend": {
+            "name": "Legend: | \\",
+            "profile": {
+              "text": "|\n\\",
+              "size": "plain_pair_size",
+              "line_spacing": "plain_pair_spacing"
+            }
+          },
+          "key_recipe_2_front_legend": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": []
+    },
+    {
+      "id": "ink_p_backslash",
+      "name": "\\ | plain legend inlay",
+      "color": "#2a2a2a",
+      "link": {
+        "from": "ink_recipe",
+        "values": {
+          "key_h": "sa_r2_h",
+          "key_tilt": "sa_r2_tilt"
+        },
+        "edits": {
+          "ink_recipe_top": {
+            "profile": {
+              "text": "|\n\\",
+              "size": "plain_pair_size",
+              "line_spacing": "plain_pair_spacing"
+            }
+          },
+          "ink_recipe_front": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": [],
+      "printWith": "p_backslash"
+    },
+    {
+      "id": "p_del",
+      "name": "Plain R2 1u - Delete",
+      "color": "#d9d4c7",
+      "link": {
+        "from": "key_recipe",
+        "values": {
+          "key_h": "sa_r2_h",
+          "key_tilt": "sa_r2_tilt"
+        },
+        "edits": {
+          "key_recipe_legend": {
+            "name": "Legend: DEL",
+            "profile": {
+              "text": "DEL",
+              "size": "plain_mod_size"
+            }
+          },
+          "key_recipe_front_legend": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": []
+    },
+    {
+      "id": "ink_p_del",
+      "name": "Delete plain legend inlay",
+      "color": "#2a2a2a",
+      "link": {
+        "from": "ink_recipe",
+        "values": {
+          "key_h": "sa_r2_h",
+          "key_tilt": "sa_r2_tilt"
+        },
+        "edits": {
+          "ink_recipe_top": {
+            "profile": {
+              "text": "DEL",
+              "size": "plain_mod_size"
+            }
+          },
+          "ink_recipe_front": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": [],
+      "printWith": "p_del"
+    },
+    {
+      "id": "p_end",
+      "name": "Plain R2 1u - End",
+      "color": "#d9d4c7",
+      "link": {
+        "from": "key_recipe",
+        "values": {
+          "key_h": "sa_r2_h",
+          "key_tilt": "sa_r2_tilt"
+        },
+        "edits": {
+          "key_recipe_legend": {
+            "name": "Legend: END",
+            "profile": {
+              "text": "END",
+              "size": "plain_mod_size"
+            }
+          },
+          "key_recipe_front_legend": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": []
+    },
+    {
+      "id": "ink_p_end",
+      "name": "End plain legend inlay",
+      "color": "#2a2a2a",
+      "link": {
+        "from": "ink_recipe",
+        "values": {
+          "key_h": "sa_r2_h",
+          "key_tilt": "sa_r2_tilt"
+        },
+        "edits": {
+          "ink_recipe_top": {
+            "profile": {
+              "text": "END",
+              "size": "plain_mod_size"
+            }
+          },
+          "ink_recipe_front": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": [],
+      "printWith": "p_end"
+    },
+    {
+      "id": "p_pgdn",
+      "name": "Plain R2 1u - Page Down",
+      "color": "#d9d4c7",
+      "link": {
+        "from": "key_recipe",
+        "values": {
+          "key_h": "sa_r2_h",
+          "key_tilt": "sa_r2_tilt"
+        },
+        "edits": {
+          "key_recipe_legend": {
+            "name": "Legend: PGDN",
+            "profile": {
+              "text": "PGDN",
+              "size": "plain_mod_size"
+            }
+          },
+          "key_recipe_front_legend": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": []
+    },
+    {
+      "id": "ink_p_pgdn",
+      "name": "Page Down plain legend inlay",
+      "color": "#2a2a2a",
+      "link": {
+        "from": "ink_recipe",
+        "values": {
+          "key_h": "sa_r2_h",
+          "key_tilt": "sa_r2_tilt"
+        },
+        "edits": {
+          "ink_recipe_top": {
+            "profile": {
+              "text": "PGDN",
+              "size": "plain_mod_size"
+            }
+          },
+          "ink_recipe_front": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": [],
+      "printWith": "p_pgdn"
+    },
+    {
+      "id": "p_kp7",
+      "name": "Plain R2 1u - Numpad 7",
+      "color": "#d9d4c7",
+      "link": {
+        "from": "key_recipe",
+        "values": {
+          "key_h": "sa_r2_h",
+          "key_tilt": "sa_r2_tilt"
+        },
+        "edits": {
+          "key_recipe_legend": {
+            "name": "Legend: 7",
+            "profile": {
+              "text": "7",
+              "size": "plain_size"
+            }
+          },
+          "key_recipe_front_legend": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": []
+    },
+    {
+      "id": "ink_p_kp7",
+      "name": "Numpad 7 plain legend inlay",
+      "color": "#2a2a2a",
+      "link": {
+        "from": "ink_recipe",
+        "values": {
+          "key_h": "sa_r2_h",
+          "key_tilt": "sa_r2_tilt"
+        },
+        "edits": {
+          "ink_recipe_top": {
+            "profile": {
+              "text": "7",
+              "size": "plain_size"
+            }
+          },
+          "ink_recipe_front": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": [],
+      "printWith": "p_kp7"
+    },
+    {
+      "id": "p_kp8",
+      "name": "Plain R2 1u - Numpad 8",
+      "color": "#d9d4c7",
+      "link": {
+        "from": "key_recipe",
+        "values": {
+          "key_h": "sa_r2_h",
+          "key_tilt": "sa_r2_tilt"
+        },
+        "edits": {
+          "key_recipe_legend": {
+            "name": "Legend: 8",
+            "profile": {
+              "text": "8",
+              "size": "plain_size"
+            }
+          },
+          "key_recipe_front_legend": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": []
+    },
+    {
+      "id": "ink_p_kp8",
+      "name": "Numpad 8 plain legend inlay",
+      "color": "#2a2a2a",
+      "link": {
+        "from": "ink_recipe",
+        "values": {
+          "key_h": "sa_r2_h",
+          "key_tilt": "sa_r2_tilt"
+        },
+        "edits": {
+          "ink_recipe_top": {
+            "profile": {
+              "text": "8",
+              "size": "plain_size"
+            }
+          },
+          "ink_recipe_front": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": [],
+      "printWith": "p_kp8"
+    },
+    {
+      "id": "p_kp9",
+      "name": "Plain R2 1u - Numpad 9",
+      "color": "#d9d4c7",
+      "link": {
+        "from": "key_recipe",
+        "values": {
+          "key_h": "sa_r2_h",
+          "key_tilt": "sa_r2_tilt"
+        },
+        "edits": {
+          "key_recipe_legend": {
+            "name": "Legend: 9",
+            "profile": {
+              "text": "9",
+              "size": "plain_size"
+            }
+          },
+          "key_recipe_front_legend": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": []
+    },
+    {
+      "id": "ink_p_kp9",
+      "name": "Numpad 9 plain legend inlay",
+      "color": "#2a2a2a",
+      "link": {
+        "from": "ink_recipe",
+        "values": {
+          "key_h": "sa_r2_h",
+          "key_tilt": "sa_r2_tilt"
+        },
+        "edits": {
+          "ink_recipe_top": {
+            "profile": {
+              "text": "9",
+              "size": "plain_size"
+            }
+          },
+          "ink_recipe_front": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": [],
+      "printWith": "p_kp9"
+    },
+    {
+      "id": "p_kp_plus",
+      "name": "Plain R3 2u upright - Numpad +",
+      "color": "#d9d4c7",
+      "link": {
+        "from": "key_recipe_2",
+        "values": {
+          "key_h": "sa_r3_h",
+          "key_tilt": "sa_r3_tilt",
+          "key_dw_2": "unit * (2 - 1)"
+        },
+        "edits": {
+          "key_recipe_2_legend": {
+            "name": "Legend: +",
+            "profile": {
+              "text": "+",
+              "size": "plain_size"
+            },
+            "rotation": -90
+          },
+          "key_recipe_2_front_legend": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": [
+        {
+          "id": "p_kp_plus_stab_r",
+          "type": "pattern.linear",
+          "features": [
+            "key_recipe_2_stem",
+            "key_recipe_2_cross_x",
+            "key_recipe_2_cross_y"
+          ],
+          "direction": "+x",
+          "count": 2,
+          "spacing": "stab_2u"
+        },
+        {
+          "id": "p_kp_plus_stab_l",
+          "type": "pattern.linear",
+          "features": [
+            "key_recipe_2_stem",
+            "key_recipe_2_cross_x",
+            "key_recipe_2_cross_y"
+          ],
+          "direction": "-x",
+          "count": 2,
+          "spacing": "stab_2u"
+        },
+        {
+          "id": "p_kp_plus_stab_trim",
+          "type": "revolve",
+          "profile": {
+            "shape": "sketch",
+            "sketch": "key_recipe_2_dish_sk"
+          },
+          "axis": {
+            "along": "u",
+            "through": [
+              0,
+              "key_zc"
+            ]
+          },
+          "operation": "subtract"
+        }
+      ]
+    },
+    {
+      "id": "ink_p_kp_plus",
+      "name": "Numpad + plain legend inlay",
+      "color": "#2a2a2a",
+      "link": {
+        "from": "ink_recipe",
+        "values": {
+          "key_h": "sa_r3_h",
+          "key_tilt": "sa_r3_tilt"
+        },
+        "edits": {
+          "ink_recipe_top": {
+            "profile": {
+              "text": "+",
+              "size": "plain_size"
+            },
+            "rotation": -90
+          },
+          "ink_recipe_front": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": [],
+      "printWith": "p_kp_plus"
     }
   ],
   "requirements": [
@@ -17953,6 +19055,564 @@
           "translate": [
             "plain_x0 + unit * 22",
             "plain_y0 - unit * 2",
+            0
+          ]
+        }
+      },
+      {
+        "id": "p_tab",
+        "part": "p_tab",
+        "name": "Tab",
+        "group": "plain_full",
+        "placement": {
+          "translate": [
+            "plain_x0 + unit * 0.75",
+            "plain_y0 - unit * 3",
+            0
+          ]
+        }
+      },
+      {
+        "id": "ink_p_tab",
+        "part": "ink_p_tab",
+        "name": "Tab legend",
+        "group": "plain_full",
+        "placement": {
+          "translate": [
+            "plain_x0 + unit * 0.75",
+            "plain_y0 - unit * 3",
+            0
+          ]
+        }
+      },
+      {
+        "id": "p_q",
+        "part": "p_q",
+        "name": "Q",
+        "group": "plain_full",
+        "placement": {
+          "translate": [
+            "plain_x0 + unit * 2",
+            "plain_y0 - unit * 3",
+            0
+          ]
+        }
+      },
+      {
+        "id": "ink_p_q",
+        "part": "ink_p_q",
+        "name": "Q legend",
+        "group": "plain_full",
+        "placement": {
+          "translate": [
+            "plain_x0 + unit * 2",
+            "plain_y0 - unit * 3",
+            0
+          ]
+        }
+      },
+      {
+        "id": "p_w",
+        "part": "p_w",
+        "name": "W",
+        "group": "plain_full",
+        "placement": {
+          "translate": [
+            "plain_x0 + unit * 3",
+            "plain_y0 - unit * 3",
+            0
+          ]
+        }
+      },
+      {
+        "id": "ink_p_w",
+        "part": "ink_p_w",
+        "name": "W legend",
+        "group": "plain_full",
+        "placement": {
+          "translate": [
+            "plain_x0 + unit * 3",
+            "plain_y0 - unit * 3",
+            0
+          ]
+        }
+      },
+      {
+        "id": "p_e",
+        "part": "p_e",
+        "name": "E",
+        "group": "plain_full",
+        "placement": {
+          "translate": [
+            "plain_x0 + unit * 4",
+            "plain_y0 - unit * 3",
+            0
+          ]
+        }
+      },
+      {
+        "id": "ink_p_e",
+        "part": "ink_p_e",
+        "name": "E legend",
+        "group": "plain_full",
+        "placement": {
+          "translate": [
+            "plain_x0 + unit * 4",
+            "plain_y0 - unit * 3",
+            0
+          ]
+        }
+      },
+      {
+        "id": "p_r",
+        "part": "p_r",
+        "name": "R",
+        "group": "plain_full",
+        "placement": {
+          "translate": [
+            "plain_x0 + unit * 5",
+            "plain_y0 - unit * 3",
+            0
+          ]
+        }
+      },
+      {
+        "id": "ink_p_r",
+        "part": "ink_p_r",
+        "name": "R legend",
+        "group": "plain_full",
+        "placement": {
+          "translate": [
+            "plain_x0 + unit * 5",
+            "plain_y0 - unit * 3",
+            0
+          ]
+        }
+      },
+      {
+        "id": "p_t",
+        "part": "p_t",
+        "name": "T",
+        "group": "plain_full",
+        "placement": {
+          "translate": [
+            "plain_x0 + unit * 6",
+            "plain_y0 - unit * 3",
+            0
+          ]
+        }
+      },
+      {
+        "id": "ink_p_t",
+        "part": "ink_p_t",
+        "name": "T legend",
+        "group": "plain_full",
+        "placement": {
+          "translate": [
+            "plain_x0 + unit * 6",
+            "plain_y0 - unit * 3",
+            0
+          ]
+        }
+      },
+      {
+        "id": "p_y",
+        "part": "p_y",
+        "name": "Y",
+        "group": "plain_full",
+        "placement": {
+          "translate": [
+            "plain_x0 + unit * 7",
+            "plain_y0 - unit * 3",
+            0
+          ]
+        }
+      },
+      {
+        "id": "ink_p_y",
+        "part": "ink_p_y",
+        "name": "Y legend",
+        "group": "plain_full",
+        "placement": {
+          "translate": [
+            "plain_x0 + unit * 7",
+            "plain_y0 - unit * 3",
+            0
+          ]
+        }
+      },
+      {
+        "id": "p_u",
+        "part": "p_u",
+        "name": "U",
+        "group": "plain_full",
+        "placement": {
+          "translate": [
+            "plain_x0 + unit * 8",
+            "plain_y0 - unit * 3",
+            0
+          ]
+        }
+      },
+      {
+        "id": "ink_p_u",
+        "part": "ink_p_u",
+        "name": "U legend",
+        "group": "plain_full",
+        "placement": {
+          "translate": [
+            "plain_x0 + unit * 8",
+            "plain_y0 - unit * 3",
+            0
+          ]
+        }
+      },
+      {
+        "id": "p_i",
+        "part": "p_i",
+        "name": "I",
+        "group": "plain_full",
+        "placement": {
+          "translate": [
+            "plain_x0 + unit * 9",
+            "plain_y0 - unit * 3",
+            0
+          ]
+        }
+      },
+      {
+        "id": "ink_p_i",
+        "part": "ink_p_i",
+        "name": "I legend",
+        "group": "plain_full",
+        "placement": {
+          "translate": [
+            "plain_x0 + unit * 9",
+            "plain_y0 - unit * 3",
+            0
+          ]
+        }
+      },
+      {
+        "id": "p_o",
+        "part": "p_o",
+        "name": "O",
+        "group": "plain_full",
+        "placement": {
+          "translate": [
+            "plain_x0 + unit * 10",
+            "plain_y0 - unit * 3",
+            0
+          ]
+        }
+      },
+      {
+        "id": "ink_p_o",
+        "part": "ink_p_o",
+        "name": "O legend",
+        "group": "plain_full",
+        "placement": {
+          "translate": [
+            "plain_x0 + unit * 10",
+            "plain_y0 - unit * 3",
+            0
+          ]
+        }
+      },
+      {
+        "id": "p_p",
+        "part": "p_p",
+        "name": "P",
+        "group": "plain_full",
+        "placement": {
+          "translate": [
+            "plain_x0 + unit * 11",
+            "plain_y0 - unit * 3",
+            0
+          ]
+        }
+      },
+      {
+        "id": "ink_p_p",
+        "part": "ink_p_p",
+        "name": "P legend",
+        "group": "plain_full",
+        "placement": {
+          "translate": [
+            "plain_x0 + unit * 11",
+            "plain_y0 - unit * 3",
+            0
+          ]
+        }
+      },
+      {
+        "id": "p_lbracket",
+        "part": "p_lbracket",
+        "name": "[ {",
+        "group": "plain_full",
+        "placement": {
+          "translate": [
+            "plain_x0 + unit * 12",
+            "plain_y0 - unit * 3",
+            0
+          ]
+        }
+      },
+      {
+        "id": "ink_p_lbracket",
+        "part": "ink_p_lbracket",
+        "name": "[ { legend",
+        "group": "plain_full",
+        "placement": {
+          "translate": [
+            "plain_x0 + unit * 12",
+            "plain_y0 - unit * 3",
+            0
+          ]
+        }
+      },
+      {
+        "id": "p_rbracket",
+        "part": "p_rbracket",
+        "name": "] }",
+        "group": "plain_full",
+        "placement": {
+          "translate": [
+            "plain_x0 + unit * 13",
+            "plain_y0 - unit * 3",
+            0
+          ]
+        }
+      },
+      {
+        "id": "ink_p_rbracket",
+        "part": "ink_p_rbracket",
+        "name": "] } legend",
+        "group": "plain_full",
+        "placement": {
+          "translate": [
+            "plain_x0 + unit * 13",
+            "plain_y0 - unit * 3",
+            0
+          ]
+        }
+      },
+      {
+        "id": "p_backslash",
+        "part": "p_backslash",
+        "name": "\\ |",
+        "group": "plain_full",
+        "placement": {
+          "translate": [
+            "plain_x0 + unit * 14.25",
+            "plain_y0 - unit * 3",
+            0
+          ]
+        }
+      },
+      {
+        "id": "ink_p_backslash",
+        "part": "ink_p_backslash",
+        "name": "\\ | legend",
+        "group": "plain_full",
+        "placement": {
+          "translate": [
+            "plain_x0 + unit * 14.25",
+            "plain_y0 - unit * 3",
+            0
+          ]
+        }
+      },
+      {
+        "id": "p_del",
+        "part": "p_del",
+        "name": "Delete",
+        "group": "plain_full",
+        "placement": {
+          "translate": [
+            "plain_x0 + unit * 15.75",
+            "plain_y0 - unit * 3",
+            0
+          ]
+        }
+      },
+      {
+        "id": "ink_p_del",
+        "part": "ink_p_del",
+        "name": "Delete legend",
+        "group": "plain_full",
+        "placement": {
+          "translate": [
+            "plain_x0 + unit * 15.75",
+            "plain_y0 - unit * 3",
+            0
+          ]
+        }
+      },
+      {
+        "id": "p_end",
+        "part": "p_end",
+        "name": "End",
+        "group": "plain_full",
+        "placement": {
+          "translate": [
+            "plain_x0 + unit * 16.75",
+            "plain_y0 - unit * 3",
+            0
+          ]
+        }
+      },
+      {
+        "id": "ink_p_end",
+        "part": "ink_p_end",
+        "name": "End legend",
+        "group": "plain_full",
+        "placement": {
+          "translate": [
+            "plain_x0 + unit * 16.75",
+            "plain_y0 - unit * 3",
+            0
+          ]
+        }
+      },
+      {
+        "id": "p_pgdn",
+        "part": "p_pgdn",
+        "name": "Page Down",
+        "group": "plain_full",
+        "placement": {
+          "translate": [
+            "plain_x0 + unit * 17.75",
+            "plain_y0 - unit * 3",
+            0
+          ]
+        }
+      },
+      {
+        "id": "ink_p_pgdn",
+        "part": "ink_p_pgdn",
+        "name": "Page Down legend",
+        "group": "plain_full",
+        "placement": {
+          "translate": [
+            "plain_x0 + unit * 17.75",
+            "plain_y0 - unit * 3",
+            0
+          ]
+        }
+      },
+      {
+        "id": "p_kp7",
+        "part": "p_kp7",
+        "name": "Numpad 7",
+        "group": "plain_full",
+        "placement": {
+          "translate": [
+            "plain_x0 + unit * 19",
+            "plain_y0 - unit * 3",
+            0
+          ]
+        }
+      },
+      {
+        "id": "ink_p_kp7",
+        "part": "ink_p_kp7",
+        "name": "Numpad 7 legend",
+        "group": "plain_full",
+        "placement": {
+          "translate": [
+            "plain_x0 + unit * 19",
+            "plain_y0 - unit * 3",
+            0
+          ]
+        }
+      },
+      {
+        "id": "p_kp8",
+        "part": "p_kp8",
+        "name": "Numpad 8",
+        "group": "plain_full",
+        "placement": {
+          "translate": [
+            "plain_x0 + unit * 20",
+            "plain_y0 - unit * 3",
+            0
+          ]
+        }
+      },
+      {
+        "id": "ink_p_kp8",
+        "part": "ink_p_kp8",
+        "name": "Numpad 8 legend",
+        "group": "plain_full",
+        "placement": {
+          "translate": [
+            "plain_x0 + unit * 20",
+            "plain_y0 - unit * 3",
+            0
+          ]
+        }
+      },
+      {
+        "id": "p_kp9",
+        "part": "p_kp9",
+        "name": "Numpad 9",
+        "group": "plain_full",
+        "placement": {
+          "translate": [
+            "plain_x0 + unit * 21",
+            "plain_y0 - unit * 3",
+            0
+          ]
+        }
+      },
+      {
+        "id": "ink_p_kp9",
+        "part": "ink_p_kp9",
+        "name": "Numpad 9 legend",
+        "group": "plain_full",
+        "placement": {
+          "translate": [
+            "plain_x0 + unit * 21",
+            "plain_y0 - unit * 3",
+            0
+          ]
+        }
+      },
+      {
+        "id": "p_kp_plus",
+        "part": "p_kp_plus",
+        "name": "Numpad +",
+        "group": "plain_full",
+        "placement": {
+          "rotate": [
+            {
+              "axis": "z",
+              "angle": 90
+            }
+          ],
+          "translate": [
+            "plain_x0 + unit * 22",
+            "plain_y0 - unit * 3.5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "ink_p_kp_plus",
+        "part": "ink_p_kp_plus",
+        "name": "Numpad + legend",
+        "group": "plain_full",
+        "placement": {
+          "rotate": [
+            {
+              "axis": "z",
+              "angle": 90
+            }
+          ],
+          "translate": [
+            "plain_x0 + unit * 22",
+            "plain_y0 - unit * 3.5",
             0
           ]
         }

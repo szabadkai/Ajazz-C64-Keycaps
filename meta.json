@@ -1,6 +1,6 @@
 {
-  "savedAt": "2026-10-25T14:32:23.621Z",
-  "hash": "sha256:2f36e15e4141e3f1",
+  "savedAt": "2026-10-25T14:36:27.076Z",
+  "hash": "sha256:e979bdc31488cf93",
   "schemaVersion": 2,
   "parts": {
     "key_recipe": {
@@ -3242,10 +3242,430 @@
       ],
       "faces": 6,
       "faceRefs": "a407862c95e6"
+    },
+    "p_tab": {
+      "volume": 2273.847,
+      "size": [
+        27.925,
+        18.4,
+        14.3016
+      ],
+      "faces": 93,
+      "faceRefs": "8a492899782a"
+    },
+    "ink_p_tab": {
+      "volume": 0.903,
+      "size": [
+        5.86,
+        2.7835,
+        0.6340000000000003
+      ],
+      "faces": 42,
+      "faceRefs": "1023f65a64fe"
+    },
+    "p_q": {
+      "volume": 1670.127,
+      "size": [
+        18.4,
+        18.4,
+        14.3016
+      ],
+      "faces": 66,
+      "faceRefs": "88e9a6d14926"
+    },
+    "ink_p_q": {
+      "volume": 0.835,
+      "size": [
+        2.64,
+        4.1623,
+        0.8769999999999989
+      ],
+      "faces": 23,
+      "faceRefs": "4fea03b18750"
+    },
+    "p_w": {
+      "volume": 1668.896,
+      "size": [
+        18.4,
+        18.4,
+        14.3016
+      ],
+      "faces": 58,
+      "faceRefs": "20f5d552aa44"
+    },
+    "ink_p_w": {
+      "volume": 1.163,
+      "size": [
+        3.96,
+        4.1623,
+        0.8769999999999989
+      ],
+      "faces": 15,
+      "faceRefs": "524d48f679e8"
+    },
+    "p_e": {
+      "volume": 1670.83,
+      "size": [
+        18.4,
+        18.4,
+        14.3016
+      ],
+      "faces": 56,
+      "faceRefs": "51f019b42f28"
+    },
+    "ink_p_e": {
+      "volume": 0.642,
+      "size": [
+        2.04,
+        4.1623,
+        0.8769999999999989
+      ],
+      "faces": 14,
+      "faceRefs": "8dafac4b64b3"
+    },
+    "p_r": {
+      "volume": 1670.235,
+      "size": [
+        18.4,
+        18.4,
+        14.3016
+      ],
+      "faces": 63,
+      "faceRefs": "5cfd01e52121"
+    },
+    "ink_p_r": {
+      "volume": 0.813,
+      "size": [
+        2.46,
+        4.1623,
+        0.8769999999999989
+      ],
+      "faces": 20,
+      "faceRefs": "5761682ac03d"
+    },
+    "p_t": {
+      "volume": 1671.474,
+      "size": [
+        18.4,
+        18.4,
+        14.3016
+      ],
+      "faces": 52,
+      "faceRefs": "a0ac95c365c8"
+    },
+    "ink_p_t": {
+      "volume": 0.467,
+      "size": [
+        2.4,
+        4.1623,
+        0.8769999999999989
+      ],
+      "faces": 10,
+      "faceRefs": "5e23be54fcc7"
+    },
+    "p_y": {
+      "volume": 1671.41,
+      "size": [
+        18.4,
+        18.4,
+        14.3016
+      ],
+      "faces": 53,
+      "faceRefs": "b294a3f07e59"
+    },
+    "ink_p_y": {
+      "volume": 0.493,
+      "size": [
+        2.52,
+        4.1623,
+        0.8769999999999989
+      ],
+      "faces": 11,
+      "faceRefs": "5f5a91bc5b88"
+    },
+    "p_u": {
+      "volume": 1670.535,
+      "size": [
+        18.4,
+        18.4,
+        14.3016
+      ],
+      "faces": 52,
+      "faceRefs": "f846349da6c5"
+    },
+    "ink_p_u": {
+      "volume": 0.706,
+      "size": [
+        2.28,
+        4.1623,
+        0.8769999999999989
+      ],
+      "faces": 10,
+      "faceRefs": "259ab418760f"
+    },
+    "p_i": {
+      "volume": 1671.997,
+      "size": [
+        18.4,
+        18.4,
+        14.3016
+      ],
+      "faces": 48,
+      "faceRefs": "ef1c3b6c2305"
+    },
+    "ink_p_i": {
+      "volume": 0.333,
+      "size": [
+        0.528,
+        4.1623,
+        0.8769999999999989
+      ],
+      "faces": 6,
+      "faceRefs": "882194f23a21"
+    },
+    "p_o": {
+      "volume": 1670.457,
+      "size": [
+        18.4,
+        18.4,
+        14.3016
+      ],
+      "faces": 55,
+      "faceRefs": "0f7c056a9c08"
+    },
+    "ink_p_o": {
+      "volume": 0.751,
+      "size": [
+        2.28,
+        4.1623,
+        0.8769999999999989
+      ],
+      "faces": 12,
+      "faceRefs": "c323bc4e2edc"
+    },
+    "p_p": {
+      "volume": 1670.823,
+      "size": [
+        18.4,
+        18.4,
+        14.3016
+      ],
+      "faces": 59,
+      "faceRefs": "711bf82dc77a"
+    },
+    "ink_p_p": {
+      "volume": 0.651,
+      "size": [
+        2.28,
+        4.1623,
+        0.8769999999999989
+      ],
+      "faces": 16,
+      "faceRefs": "560384cdeb46"
+    },
+    "p_lbracket": {
+      "volume": 1669.346,
+      "size": [
+        18.4,
+        18.4,
+        14.3016
+      ],
+      "faces": 78,
+      "faceRefs": "5675f7644e67"
+    },
+    "ink_p_lbracket": {
+      "volume": 0.81,
+      "size": [
+        1.974,
+        9.9588,
+        1.8992000000000004
+      ],
+      "faces": 37,
+      "faceRefs": "2464b7bdb71a"
+    },
+    "p_rbracket": {
+      "volume": 1669.345,
+      "size": [
+        18.4,
+        18.4,
+        14.3016
+      ],
+      "faces": 80,
+      "faceRefs": "51221b8ca560"
+    },
+    "ink_p_rbracket": {
+      "volume": 0.81,
+      "size": [
+        1.974,
+        9.9588,
+        1.8992000000000004
+      ],
+      "faces": 39,
+      "faceRefs": "c7431ff84253"
+    },
+    "p_backslash": {
+      "volume": 2273.297,
+      "size": [
+        27.925,
+        18.4,
+        14.3016
+      ],
+      "faces": 59,
+      "faceRefs": "213f621b72cd"
+    },
+    "ink_p_backslash": {
+      "volume": 0.772,
+      "size": [
+        2.736,
+        10.402,
+        1.9773000000000014
+      ],
+      "faces": 12,
+      "faceRefs": "65978aafe429"
+    },
+    "p_del": {
+      "volume": 1670.03,
+      "size": [
+        18.4,
+        18.4,
+        14.3016
+      ],
+      "faces": 78,
+      "faceRefs": "1080eaa05d22"
+    },
+    "ink_p_del": {
+      "volume": 0.835,
+      "size": [
+        5.28,
+        2.7835,
+        0.6340000000000003
+      ],
+      "faces": 36,
+      "faceRefs": "4a36220086e9"
+    },
+    "p_end": {
+      "volume": 1669.133,
+      "size": [
+        18.4,
+        18.4,
+        14.3016
+      ],
+      "faces": 82,
+      "faceRefs": "d53e9d37367f"
+    },
+    "ink_p_end": {
+      "volume": 1.053,
+      "size": [
+        5.6,
+        2.7835,
+        0.6340000000000003
+      ],
+      "faces": 40,
+      "faceRefs": "8e290fbbb8b5"
+    },
+    "p_pgdn": {
+      "volume": 1667.343,
+      "size": [
+        18.4,
+        18.4,
+        14.3016
+      ],
+      "faces": 101,
+      "faceRefs": "0b688237bb1d"
+    },
+    "ink_p_pgdn": {
+      "volume": 1.386,
+      "size": [
+        7.8,
+        2.7835,
+        0.6340000000000003
+      ],
+      "faces": 59,
+      "faceRefs": "0dd70fd9253c"
+    },
+    "p_kp7": {
+      "volume": 1671.395,
+      "size": [
+        18.4,
+        18.4,
+        14.3016
+      ],
+      "faces": 51,
+      "faceRefs": "fca963391f1f"
+    },
+    "ink_p_kp7": {
+      "volume": 0.489,
+      "size": [
+        2.28,
+        4.1623,
+        0.8769999999999989
+      ],
+      "faces": 9,
+      "faceRefs": "5522b4c2656f"
+    },
+    "p_kp8": {
+      "volume": 1670.349,
+      "size": [
+        18.4,
+        18.4,
+        14.3016
+      ],
+      "faces": 70,
+      "faceRefs": "f6bf93a34cb7"
+    },
+    "ink_p_kp8": {
+      "volume": 0.782,
+      "size": [
+        2.28,
+        4.1623,
+        0.8769999999999989
+      ],
+      "faces": 26,
+      "faceRefs": "73878b6e925e"
+    },
+    "p_kp9": {
+      "volume": 1670.291,
+      "size": [
+        18.4,
+        18.4,
+        14.3016
+      ],
+      "faces": 63,
+      "faceRefs": "2a79860ce1f7"
+    },
+    "ink_p_kp9": {
+      "volume": 0.798,
+      "size": [
+        2.28,
+        4.1623,
+        0.8769999999999989
+      ],
+      "faces": 20,
+      "faceRefs": "e841b326cccd"
+    },
+    "p_kp_plus": {
+      "volume": 3180.938,
+      "size": [
+        37.45,
+        18.4,
+        12.9585
+      ],
+      "faces": 104,
+      "faceRefs": "11c51988fdbc"
+    },
+    "ink_p_kp_plus": {
+      "volume": 0.397,
+      "size": [
+        3,
+        3,
+        0.15000000000000036
+      ],
+      "faces": 14,
+      "faceRefs": "d0b670ab7b84"
     }
   },
   "assembly": {
-    "instances": "429948339d7a",
+    "instances": "210a0f69503c",
     "hardware": "e3b0c44298fc"
   },
   "geometry": "0a045783ce637d3a",
