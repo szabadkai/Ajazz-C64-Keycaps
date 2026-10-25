@@ -10856,6 +10856,1312 @@
             0
           ]
         }
+      },
+      {
+        "id": "b_f1",
+        "part": "blank_r1_1u",
+        "name": "F1",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 2.5",
+            "blank_y0 - unit * 0.5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "b_f2",
+        "part": "blank_r1_1u",
+        "name": "F2",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 3.5",
+            "blank_y0 - unit * 0.5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "b_f3",
+        "part": "blank_r1_1u",
+        "name": "F3",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 4.5",
+            "blank_y0 - unit * 0.5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "b_f4",
+        "part": "blank_r1_1u",
+        "name": "F4",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 5.5",
+            "blank_y0 - unit * 0.5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "b_f5",
+        "part": "blank_r1_1u",
+        "name": "F5",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 7",
+            "blank_y0 - unit * 0.5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "b_f6",
+        "part": "blank_r1_1u",
+        "name": "F6",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 8",
+            "blank_y0 - unit * 0.5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "b_f7",
+        "part": "blank_r1_1u",
+        "name": "F7",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 9",
+            "blank_y0 - unit * 0.5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "b_f8",
+        "part": "blank_r1_1u",
+        "name": "F8",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 10",
+            "blank_y0 - unit * 0.5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "b_f9",
+        "part": "blank_r1_1u",
+        "name": "F9",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 11.5",
+            "blank_y0 - unit * 0.5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "b_f10",
+        "part": "blank_r1_1u",
+        "name": "F10",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 12.5",
+            "blank_y0 - unit * 0.5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "b_f11",
+        "part": "blank_r1_1u",
+        "name": "F11",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 13.5",
+            "blank_y0 - unit * 0.5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "b_f12",
+        "part": "blank_r1_1u",
+        "name": "F12",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 14.5",
+            "blank_y0 - unit * 0.5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "b_prtsc",
+        "part": "blank_r1_1u",
+        "name": "Print Screen",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 15.75",
+            "blank_y0 - unit * 0.5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "b_scrlk",
+        "part": "blank_r1_1u",
+        "name": "Scroll Lock",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 16.75",
+            "blank_y0 - unit * 0.5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "b_pause",
+        "part": "blank_r1_1u",
+        "name": "Pause",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 17.75",
+            "blank_y0 - unit * 0.5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "b_grave",
+        "part": "blank_r1_1u",
+        "name": "` ~",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 0.5",
+            "blank_y0 - unit * 2",
+            0
+          ]
+        }
+      },
+      {
+        "id": "b_1",
+        "part": "blank_r1_1u",
+        "name": "1",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 1.5",
+            "blank_y0 - unit * 2",
+            0
+          ]
+        }
+      },
+      {
+        "id": "b_2",
+        "part": "blank_r1_1u",
+        "name": "2",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 2.5",
+            "blank_y0 - unit * 2",
+            0
+          ]
+        }
+      },
+      {
+        "id": "b_3",
+        "part": "blank_r1_1u",
+        "name": "3",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 3.5",
+            "blank_y0 - unit * 2",
+            0
+          ]
+        }
+      },
+      {
+        "id": "b_4",
+        "part": "blank_r1_1u",
+        "name": "4",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 4.5",
+            "blank_y0 - unit * 2",
+            0
+          ]
+        }
+      },
+      {
+        "id": "b_5",
+        "part": "blank_r1_1u",
+        "name": "5",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 5.5",
+            "blank_y0 - unit * 2",
+            0
+          ]
+        }
+      },
+      {
+        "id": "b_6",
+        "part": "blank_r1_1u",
+        "name": "6",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 6.5",
+            "blank_y0 - unit * 2",
+            0
+          ]
+        }
+      },
+      {
+        "id": "b_7",
+        "part": "blank_r1_1u",
+        "name": "7",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 7.5",
+            "blank_y0 - unit * 2",
+            0
+          ]
+        }
+      },
+      {
+        "id": "b_8",
+        "part": "blank_r1_1u",
+        "name": "8",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 8.5",
+            "blank_y0 - unit * 2",
+            0
+          ]
+        }
+      },
+      {
+        "id": "b_9",
+        "part": "blank_r1_1u",
+        "name": "9",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 9.5",
+            "blank_y0 - unit * 2",
+            0
+          ]
+        }
+      },
+      {
+        "id": "b_0",
+        "part": "blank_r1_1u",
+        "name": "0",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 10.5",
+            "blank_y0 - unit * 2",
+            0
+          ]
+        }
+      },
+      {
+        "id": "b_minus",
+        "part": "blank_r1_1u",
+        "name": "- _",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 11.5",
+            "blank_y0 - unit * 2",
+            0
+          ]
+        }
+      },
+      {
+        "id": "b_equal",
+        "part": "blank_r1_1u",
+        "name": "= +",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 12.5",
+            "blank_y0 - unit * 2",
+            0
+          ]
+        }
+      },
+      {
+        "id": "b_ins",
+        "part": "blank_r1_1u",
+        "name": "Insert",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 15.75",
+            "blank_y0 - unit * 2",
+            0
+          ]
+        }
+      },
+      {
+        "id": "b_home",
+        "part": "blank_r1_1u",
+        "name": "Home",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 16.75",
+            "blank_y0 - unit * 2",
+            0
+          ]
+        }
+      },
+      {
+        "id": "b_pgup",
+        "part": "blank_r1_1u",
+        "name": "Page Up",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 17.75",
+            "blank_y0 - unit * 2",
+            0
+          ]
+        }
+      },
+      {
+        "id": "b_numlk",
+        "part": "blank_r1_1u",
+        "name": "Num Lock",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 19",
+            "blank_y0 - unit * 2",
+            0
+          ]
+        }
+      },
+      {
+        "id": "b_kp_slash",
+        "part": "blank_r1_1u",
+        "name": "Numpad /",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 20",
+            "blank_y0 - unit * 2",
+            0
+          ]
+        }
+      },
+      {
+        "id": "b_kp_star",
+        "part": "blank_r1_1u",
+        "name": "Numpad *",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 21",
+            "blank_y0 - unit * 2",
+            0
+          ]
+        }
+      },
+      {
+        "id": "b_kp_minus",
+        "part": "blank_r1_1u",
+        "name": "Numpad -",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 22",
+            "blank_y0 - unit * 2",
+            0
+          ]
+        }
+      },
+      {
+        "id": "b_w",
+        "part": "blank_r2_1u",
+        "name": "W",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 3",
+            "blank_y0 - unit * 3",
+            0
+          ]
+        }
+      },
+      {
+        "id": "b_e",
+        "part": "blank_r2_1u",
+        "name": "E",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 4",
+            "blank_y0 - unit * 3",
+            0
+          ]
+        }
+      },
+      {
+        "id": "b_r",
+        "part": "blank_r2_1u",
+        "name": "R",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 5",
+            "blank_y0 - unit * 3",
+            0
+          ]
+        }
+      },
+      {
+        "id": "b_t",
+        "part": "blank_r2_1u",
+        "name": "T",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 6",
+            "blank_y0 - unit * 3",
+            0
+          ]
+        }
+      },
+      {
+        "id": "b_y",
+        "part": "blank_r2_1u",
+        "name": "Y",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 7",
+            "blank_y0 - unit * 3",
+            0
+          ]
+        }
+      },
+      {
+        "id": "b_u",
+        "part": "blank_r2_1u",
+        "name": "U",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 8",
+            "blank_y0 - unit * 3",
+            0
+          ]
+        }
+      },
+      {
+        "id": "b_i",
+        "part": "blank_r2_1u",
+        "name": "I",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 9",
+            "blank_y0 - unit * 3",
+            0
+          ]
+        }
+      },
+      {
+        "id": "b_o",
+        "part": "blank_r2_1u",
+        "name": "O",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 10",
+            "blank_y0 - unit * 3",
+            0
+          ]
+        }
+      },
+      {
+        "id": "b_p",
+        "part": "blank_r2_1u",
+        "name": "P",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 11",
+            "blank_y0 - unit * 3",
+            0
+          ]
+        }
+      },
+      {
+        "id": "b_lbracket",
+        "part": "blank_r2_1u",
+        "name": "[ {",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 12",
+            "blank_y0 - unit * 3",
+            0
+          ]
+        }
+      },
+      {
+        "id": "b_rbracket",
+        "part": "blank_r2_1u",
+        "name": "] }",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 13",
+            "blank_y0 - unit * 3",
+            0
+          ]
+        }
+      },
+      {
+        "id": "b_del",
+        "part": "blank_r2_1u",
+        "name": "Delete",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 15.75",
+            "blank_y0 - unit * 3",
+            0
+          ]
+        }
+      },
+      {
+        "id": "b_end",
+        "part": "blank_r2_1u",
+        "name": "End",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 16.75",
+            "blank_y0 - unit * 3",
+            0
+          ]
+        }
+      },
+      {
+        "id": "b_pgdn",
+        "part": "blank_r2_1u",
+        "name": "Page Down",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 17.75",
+            "blank_y0 - unit * 3",
+            0
+          ]
+        }
+      },
+      {
+        "id": "b_kp7",
+        "part": "blank_r2_1u",
+        "name": "Numpad 7",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 19",
+            "blank_y0 - unit * 3",
+            0
+          ]
+        }
+      },
+      {
+        "id": "b_kp8",
+        "part": "blank_r2_1u",
+        "name": "Numpad 8",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 20",
+            "blank_y0 - unit * 3",
+            0
+          ]
+        }
+      },
+      {
+        "id": "b_kp9",
+        "part": "blank_r2_1u",
+        "name": "Numpad 9",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 21",
+            "blank_y0 - unit * 3",
+            0
+          ]
+        }
+      },
+      {
+        "id": "b_backslash",
+        "part": "blank_r2_1_5u",
+        "name": "\\ |",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 14.25",
+            "blank_y0 - unit * 3",
+            0
+          ]
+        }
+      },
+      {
+        "id": "b_kp_enter",
+        "part": "blank_r3_2u",
+        "name": "Numpad Enter",
+        "group": "blank_full",
+        "placement": {
+          "rotate": [
+            {
+              "axis": "z",
+              "angle": 90
+            }
+          ],
+          "translate": [
+            "blank_x0 + unit * 22",
+            "blank_y0 - unit * 5.5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "b_s",
+        "part": "blank_r3_1u",
+        "name": "S",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 3.25",
+            "blank_y0 - unit * 4",
+            0
+          ]
+        }
+      },
+      {
+        "id": "b_d",
+        "part": "blank_r3_1u",
+        "name": "D",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 4.25",
+            "blank_y0 - unit * 4",
+            0
+          ]
+        }
+      },
+      {
+        "id": "b_f",
+        "part": "blank_r3_1u",
+        "name": "F",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 5.25",
+            "blank_y0 - unit * 4",
+            0
+          ]
+        }
+      },
+      {
+        "id": "b_g",
+        "part": "blank_r3_1u",
+        "name": "G",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 6.25",
+            "blank_y0 - unit * 4",
+            0
+          ]
+        }
+      },
+      {
+        "id": "b_h",
+        "part": "blank_r3_1u",
+        "name": "H",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 7.25",
+            "blank_y0 - unit * 4",
+            0
+          ]
+        }
+      },
+      {
+        "id": "b_j",
+        "part": "blank_r3_1u",
+        "name": "J",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 8.25",
+            "blank_y0 - unit * 4",
+            0
+          ]
+        }
+      },
+      {
+        "id": "b_k",
+        "part": "blank_r3_1u",
+        "name": "K",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 9.25",
+            "blank_y0 - unit * 4",
+            0
+          ]
+        }
+      },
+      {
+        "id": "b_l",
+        "part": "blank_r3_1u",
+        "name": "L",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 10.25",
+            "blank_y0 - unit * 4",
+            0
+          ]
+        }
+      },
+      {
+        "id": "b_semicolon",
+        "part": "blank_r3_1u",
+        "name": "; :",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 11.25",
+            "blank_y0 - unit * 4",
+            0
+          ]
+        }
+      },
+      {
+        "id": "b_quote",
+        "part": "blank_r3_1u",
+        "name": "' \"",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 12.25",
+            "blank_y0 - unit * 4",
+            0
+          ]
+        }
+      },
+      {
+        "id": "b_kp4",
+        "part": "blank_r3_1u",
+        "name": "Numpad 4",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 19",
+            "blank_y0 - unit * 4",
+            0
+          ]
+        }
+      },
+      {
+        "id": "b_kp5",
+        "part": "blank_r3_1u",
+        "name": "Numpad 5",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 20",
+            "blank_y0 - unit * 4",
+            0
+          ]
+        }
+      },
+      {
+        "id": "b_kp6",
+        "part": "blank_r3_1u",
+        "name": "Numpad 6",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 21",
+            "blank_y0 - unit * 4",
+            0
+          ]
+        }
+      },
+      {
+        "id": "bx_r3_a",
+        "part": "blank_r3_1u",
+        "name": "65% nav (home row)",
+        "group": "blank_extras",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 6",
+            "blank_y0 - unit * 8.75",
+            0
+          ]
+        }
+      },
+      {
+        "id": "bx_r3_b",
+        "part": "blank_r3_1u",
+        "name": "65% nav spare (home row)",
+        "group": "blank_extras",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 7",
+            "blank_y0 - unit * 8.75",
+            0
+          ]
+        }
+      },
+      {
+        "id": "b_x",
+        "part": "blank_r4_1u",
+        "name": "X",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 3.75",
+            "blank_y0 - unit * 5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "b_c",
+        "part": "blank_r4_1u",
+        "name": "C",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 4.75",
+            "blank_y0 - unit * 5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "b_v",
+        "part": "blank_r4_1u",
+        "name": "V",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 5.75",
+            "blank_y0 - unit * 5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "b_b",
+        "part": "blank_r4_1u",
+        "name": "B",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 6.75",
+            "blank_y0 - unit * 5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "b_n",
+        "part": "blank_r4_1u",
+        "name": "N",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 7.75",
+            "blank_y0 - unit * 5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "b_m",
+        "part": "blank_r4_1u",
+        "name": "M",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 8.75",
+            "blank_y0 - unit * 5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "b_comma",
+        "part": "blank_r4_1u",
+        "name": ", <",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 9.75",
+            "blank_y0 - unit * 5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "b_period",
+        "part": "blank_r4_1u",
+        "name": ". >",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 10.75",
+            "blank_y0 - unit * 5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "b_slash",
+        "part": "blank_r4_1u",
+        "name": "/ ?",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 11.75",
+            "blank_y0 - unit * 5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "b_up",
+        "part": "blank_r4_1u",
+        "name": "Up",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 16.75",
+            "blank_y0 - unit * 5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "b_kp1",
+        "part": "blank_r4_1u",
+        "name": "Numpad 1",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 19",
+            "blank_y0 - unit * 5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "b_kp2",
+        "part": "blank_r4_1u",
+        "name": "Numpad 2",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 20",
+            "blank_y0 - unit * 5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "b_kp3",
+        "part": "blank_r4_1u",
+        "name": "Numpad 3",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 21",
+            "blank_y0 - unit * 5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "b_left",
+        "part": "blank_r4_1u",
+        "name": "Left",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 15.75",
+            "blank_y0 - unit * 6",
+            0
+          ]
+        }
+      },
+      {
+        "id": "b_down",
+        "part": "blank_r4_1u",
+        "name": "Down",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 16.75",
+            "blank_y0 - unit * 6",
+            0
+          ]
+        }
+      },
+      {
+        "id": "b_right",
+        "part": "blank_r4_1u",
+        "name": "Right",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 17.75",
+            "blank_y0 - unit * 6",
+            0
+          ]
+        }
+      },
+      {
+        "id": "b_kp_dot",
+        "part": "blank_r4_1u",
+        "name": "Numpad .",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 21",
+            "blank_y0 - unit * 6",
+            0
+          ]
+        }
+      },
+      {
+        "id": "bx_ts_win",
+        "part": "blank_r4_1u",
+        "name": "Tsangan Win",
+        "group": "blank_extras",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 2",
+            "blank_y0 - unit * 7.5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "bx_ts_fn",
+        "part": "blank_r4_1u",
+        "name": "Tsangan Fn",
+        "group": "blank_extras",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 13",
+            "blank_y0 - unit * 7.5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "bx_r4_a",
+        "part": "blank_r4_1u",
+        "name": "75% right Alt",
+        "group": "blank_extras",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 2.5",
+            "blank_y0 - unit * 8.75",
+            0
+          ]
+        }
+      },
+      {
+        "id": "bx_r4_b",
+        "part": "blank_r4_1u",
+        "name": "75% Fn",
+        "group": "blank_extras",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 3.5",
+            "blank_y0 - unit * 8.75",
+            0
+          ]
+        }
+      },
+      {
+        "id": "bx_r4_c",
+        "part": "blank_r4_1u",
+        "name": "75% right Ctrl",
+        "group": "blank_extras",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 4.5",
+            "blank_y0 - unit * 8.75",
+            0
+          ]
+        }
+      },
+      {
+        "id": "b_lwin",
+        "part": "blank_r4_1_25u",
+        "name": "Left Win",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 1.875",
+            "blank_y0 - unit * 6",
+            0
+          ]
+        }
+      },
+      {
+        "id": "b_lalt",
+        "part": "blank_r4_1_25u",
+        "name": "Left Alt",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 3.125",
+            "blank_y0 - unit * 6",
+            0
+          ]
+        }
+      },
+      {
+        "id": "b_ralt",
+        "part": "blank_r4_1_25u",
+        "name": "Right Alt",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 10.625",
+            "blank_y0 - unit * 6",
+            0
+          ]
+        }
+      },
+      {
+        "id": "b_rwin",
+        "part": "blank_r4_1_25u",
+        "name": "Right Win",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 11.875",
+            "blank_y0 - unit * 6",
+            0
+          ]
+        }
+      },
+      {
+        "id": "b_menu",
+        "part": "blank_r4_1_25u",
+        "name": "Menu",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 13.125",
+            "blank_y0 - unit * 6",
+            0
+          ]
+        }
+      },
+      {
+        "id": "b_rctrl",
+        "part": "blank_r4_1_25u",
+        "name": "Right Ctrl",
+        "group": "blank_full",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 14.375",
+            "blank_y0 - unit * 6",
+            0
+          ]
+        }
+      },
+      {
+        "id": "bx_ts_lalt",
+        "part": "blank_r4_1_5u",
+        "name": "Tsangan Left Alt",
+        "group": "blank_extras",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 3.25",
+            "blank_y0 - unit * 7.5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "bx_ts_ralt",
+        "part": "blank_r4_1_5u",
+        "name": "Tsangan Right Alt",
+        "group": "blank_extras",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 11.75",
+            "blank_y0 - unit * 7.5",
+            0
+          ]
+        }
+      },
+      {
+        "id": "bx_ts_rctrl",
+        "part": "blank_r4_1_5u",
+        "name": "Tsangan Right Ctrl",
+        "group": "blank_extras",
+        "placement": {
+          "translate": [
+            "blank_x0 + unit * 14.25",
+            "blank_y0 - unit * 7.5",
+            0
+          ]
+        }
       }
     ],
     "groups": [
