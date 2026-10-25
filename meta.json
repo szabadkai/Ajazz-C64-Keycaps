@@ -1,6 +1,6 @@
 {
-  "savedAt": "2026-10-25T14:38:53.637Z",
-  "hash": "sha256:5bb7b75f41eac640",
+  "savedAt": "2026-10-25T14:41:28.941Z",
+  "hash": "sha256:2ead3c4a75ace084",
   "schemaVersion": 2,
   "parts": {
     "key_recipe": {
@@ -3982,10 +3982,350 @@
       ],
       "faces": 20,
       "faceRefs": "ca621763e7c7"
+    },
+    "p_lshift": {
+      "volume": 3560.821,
+      "size": [
+        42.2126,
+        18.4,
+        14.489
+      ],
+      "faces": 156,
+      "faceRefs": "5818ffd56bcd"
+    },
+    "ink_p_lshift": {
+      "volume": 1.219,
+      "size": [
+        8.8,
+        2.77,
+        0.7289000000000012
+      ],
+      "faces": 70,
+      "faceRefs": "1d0b4516babb"
+    },
+    "p_z": {
+      "volume": 1669.135,
+      "size": [
+        18.4,
+        18.4,
+        14.489
+      ],
+      "faces": 54,
+      "faceRefs": "730b57482eec"
+    },
+    "ink_p_z": {
+      "volume": 0.629,
+      "size": [
+        2.28,
+        4.1394,
+        1.0199999999999996
+      ],
+      "faces": 12,
+      "faceRefs": "97070ad4f2cd"
+    },
+    "p_x": {
+      "volume": 1668.992,
+      "size": [
+        18.4,
+        18.4,
+        14.489
+      ],
+      "faces": 56,
+      "faceRefs": "e7a5767cc844"
+    },
+    "ink_p_x": {
+      "volume": 0.683,
+      "size": [
+        2.64,
+        4.1394,
+        1.0199999999999996
+      ],
+      "faces": 14,
+      "faceRefs": "efb869038316"
+    },
+    "p_c": {
+      "volume": 1669.206,
+      "size": [
+        18.4,
+        18.4,
+        14.489
+      ],
+      "faces": 56,
+      "faceRefs": "ef66a33174a1"
+    },
+    "ink_p_c": {
+      "volume": 0.611,
+      "size": [
+        2.16,
+        4.1394,
+        1.0199999999999996
+      ],
+      "faces": 14,
+      "faceRefs": "501217b2e8aa"
+    },
+    "p_v": {
+      "volume": 1669.263,
+      "size": [
+        18.4,
+        18.4,
+        14.489
+      ],
+      "faces": 51,
+      "faceRefs": "5539f8ec2ecd"
+    },
+    "ink_p_v": {
+      "volume": 0.611,
+      "size": [
+        2.64,
+        4.1394,
+        1.0199999999999996
+      ],
+      "faces": 9,
+      "faceRefs": "f1ce19930a43"
+    },
+    "p_b": {
+      "volume": 1668.345,
+      "size": [
+        18.4,
+        18.4,
+        14.489
+      ],
+      "faces": 63,
+      "faceRefs": "8b5c6a70ddff"
+    },
+    "ink_p_b": {
+      "volume": 0.857,
+      "size": [
+        2.28,
+        4.1394,
+        1.0199999999999996
+      ],
+      "faces": 19,
+      "faceRefs": "80824c2001cb"
+    },
+    "p_n": {
+      "volume": 1668.085,
+      "size": [
+        18.4,
+        18.4,
+        14.489
+      ],
+      "faces": 54,
+      "faceRefs": "c00006116115"
+    },
+    "ink_p_n": {
+      "volume": 0.931,
+      "size": [
+        2.52,
+        4.1394,
+        1.0199999999999996
+      ],
+      "faces": 12,
+      "faceRefs": "6cc615dfbbb0"
+    },
+    "p_m": {
+      "volume": 1667.211,
+      "size": [
+        18.4,
+        18.4,
+        14.489
+      ],
+      "faces": 58,
+      "faceRefs": "fb62dc9947a9"
+    },
+    "ink_p_m": {
+      "volume": 1.148,
+      "size": [
+        3.48,
+        4.1394,
+        1.0199999999999996
+      ],
+      "faces": 15,
+      "faceRefs": "72f73473ea22"
+    },
+    "p_comma": {
+      "volume": 1670.216,
+      "size": [
+        18.4,
+        18.4,
+        14.489
+      ],
+      "faces": 60,
+      "faceRefs": "cc62b04d7524"
+    },
+    "ink_p_comma": {
+      "volume": 0.249,
+      "size": [
+        1.674,
+        9.3392,
+        2.1251999999999995
+      ],
+      "faces": 19,
+      "faceRefs": "6fd0530e8d64"
+    },
+    "p_period": {
+      "volume": 1670.329,
+      "size": [
+        18.4,
+        18.4,
+        14.489
+      ],
+      "faces": 58,
+      "faceRefs": "1f759b803a35"
+    },
+    "ink_p_period": {
+      "volume": 0.229,
+      "size": [
+        1.674,
+        8.9284,
+        2.0378999999999987
+      ],
+      "faces": 17,
+      "faceRefs": "c33787bbc8df"
+    },
+    "p_slash": {
+      "volume": 1667.507,
+      "size": [
+        18.4,
+        18.4,
+        14.489
+      ],
+      "faces": 73,
+      "faceRefs": "14c5abc78ab1"
+    },
+    "ink_p_slash": {
+      "volume": 0.783,
+      "size": [
+        2.736,
+        9.8674,
+        2.237499999999999
+      ],
+      "faces": 33,
+      "faceRefs": "058abc427d50"
+    },
+    "p_rshift": {
+      "volume": 4163.943,
+      "size": [
+        51.7376,
+        18.4,
+        14.489
+      ],
+      "faces": 154,
+      "faceRefs": "85d35b808ac8"
+    },
+    "ink_p_rshift": {
+      "volume": 1.219,
+      "size": [
+        8.8,
+        2.77,
+        0.7289000000000012
+      ],
+      "faces": 70,
+      "faceRefs": "931b5867857f"
+    },
+    "p_up": {
+      "volume": 1670.45,
+      "size": [
+        18.4,
+        18.4,
+        14.489
+      ],
+      "faces": 51,
+      "faceRefs": "3782770e2b8b"
+    },
+    "ink_p_up": {
+      "volume": 0.283,
+      "size": [
+        1.08,
+        4.1394,
+        1.0199999999999996
+      ],
+      "faces": 9,
+      "faceRefs": "13368fb50778"
+    },
+    "p_kp1": {
+      "volume": 1670.067,
+      "size": [
+        18.4,
+        18.4,
+        14.489
+      ],
+      "faces": 51,
+      "faceRefs": "279aecd975ef"
+    },
+    "ink_p_kp1": {
+      "volume": 0.387,
+      "size": [
+        1.188,
+        4.1394,
+        1.0199999999999996
+      ],
+      "faces": 9,
+      "faceRefs": "efe4cbd74bc5"
+    },
+    "p_kp2": {
+      "volume": 1669.159,
+      "size": [
+        18.4,
+        18.4,
+        14.489
+      ],
+      "faces": 63,
+      "faceRefs": "bf986bb26c49"
+    },
+    "ink_p_kp2": {
+      "volume": 0.625,
+      "size": [
+        2.28,
+        4.1394,
+        1.0199999999999996
+      ],
+      "faces": 21,
+      "faceRefs": "b24d747e7e3f"
+    },
+    "p_kp3": {
+      "volume": 1669.173,
+      "size": [
+        18.4,
+        18.4,
+        14.489
+      ],
+      "faces": 66,
+      "faceRefs": "13072ce26467"
+    },
+    "ink_p_kp3": {
+      "volume": 0.627,
+      "size": [
+        2.28,
+        4.1394,
+        1.0199999999999996
+      ],
+      "faces": 24,
+      "faceRefs": "dba3e702d31b"
+    },
+    "p_kp_enter": {
+      "volume": 3175.439,
+      "size": [
+        37.45,
+        18.4,
+        12.9585
+      ],
+      "faces": 158,
+      "faceRefs": "281dfb338834"
+    },
+    "ink_p_kp_enter": {
+      "volume": 2.029,
+      "size": [
+        17.7006,
+        1.92,
+        0.15000000000000036
+      ],
+      "faces": 70,
+      "faceRefs": "57017758fb7a"
     }
   },
   "assembly": {
-    "instances": "553ce8c304ae",
+    "instances": "b9471fc0c070",
     "hardware": "e3b0c44298fc"
   },
   "geometry": "0a045783ce637d3a",
