@@ -800,6 +800,11 @@
       "value": "unit * (1.25 - 1)",
       "unit": "mm",
       "description": "How much wider than 1u the key_recipe_3 is stretched (a key overrides it)"
+    },
+    "stab_7u": {
+      "value": "3 * unit",
+      "unit": "mm",
+      "description": "Cherry stabilizer stem offset for a 7u spacebar (114.3 mm spacing, Cherry data sheet per keebtalk.com/t/7u-stabilizer-distance and mechkbguide.com stabilizer table)"
     }
   },
   "parts": [
@@ -8088,6 +8093,69 @@
         }
       },
       "features": []
+    },
+    {
+      "id": "blank_r4_2_25u",
+      "name": "Blank SA R4 2.25u",
+      "color": "#d9d4c7",
+      "link": {
+        "from": "key_recipe_2",
+        "values": {
+          "key_h": "sa_r4_h",
+          "key_tilt": "sa_r4_tilt",
+          "key_dw_2": "unit * (2.25 - 1)"
+        },
+        "edits": {
+          "key_recipe_2_legend": {
+            "suppressed": true
+          },
+          "key_recipe_2_front_legend": {
+            "suppressed": true
+          }
+        }
+      },
+      "features": [
+        {
+          "id": "blank_r4_2_25u_stab_r",
+          "type": "pattern.linear",
+          "features": [
+            "key_recipe_2_stem",
+            "key_recipe_2_cross_x",
+            "key_recipe_2_cross_y"
+          ],
+          "direction": "+x",
+          "count": 2,
+          "spacing": "stab_2u"
+        },
+        {
+          "id": "blank_r4_2_25u_stab_l",
+          "type": "pattern.linear",
+          "features": [
+            "key_recipe_2_stem",
+            "key_recipe_2_cross_x",
+            "key_recipe_2_cross_y"
+          ],
+          "direction": "-x",
+          "count": 2,
+          "spacing": "stab_2u"
+        },
+        {
+          "id": "blank_r4_2_25u_stab_trim",
+          "type": "revolve",
+          "profile": {
+            "shape": "sketch",
+            "sketch": "key_recipe_2_dish_sk"
+          },
+          "axis": {
+            "along": "u",
+            "through": [
+              0,
+              "key_zc"
+            ]
+          },
+          "operation": "subtract"
+        }
+      ]
     }
   ],
   "requirements": [
@@ -10009,6 +10077,17 @@
           "translate": [
             "unit * 7.5",
             "-unit * 7",
+            0
+          ]
+        }
+      },
+      {
+        "id": "blank_r4_2_25u",
+        "part": "blank_r4_2_25u",
+        "placement": {
+          "translate": [
+            0,
+            -60,
             0
           ]
         }
