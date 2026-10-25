@@ -2,7 +2,9 @@
 
 Commodore 64–style keycaps for MX keyboards, made to print: dark brown SA-profile caps, cream legends in a C64 font, and the PETSCII graphics on the front of every letter key, like on the original breadbin.
 
-![The C64 caps up close: Q W E, A S D, Z X C with their PETSCII fronts](docs/petscii.png)
+![The C64 75% set on an Ajazz keyboard, printed on a Formlabs Form 4 in Tough 2000](docs/printed.jpg)
+
+*The C64 75% set on an Ajazz 75%, printed on a Formlabs Form 4 in Tough 2000 resin.*
 
 The set started as a full C64 set for an Ajazz 75% board and grew into a universal set. The same caps come with C64 legends, plain legends or blank, for ANSI boards from 60% to full size.
 
@@ -38,7 +40,7 @@ C64 legends: the C64 75% set is a complete 75%. For a 65%, leave out the F row. 
 
 - **Two colours (FDM with a multi-material unit):** in the 3MF every cap is one object with its legend inlay as a second part. Open it in Bambu Studio, OrcaSlicer or PrusaSlicer and give the legends the second filament.
 - **One colour:** print the caps alone and fill the engraved legends with paint, or leave them engraved. Legends are cut 0.5 mm deep.
-- **Resin:** print each cap with its open bottom toward the platform, tilted 30–45°, with supports only on the skirt rim and inside, so the tops and sides stay clean.
+- **Resin:** print each cap with its open bottom toward the platform, tilted 30–45°, with supports only on the skirt rim and inside, so the tops and sides stay clean. The set in the photo was printed on a Form 4 in Tough 2000.
 - **Stabilizers:** every cap 2u and wider has Cherry-style stabilizer stems, 23.8 mm apart on 2u–2.75u, 100 mm on 6.25u and 114.3 mm on 7u. The numpad + and Enter are 2u caps turned upright for vertical stabilizers.
 - Print one cap and try it on your switches first: how tight the stem fits depends on your printer and material.
 
@@ -47,6 +49,8 @@ C64 legends: the C64 75% set is a complete 75%. For a 65%, leave out the F row. 
 - SA profile, sculpted rows R1 (F and number rows), R2, R3 and R4; 19.05 mm key pitch; MX cross stems.
 - Legends in the C64 Keyboard font. Each letter key carries its two PETSCII graphics on the front: the Commodore-key graphic on the left, the Shift graphic on the right.
 - Colours in the files: C64 caps `#3b2a20` with `#f0ead6` legends; plain caps `#d9d4c7` with `#2a2a2a` legends.
+
+![The C64 caps up close: Q W E, A S D, Z X C with their PETSCII fronts](docs/petscii.png)
 
 ## Editing
 
