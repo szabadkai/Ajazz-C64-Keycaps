@@ -16890,6 +16890,46 @@
       "description": "Stabilizer stems sit at Cherry spacing: 23.8 mm on 2–2.75u keys, 100 mm on 6.25u and 114.3 mm on 7u spacebars.",
       "pinned": false,
       "source": "designer"
+    },
+    {
+      "id": "legend_options",
+      "type": "text",
+      "value": "Three legend options from the same caps: C64 legends (original 75% set plus a C64 add-on), plain standard legends (dark inlays on light caps), and blanks",
+      "description": "Every layout comes in three looks: C64 legends, plain legends, or blank.",
+      "pinned": true,
+      "source": "user"
+    },
+    {
+      "id": "c64_numpad_return",
+      "type": "text",
+      "value": "The C64 numpad Enter says RETURN, one letter per row, upright on the 2u cap",
+      "description": "The C64 numpad Enter reads RETURN, stacked one letter per row.",
+      "pinned": true,
+      "source": "user"
+    },
+    {
+      "id": "c64_addon",
+      "type": "text",
+      "value": "C64 add-on: TKL nav, 17-key numpad, full-size right mods (2.75u Shift, 1.25u mods) and tsangan mods, in the C64 colours and font",
+      "description": "A C64-style add-on brings the C64 look to TKL, full-size and tsangan boards.",
+      "pinned": false,
+      "source": "designer"
+    },
+    {
+      "id": "plain_look",
+      "type": "text",
+      "value": "Plain set: light caps (#d9d4c7) with dark inlaid legends (#2a2a2a); letters 4.2 mm, modifiers 2.8 mm, F keys 3.6 mm, shifted symbol stacked over the base one",
+      "description": "Plain caps are light grey-beige with dark inlaid legends in standard PC naming.",
+      "pinned": false,
+      "source": "designer"
+    },
+    {
+      "id": "kit_map",
+      "type": "text",
+      "value": "The project guide 'kits' lists which groups and caps to print for 60%, 65%, 75%, TKL, full size and tsangan, per legend option",
+      "description": "A kit map says which caps to print for each board size.",
+      "pinned": false,
+      "source": "designer"
     }
   ],
   "assembly": {
