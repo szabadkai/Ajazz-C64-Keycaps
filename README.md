@@ -47,7 +47,13 @@ C64 legends: the C64 75% set is a complete 75%. For a 65%, leave out the F row. 
 ## Details
 
 - SA profile, sculpted rows R1 (F and number rows), R2, R3 and R4; 19.05 mm key pitch; MX cross stems.
-- Legends in the C64 Keyboard font. Each letter key carries its two PETSCII graphics on the front: the Commodore-key graphic on the left, the Shift graphic on the right.
+- Legends in the [C64 Keyboard font](https://github.com/szabadkai/c64-keyboard-font). Each letter key carries its two PETSCII graphics on the front: the Commodore-key graphic on the left, the Shift graphic on the right.
 - Colours in the files: C64 caps `#3b2a20` with `#f0ead6` legends; plain caps `#d9d4c7` with `#2a2a2a` legends.
 
 ![The C64 caps up close: Q W E, A S D, Z X C with their PETSCII fronts](docs/petscii.png)
+
+## License
+
+© 2026 Levente Szabadkai. The keycap designs, the release files and the pictures are licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/): you can share and remix them if you credit this project, don't use them commercially, and share what you make under the same license. See [LICENSE](LICENSE).
+
+**The Commodore logo is not covered by this license.** It appears on the C= keys (Win in the C64 75% set; right Win and Tsangan Win in the add-on) and in the pictures that show them. It is a trademark of its owner, and this license grants no rights to it. This is an unofficial fan project, not affiliated with or endorsed by Commodore or Ajazz. Commodore, Commodore 64 and C64 are trademarks of their owners.
