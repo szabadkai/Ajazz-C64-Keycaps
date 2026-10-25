@@ -865,6 +865,16 @@
       "value": -340,
       "unit": "mm",
       "description": "Top edge of the plain-legend board in the assembly, below the blank set"
+    },
+    "legend_vert_size": {
+      "value": 3.2,
+      "unit": "mm",
+      "description": "Capital height of legends stacked one letter per row on upright 2u keys (numpad Return)"
+    },
+    "legend_vert_spacing": {
+      "value": 0.65,
+      "unit": "scalar",
+      "description": "Line spacing of one-letter-per-row legends on upright keys (1 = the font's own)"
     }
   },
   "parts": [
@@ -10004,7 +10014,7 @@
     },
     {
       "id": "key_kp_enter",
-      "name": "SA R3 2u - Numpad Enter (upright)",
+      "name": "SA R3 2u - Numpad Return (upright)",
       "color": "#3b2a20",
       "link": {
         "from": "key_recipe_2",
@@ -10015,11 +10025,11 @@
         },
         "edits": {
           "key_recipe_2_legend": {
-            "name": "Legend: ENTER",
+            "name": "Legend: RETURN (stacked)",
             "profile": {
-              "text": "EN\nTER",
-              "size": "legend_mod_size",
-              "line_spacing": "legend_pair_spacing"
+              "text": "R\nE\nT\nU\nR\nN",
+              "size": "legend_vert_size",
+              "line_spacing": "legend_vert_spacing"
             },
             "rotation": -90
           },
@@ -10073,7 +10083,7 @@
     },
     {
       "id": "ink_key_kp_enter",
-      "name": "Numpad Enter legend inlay",
+      "name": "Numpad Return legend inlay",
       "color": "#f0ead6",
       "link": {
         "from": "ink_recipe",
@@ -10084,9 +10094,9 @@
         "edits": {
           "ink_recipe_top": {
             "profile": {
-              "text": "EN\nTER",
-              "size": "legend_mod_size",
-              "line_spacing": "legend_pair_spacing"
+              "text": "R\nE\nT\nU\nR\nN",
+              "size": "legend_vert_size",
+              "line_spacing": "legend_vert_spacing"
             },
             "rotation": -90
           },
@@ -16677,7 +16687,7 @@
       {
         "id": "key_kp_enter",
         "part": "key_kp_enter",
-        "name": "Numpad Enter",
+        "name": "Numpad Return",
         "group": "c64_addon",
         "placement": {
           "rotate": [
@@ -16696,7 +16706,7 @@
       {
         "id": "ink_key_kp_enter",
         "part": "ink_key_kp_enter",
-        "name": "Numpad Enter legend",
+        "name": "Numpad Return legend",
         "group": "c64_addon",
         "placement": {
           "rotate": [
