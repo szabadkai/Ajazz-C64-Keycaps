@@ -51,7 +51,3 @@ C64 legends: the C64 75% set is a complete 75%. For a 65%, leave out the F row. 
 - Colours in the files: C64 caps `#3b2a20` with `#f0ead6` legends; plain caps `#d9d4c7` with `#2a2a2a` legends.
 
 ![The C64 caps up close: Q W E, A S D, Z X C with their PETSCII fronts](docs/petscii.png)
-
-## Editing
-
-`project.json` is the parametric LovableCAD project the files are exported from. Legends, sizes, row heights, stabilizer spacing and colours are all named parameters.
