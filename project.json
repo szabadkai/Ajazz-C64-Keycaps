@@ -8243,8 +8243,7 @@
           }
         }
       },
-      "features": [],
-      "reference": "helper"
+      "features": []
     },
     {
       "id": "blank_r4_2_25u",
@@ -8307,8 +8306,7 @@
           },
           "operation": "subtract"
         }
-      ],
-      "reference": "helper"
+      ]
     },
     {
       "id": "blank_r1_1u",
@@ -8329,8 +8327,7 @@
           }
         }
       },
-      "features": [],
-      "reference": "helper"
+      "features": []
     },
     {
       "id": "blank_r2_1u",
@@ -8351,8 +8348,7 @@
           }
         }
       },
-      "features": [],
-      "reference": "helper"
+      "features": []
     },
     {
       "id": "blank_r4_1u",
@@ -8373,8 +8369,7 @@
           }
         }
       },
-      "features": [],
-      "reference": "helper"
+      "features": []
     },
     {
       "id": "blank_r2_1_5u",
@@ -8396,8 +8391,7 @@
           }
         }
       },
-      "features": [],
-      "reference": "helper"
+      "features": []
     },
     {
       "id": "blank_r3_1_75u",
@@ -8419,8 +8413,7 @@
           }
         }
       },
-      "features": [],
-      "reference": "helper"
+      "features": []
     },
     {
       "id": "blank_r4_1_25u",
@@ -8442,8 +8435,7 @@
           }
         }
       },
-      "features": [],
-      "reference": "helper"
+      "features": []
     },
     {
       "id": "blank_r4_1_5u",
@@ -8465,8 +8457,7 @@
           }
         }
       },
-      "features": [],
-      "reference": "helper"
+      "features": []
     },
     {
       "id": "blank_r4_1_75u",
@@ -8488,8 +8479,7 @@
           }
         }
       },
-      "features": [],
-      "reference": "helper"
+      "features": []
     },
     {
       "id": "blank_r1_2u",
@@ -8552,8 +8542,7 @@
           },
           "operation": "subtract"
         }
-      ],
-      "reference": "helper"
+      ]
     },
     {
       "id": "blank_r3_2_25u",
@@ -8616,8 +8605,7 @@
           },
           "operation": "subtract"
         }
-      ],
-      "reference": "helper"
+      ]
     },
     {
       "id": "blank_r4_2_75u",
@@ -8680,8 +8668,7 @@
           },
           "operation": "subtract"
         }
-      ],
-      "reference": "helper"
+      ]
     },
     {
       "id": "blank_r4_2u",
@@ -8744,8 +8731,7 @@
           },
           "operation": "subtract"
         }
-      ],
-      "reference": "helper"
+      ]
     },
     {
       "id": "blank_r3_2u",
@@ -8808,8 +8794,7 @@
           },
           "operation": "subtract"
         }
-      ],
-      "reference": "helper"
+      ]
     },
     {
       "id": "blank_space_6_25u",
@@ -8818,8 +8803,7 @@
       "link": {
         "from": "k_r3_6_25u"
       },
-      "features": [],
-      "reference": "helper"
+      "features": []
     },
     {
       "id": "blank_space_7u",
@@ -8832,8 +8816,7 @@
           "stab_625": "stab_7u"
         }
       },
-      "features": [],
-      "reference": "helper"
+      "features": []
     },
     {
       "id": "key_home",
@@ -8858,7 +8841,8 @@
         }
       },
       "features": [],
-      "color": "#3b2a20"
+      "color": "#3b2a20",
+      "reference": "helper"
     },
     {
       "id": "ink_key_home",
@@ -8883,7 +8867,7 @@
       },
       "features": [],
       "color": "#f0ead6",
-      "printWith": "key_home"
+      "reference": "helper"
     },
     {
       "id": "key_prtsc",
@@ -8909,7 +8893,8 @@
           }
         }
       },
-      "features": []
+      "features": [],
+      "reference": "helper"
     },
     {
       "id": "ink_key_prtsc",
@@ -8935,7 +8920,7 @@
         }
       },
       "features": [],
-      "printWith": "key_prtsc"
+      "reference": "helper"
     },
     {
       "id": "key_scrlk",
@@ -8961,7 +8946,8 @@
           }
         }
       },
-      "features": []
+      "features": [],
+      "reference": "helper"
     },
     {
       "id": "ink_key_scrlk",
@@ -8987,7 +8973,7 @@
         }
       },
       "features": [],
-      "printWith": "key_scrlk"
+      "reference": "helper"
     },
     {
       "id": "key_pause",
@@ -9012,7 +8998,8 @@
           }
         }
       },
-      "features": []
+      "features": [],
+      "reference": "helper"
     },
     {
       "id": "ink_key_pause",
@@ -9037,7 +9024,7 @@
         }
       },
       "features": [],
-      "printWith": "key_pause"
+      "reference": "helper"
     },
     {
       "id": "key_ins",
@@ -9062,7 +9049,8 @@
           }
         }
       },
-      "features": []
+      "features": [],
+      "reference": "helper"
     },
     {
       "id": "ink_key_ins",
@@ -9087,7 +9075,7 @@
         }
       },
       "features": [],
-      "printWith": "key_ins"
+      "reference": "helper"
     },
     {
       "id": "key_pgup_r1",
@@ -9113,7 +9101,8 @@
           }
         }
       },
-      "features": []
+      "features": [],
+      "reference": "helper"
     },
     {
       "id": "ink_key_pgup_r1",
@@ -9139,7 +9128,7 @@
         }
       },
       "features": [],
-      "printWith": "key_pgup_r1"
+      "reference": "helper"
     },
     {
       "id": "key_numlk",
@@ -9165,7 +9154,8 @@
           }
         }
       },
-      "features": []
+      "features": [],
+      "reference": "helper"
     },
     {
       "id": "ink_key_numlk",
@@ -9191,7 +9181,7 @@
         }
       },
       "features": [],
-      "printWith": "key_numlk"
+      "reference": "helper"
     },
     {
       "id": "key_kp_slash",
@@ -9215,7 +9205,8 @@
           }
         }
       },
-      "features": []
+      "features": [],
+      "reference": "helper"
     },
     {
       "id": "ink_key_kp_slash",
@@ -9239,7 +9230,7 @@
         }
       },
       "features": [],
-      "printWith": "key_kp_slash"
+      "reference": "helper"
     },
     {
       "id": "key_kp_star",
@@ -9263,7 +9254,8 @@
           }
         }
       },
-      "features": []
+      "features": [],
+      "reference": "helper"
     },
     {
       "id": "ink_key_kp_star",
@@ -9287,7 +9279,7 @@
         }
       },
       "features": [],
-      "printWith": "key_kp_star"
+      "reference": "helper"
     },
     {
       "id": "key_kp_minus",
@@ -9311,7 +9303,8 @@
           }
         }
       },
-      "features": []
+      "features": [],
+      "reference": "helper"
     },
     {
       "id": "ink_key_kp_minus",
@@ -9335,7 +9328,7 @@
         }
       },
       "features": [],
-      "printWith": "key_kp_minus"
+      "reference": "helper"
     },
     {
       "id": "key_del_r2",
@@ -9360,7 +9353,8 @@
           }
         }
       },
-      "features": []
+      "features": [],
+      "reference": "helper"
     },
     {
       "id": "ink_key_del_r2",
@@ -9385,7 +9379,7 @@
         }
       },
       "features": [],
-      "printWith": "key_del_r2"
+      "reference": "helper"
     },
     {
       "id": "key_end_r2",
@@ -9410,7 +9404,8 @@
           }
         }
       },
-      "features": []
+      "features": [],
+      "reference": "helper"
     },
     {
       "id": "ink_key_end_r2",
@@ -9435,7 +9430,7 @@
         }
       },
       "features": [],
-      "printWith": "key_end_r2"
+      "reference": "helper"
     },
     {
       "id": "key_pgdn_r2",
@@ -9461,7 +9456,8 @@
           }
         }
       },
-      "features": []
+      "features": [],
+      "reference": "helper"
     },
     {
       "id": "ink_key_pgdn_r2",
@@ -9487,7 +9483,7 @@
         }
       },
       "features": [],
-      "printWith": "key_pgdn_r2"
+      "reference": "helper"
     },
     {
       "id": "key_kp7",
@@ -9511,7 +9507,8 @@
           }
         }
       },
-      "features": []
+      "features": [],
+      "reference": "helper"
     },
     {
       "id": "ink_key_kp7",
@@ -9535,7 +9532,7 @@
         }
       },
       "features": [],
-      "printWith": "key_kp7"
+      "reference": "helper"
     },
     {
       "id": "key_kp8",
@@ -9559,7 +9556,8 @@
           }
         }
       },
-      "features": []
+      "features": [],
+      "reference": "helper"
     },
     {
       "id": "ink_key_kp8",
@@ -9583,7 +9581,7 @@
         }
       },
       "features": [],
-      "printWith": "key_kp8"
+      "reference": "helper"
     },
     {
       "id": "key_kp9",
@@ -9607,7 +9605,8 @@
           }
         }
       },
-      "features": []
+      "features": [],
+      "reference": "helper"
     },
     {
       "id": "ink_key_kp9",
@@ -9631,7 +9630,7 @@
         }
       },
       "features": [],
-      "printWith": "key_kp9"
+      "reference": "helper"
     },
     {
       "id": "key_kp4",
@@ -9655,7 +9654,8 @@
           }
         }
       },
-      "features": []
+      "features": [],
+      "reference": "helper"
     },
     {
       "id": "ink_key_kp4",
@@ -9679,7 +9679,7 @@
         }
       },
       "features": [],
-      "printWith": "key_kp4"
+      "reference": "helper"
     },
     {
       "id": "key_kp5",
@@ -9703,7 +9703,8 @@
           }
         }
       },
-      "features": []
+      "features": [],
+      "reference": "helper"
     },
     {
       "id": "ink_key_kp5",
@@ -9727,7 +9728,7 @@
         }
       },
       "features": [],
-      "printWith": "key_kp5"
+      "reference": "helper"
     },
     {
       "id": "key_kp6",
@@ -9751,7 +9752,8 @@
           }
         }
       },
-      "features": []
+      "features": [],
+      "reference": "helper"
     },
     {
       "id": "ink_key_kp6",
@@ -9775,7 +9777,7 @@
         }
       },
       "features": [],
-      "printWith": "key_kp6"
+      "reference": "helper"
     },
     {
       "id": "key_kp1",
@@ -9799,7 +9801,8 @@
           }
         }
       },
-      "features": []
+      "features": [],
+      "reference": "helper"
     },
     {
       "id": "ink_key_kp1",
@@ -9823,7 +9826,7 @@
         }
       },
       "features": [],
-      "printWith": "key_kp1"
+      "reference": "helper"
     },
     {
       "id": "key_kp2",
@@ -9847,7 +9850,8 @@
           }
         }
       },
-      "features": []
+      "features": [],
+      "reference": "helper"
     },
     {
       "id": "ink_key_kp2",
@@ -9871,7 +9875,7 @@
         }
       },
       "features": [],
-      "printWith": "key_kp2"
+      "reference": "helper"
     },
     {
       "id": "key_kp3",
@@ -9895,7 +9899,8 @@
           }
         }
       },
-      "features": []
+      "features": [],
+      "reference": "helper"
     },
     {
       "id": "ink_key_kp3",
@@ -9919,7 +9924,7 @@
         }
       },
       "features": [],
-      "printWith": "key_kp3"
+      "reference": "helper"
     },
     {
       "id": "key_kp_dot",
@@ -9943,7 +9948,8 @@
           }
         }
       },
-      "features": []
+      "features": [],
+      "reference": "helper"
     },
     {
       "id": "ink_key_kp_dot",
@@ -9967,7 +9973,7 @@
         }
       },
       "features": [],
-      "printWith": "key_kp_dot"
+      "reference": "helper"
     },
     {
       "id": "key_ts_win",
@@ -9992,7 +9998,8 @@
           }
         }
       },
-      "features": []
+      "features": [],
+      "reference": "helper"
     },
     {
       "id": "ink_key_ts_win",
@@ -10017,7 +10024,7 @@
         }
       },
       "features": [],
-      "printWith": "key_ts_win"
+      "reference": "helper"
     },
     {
       "id": "key_kp_plus",
@@ -10084,7 +10091,8 @@
           },
           "operation": "subtract"
         }
-      ]
+      ],
+      "reference": "helper"
     },
     {
       "id": "ink_key_kp_plus",
@@ -10108,7 +10116,7 @@
         }
       },
       "features": [],
-      "printWith": "key_kp_plus"
+      "reference": "helper"
     },
     {
       "id": "key_kp_enter",
@@ -10200,7 +10208,8 @@
           "direction": "normal",
           "operation": "subtract"
         }
-      ]
+      ],
+      "reference": "helper"
     },
     {
       "id": "ink_key_kp_enter",
@@ -10227,7 +10236,7 @@
         }
       },
       "features": [],
-      "printWith": "key_kp_enter"
+      "reference": "helper"
     },
     {
       "id": "key_kp0",
@@ -10294,7 +10303,8 @@
           },
           "operation": "subtract"
         }
-      ]
+      ],
+      "reference": "helper"
     },
     {
       "id": "ink_key_kp0",
@@ -10318,7 +10328,7 @@
         }
       },
       "features": [],
-      "printWith": "key_kp0"
+      "reference": "helper"
     },
     {
       "id": "key_rshift_275",
@@ -10389,7 +10399,8 @@
           },
           "operation": "subtract"
         }
-      ]
+      ],
+      "reference": "helper"
     },
     {
       "id": "ink_key_rshift_275",
@@ -10418,7 +10429,7 @@
         }
       },
       "features": [],
-      "printWith": "key_rshift_275"
+      "reference": "helper"
     },
     {
       "id": "key_ralt_125",
@@ -10444,7 +10455,8 @@
           }
         }
       },
-      "features": []
+      "features": [],
+      "reference": "helper"
     },
     {
       "id": "ink_key_ralt_125",
@@ -10469,7 +10481,7 @@
         }
       },
       "features": [],
-      "printWith": "key_ralt_125"
+      "reference": "helper"
     },
     {
       "id": "key_rwin_125",
@@ -10495,7 +10507,8 @@
           }
         }
       },
-      "features": []
+      "features": [],
+      "reference": "helper"
     },
     {
       "id": "ink_key_rwin_125",
@@ -10520,7 +10533,7 @@
         }
       },
       "features": [],
-      "printWith": "key_rwin_125"
+      "reference": "helper"
     },
     {
       "id": "key_menu_125",
@@ -10546,7 +10559,8 @@
           }
         }
       },
-      "features": []
+      "features": [],
+      "reference": "helper"
     },
     {
       "id": "ink_key_menu_125",
@@ -10571,7 +10585,7 @@
         }
       },
       "features": [],
-      "printWith": "key_menu_125"
+      "reference": "helper"
     },
     {
       "id": "key_rctrl_125",
@@ -10601,7 +10615,8 @@
           }
         }
       },
-      "features": []
+      "features": [],
+      "reference": "helper"
     },
     {
       "id": "ink_key_rctrl_125",
@@ -10630,7 +10645,7 @@
         }
       },
       "features": [],
-      "printWith": "key_rctrl_125"
+      "reference": "helper"
     },
     {
       "id": "key_ts_ctrl",
@@ -10660,7 +10675,8 @@
           }
         }
       },
-      "features": []
+      "features": [],
+      "reference": "helper"
     },
     {
       "id": "ink_key_ts_ctrl",
@@ -10689,7 +10705,7 @@
         }
       },
       "features": [],
-      "printWith": "key_ts_ctrl"
+      "reference": "helper"
     },
     {
       "id": "key_ts_alt",
@@ -10715,7 +10731,8 @@
           }
         }
       },
-      "features": []
+      "features": [],
+      "reference": "helper"
     },
     {
       "id": "ink_key_ts_alt",
@@ -10740,7 +10757,7 @@
         }
       },
       "features": [],
-      "printWith": "key_ts_alt"
+      "reference": "helper"
     },
     {
       "id": "p_esc",
@@ -17066,7 +17083,8 @@
           "stab_625": "stab_7u"
         }
       },
-      "features": []
+      "features": [],
+      "reference": "helper"
     },
     {
       "id": "p_space_6_25u",
