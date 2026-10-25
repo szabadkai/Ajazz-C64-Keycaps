@@ -3973,6 +3973,13 @@
       "id": "key_j",
       "name": "SA R3 1u - J",
       "color": "#3b2a20",
+      "accept_findings": [
+        {
+          "rule": "clearance",
+          "key": "ink_key_j",
+          "reason": "display-only legend inlay modelled in the engraving on purpose"
+        }
+      ],
       "link": {
         "from": "key_recipe",
         "values": {
@@ -4142,13 +4149,6 @@
             }
           ],
           "radius": "homing_r"
-        }
-      ],
-      "accept_findings": [
-        {
-          "rule": "clearance",
-          "key": "ink_key_j",
-          "reason": "display-only legend inlay modelled in the engraving on purpose"
         }
       ]
     },
@@ -5902,6 +5902,7 @@
       "id": "ink_k_r3_1u",
       "name": "A legend inlay",
       "color": "#f0ead6",
+      "printWith": "k_r3_1u",
       "link": {
         "from": "ink_recipe",
         "values": {
@@ -5909,13 +5910,13 @@
           "key_tilt": "sa_r3_tilt"
         }
       },
-      "features": [],
-      "printWith": "k_r3_1u"
+      "features": []
     },
     {
       "id": "ink_k_r3_1_75u",
       "name": "Shift Lock legend inlay",
       "color": "#f0ead6",
+      "printWith": "k_r3_1_75u",
       "link": {
         "from": "ink_recipe",
         "values": {
@@ -5934,13 +5935,13 @@
           }
         }
       },
-      "features": [],
-      "printWith": "k_r3_1_75u"
+      "features": []
     },
     {
       "id": "ink_k_r3_2_25u",
       "name": "Return legend inlay",
       "color": "#f0ead6",
+      "printWith": "k_r3_2_25u",
       "features": [
         {
           "id": "ink_k_r3_2_25u_top",
@@ -5963,13 +5964,13 @@
           "direction": "normal",
           "operation": "new"
         }
-      ],
-      "printWith": "k_r3_2_25u"
+      ]
     },
     {
       "id": "ink_key_s",
       "name": "S legend inlay",
       "color": "#f0ead6",
+      "printWith": "key_s",
       "link": {
         "from": "ink_recipe",
         "values": {
@@ -5989,13 +5990,13 @@
           }
         }
       },
-      "features": [],
-      "printWith": "key_s"
+      "features": []
     },
     {
       "id": "ink_key_d",
       "name": "D legend inlay",
       "color": "#f0ead6",
+      "printWith": "key_d",
       "link": {
         "from": "ink_recipe",
         "values": {
@@ -6015,13 +6016,13 @@
           }
         }
       },
-      "features": [],
-      "printWith": "key_d"
+      "features": []
     },
     {
       "id": "ink_key_f",
       "name": "F legend inlay",
       "color": "#f0ead6",
+      "printWith": "key_f",
       "link": {
         "from": "ink_recipe",
         "values": {
@@ -6041,13 +6042,13 @@
           }
         }
       },
-      "features": [],
-      "printWith": "key_f"
+      "features": []
     },
     {
       "id": "ink_key_g",
       "name": "G legend inlay",
       "color": "#f0ead6",
+      "printWith": "key_g",
       "link": {
         "from": "ink_recipe",
         "values": {
@@ -6067,13 +6068,13 @@
           }
         }
       },
-      "features": [],
-      "printWith": "key_g"
+      "features": []
     },
     {
       "id": "ink_key_h",
       "name": "H legend inlay",
       "color": "#f0ead6",
+      "printWith": "key_h",
       "link": {
         "from": "ink_recipe",
         "values": {
@@ -6093,13 +6094,13 @@
           }
         }
       },
-      "features": [],
-      "printWith": "key_h"
+      "features": []
     },
     {
       "id": "ink_key_j",
       "name": "J legend inlay",
       "color": "#f0ead6",
+      "printWith": "key_j",
       "link": {
         "from": "ink_recipe",
         "values": {
@@ -6119,13 +6120,13 @@
           }
         }
       },
-      "features": [],
-      "printWith": "key_j"
+      "features": []
     },
     {
       "id": "ink_key_k",
       "name": "K legend inlay",
       "color": "#f0ead6",
+      "printWith": "key_k",
       "link": {
         "from": "ink_recipe",
         "values": {
@@ -6145,13 +6146,13 @@
           }
         }
       },
-      "features": [],
-      "printWith": "key_k"
+      "features": []
     },
     {
       "id": "ink_key_l",
       "name": "L legend inlay",
       "color": "#f0ead6",
+      "printWith": "key_l",
       "link": {
         "from": "ink_recipe",
         "values": {
@@ -6171,13 +6172,13 @@
           }
         }
       },
-      "features": [],
-      "printWith": "key_l"
+      "features": []
     },
     {
       "id": "ink_key_semicolon",
       "name": "; : legend inlay",
       "color": "#f0ead6",
+      "printWith": "key_semicolon",
       "link": {
         "from": "ink_recipe",
         "values": {
@@ -6197,13 +6198,13 @@
           }
         }
       },
-      "features": [],
-      "printWith": "key_semicolon"
+      "features": []
     },
     {
       "id": "ink_key_quote",
       "name": "' \" legend inlay",
       "color": "#f0ead6",
+      "printWith": "key_quote",
       "link": {
         "from": "ink_recipe",
         "values": {
@@ -6223,13 +6224,13 @@
           }
         }
       },
-      "features": [],
-      "printWith": "key_quote"
+      "features": []
     },
     {
       "id": "ink_key_pgdn",
       "name": "PgDn legend inlay",
       "color": "#f0ead6",
+      "printWith": "key_pgdn",
       "link": {
         "from": "ink_recipe",
         "values": {
@@ -6249,13 +6250,13 @@
           }
         }
       },
-      "features": [],
-      "printWith": "key_pgdn"
+      "features": []
     },
     {
       "id": "ink_k_r2_1u",
       "name": "Q legend inlay",
       "color": "#f0ead6",
+      "printWith": "k_r2_1u",
       "link": {
         "from": "ink_recipe",
         "values": {
@@ -6275,13 +6276,13 @@
           }
         }
       },
-      "features": [],
-      "printWith": "k_r2_1u"
+      "features": []
     },
     {
       "id": "ink_k_r2_1_5u",
       "name": "Tab legend inlay",
       "color": "#f0ead6",
+      "printWith": "k_r2_1_5u",
       "link": {
         "from": "ink_recipe",
         "values": {
@@ -6300,13 +6301,13 @@
           }
         }
       },
-      "features": [],
-      "printWith": "k_r2_1_5u"
+      "features": []
     },
     {
       "id": "ink_key_w",
       "name": "W legend inlay",
       "color": "#f0ead6",
+      "printWith": "key_w",
       "link": {
         "from": "ink_recipe",
         "values": {
@@ -6326,13 +6327,13 @@
           }
         }
       },
-      "features": [],
-      "printWith": "key_w"
+      "features": []
     },
     {
       "id": "ink_key_e",
       "name": "E legend inlay",
       "color": "#f0ead6",
+      "printWith": "key_e",
       "link": {
         "from": "ink_recipe",
         "values": {
@@ -6352,13 +6353,13 @@
           }
         }
       },
-      "features": [],
-      "printWith": "key_e"
+      "features": []
     },
     {
       "id": "ink_key_r",
       "name": "R legend inlay",
       "color": "#f0ead6",
+      "printWith": "key_r",
       "link": {
         "from": "ink_recipe",
         "values": {
@@ -6378,13 +6379,13 @@
           }
         }
       },
-      "features": [],
-      "printWith": "key_r"
+      "features": []
     },
     {
       "id": "ink_key_t",
       "name": "T legend inlay",
       "color": "#f0ead6",
+      "printWith": "key_t",
       "link": {
         "from": "ink_recipe",
         "values": {
@@ -6404,13 +6405,13 @@
           }
         }
       },
-      "features": [],
-      "printWith": "key_t"
+      "features": []
     },
     {
       "id": "ink_key_y",
       "name": "Y legend inlay",
       "color": "#f0ead6",
+      "printWith": "key_y",
       "link": {
         "from": "ink_recipe",
         "values": {
@@ -6430,13 +6431,13 @@
           }
         }
       },
-      "features": [],
-      "printWith": "key_y"
+      "features": []
     },
     {
       "id": "ink_key_u",
       "name": "U legend inlay",
       "color": "#f0ead6",
+      "printWith": "key_u",
       "link": {
         "from": "ink_recipe",
         "values": {
@@ -6456,13 +6457,13 @@
           }
         }
       },
-      "features": [],
-      "printWith": "key_u"
+      "features": []
     },
     {
       "id": "ink_key_i",
       "name": "I legend inlay",
       "color": "#f0ead6",
+      "printWith": "key_i",
       "link": {
         "from": "ink_recipe",
         "values": {
@@ -6482,13 +6483,13 @@
           }
         }
       },
-      "features": [],
-      "printWith": "key_i"
+      "features": []
     },
     {
       "id": "ink_key_o",
       "name": "O legend inlay",
       "color": "#f0ead6",
+      "printWith": "key_o",
       "link": {
         "from": "ink_recipe",
         "values": {
@@ -6508,13 +6509,13 @@
           }
         }
       },
-      "features": [],
-      "printWith": "key_o"
+      "features": []
     },
     {
       "id": "ink_key_p",
       "name": "P legend inlay",
       "color": "#f0ead6",
+      "printWith": "key_p",
       "link": {
         "from": "ink_recipe",
         "values": {
@@ -6534,13 +6535,13 @@
           }
         }
       },
-      "features": [],
-      "printWith": "key_p"
+      "features": []
     },
     {
       "id": "ink_key_lbracket",
       "name": "[ { legend inlay",
       "color": "#f0ead6",
+      "printWith": "key_lbracket",
       "link": {
         "from": "ink_recipe",
         "values": {
@@ -6562,13 +6563,13 @@
           }
         }
       },
-      "features": [],
-      "printWith": "key_lbracket"
+      "features": []
     },
     {
       "id": "ink_key_rbracket",
       "name": "] } legend inlay",
       "color": "#f0ead6",
+      "printWith": "key_rbracket",
       "link": {
         "from": "ink_recipe",
         "values": {
@@ -6590,13 +6591,13 @@
           }
         }
       },
-      "features": [],
-      "printWith": "key_rbracket"
+      "features": []
     },
     {
       "id": "ink_key_backslash",
       "name": "\\ | legend inlay",
       "color": "#f0ead6",
+      "printWith": "key_backslash",
       "link": {
         "from": "ink_recipe",
         "values": {
@@ -6619,13 +6620,13 @@
           }
         }
       },
-      "features": [],
-      "printWith": "key_backslash"
+      "features": []
     },
     {
       "id": "ink_key_pgup",
       "name": "PgUp legend inlay",
       "color": "#f0ead6",
+      "printWith": "key_pgup",
       "link": {
         "from": "ink_recipe",
         "values": {
@@ -6645,13 +6646,13 @@
           }
         }
       },
-      "features": [],
-      "printWith": "key_pgup"
+      "features": []
     },
     {
       "id": "ink_k_r4_1u",
       "name": "Z legend inlay",
       "color": "#f0ead6",
+      "printWith": "k_r4_1u",
       "link": {
         "from": "ink_recipe",
         "values": {
@@ -6671,13 +6672,13 @@
           }
         }
       },
-      "features": [],
-      "printWith": "k_r4_1u"
+      "features": []
     },
     {
       "id": "ink_k_r4_1_25u",
       "name": "Left Ctrl legend inlay",
       "color": "#f0ead6",
+      "printWith": "k_r4_1_25u",
       "link": {
         "from": "ink_recipe",
         "values": {
@@ -6700,13 +6701,13 @@
           }
         }
       },
-      "features": [],
-      "printWith": "k_r4_1_25u"
+      "features": []
     },
     {
       "id": "ink_k_r4_1_75u",
       "name": "Right Shift legend inlay",
       "color": "#f0ead6",
+      "printWith": "k_r4_1_75u",
       "link": {
         "from": "ink_recipe",
         "values": {
@@ -6729,13 +6730,13 @@
           }
         }
       },
-      "features": [],
-      "printWith": "k_r4_1_75u"
+      "features": []
     },
     {
       "id": "ink_k_r4_2_25u",
       "name": "Left Shift legend inlay",
       "color": "#f0ead6",
+      "printWith": "k_r4_2_25u",
       "link": {
         "from": "ink_recipe",
         "values": {
@@ -6758,13 +6759,13 @@
           }
         }
       },
-      "features": [],
-      "printWith": "k_r4_2_25u"
+      "features": []
     },
     {
       "id": "ink_key_x",
       "name": "X legend inlay",
       "color": "#f0ead6",
+      "printWith": "key_x",
       "link": {
         "from": "ink_recipe",
         "values": {
@@ -6784,13 +6785,13 @@
           }
         }
       },
-      "features": [],
-      "printWith": "key_x"
+      "features": []
     },
     {
       "id": "ink_key_c",
       "name": "C legend inlay",
       "color": "#f0ead6",
+      "printWith": "key_c",
       "link": {
         "from": "ink_recipe",
         "values": {
@@ -6810,13 +6811,13 @@
           }
         }
       },
-      "features": [],
-      "printWith": "key_c"
+      "features": []
     },
     {
       "id": "ink_key_v",
       "name": "V legend inlay",
       "color": "#f0ead6",
+      "printWith": "key_v",
       "link": {
         "from": "ink_recipe",
         "values": {
@@ -6836,13 +6837,13 @@
           }
         }
       },
-      "features": [],
-      "printWith": "key_v"
+      "features": []
     },
     {
       "id": "ink_key_b",
       "name": "B legend inlay",
       "color": "#f0ead6",
+      "printWith": "key_b",
       "link": {
         "from": "ink_recipe",
         "values": {
@@ -6862,13 +6863,13 @@
           }
         }
       },
-      "features": [],
-      "printWith": "key_b"
+      "features": []
     },
     {
       "id": "ink_key_n",
       "name": "N legend inlay",
       "color": "#f0ead6",
+      "printWith": "key_n",
       "link": {
         "from": "ink_recipe",
         "values": {
@@ -6888,13 +6889,13 @@
           }
         }
       },
-      "features": [],
-      "printWith": "key_n"
+      "features": []
     },
     {
       "id": "ink_key_m",
       "name": "M legend inlay",
       "color": "#f0ead6",
+      "printWith": "key_m",
       "link": {
         "from": "ink_recipe",
         "values": {
@@ -6914,13 +6915,13 @@
           }
         }
       },
-      "features": [],
-      "printWith": "key_m"
+      "features": []
     },
     {
       "id": "ink_key_comma",
       "name": ", < legend inlay",
       "color": "#f0ead6",
+      "printWith": "key_comma",
       "link": {
         "from": "ink_recipe",
         "values": {
@@ -6940,13 +6941,13 @@
           }
         }
       },
-      "features": [],
-      "printWith": "key_comma"
+      "features": []
     },
     {
       "id": "ink_key_period",
       "name": ". > legend inlay",
       "color": "#f0ead6",
+      "printWith": "key_period",
       "link": {
         "from": "ink_recipe",
         "values": {
@@ -6966,13 +6967,13 @@
           }
         }
       },
-      "features": [],
-      "printWith": "key_period"
+      "features": []
     },
     {
       "id": "ink_key_slash",
       "name": "/ ? legend inlay",
       "color": "#f0ead6",
+      "printWith": "key_slash",
       "link": {
         "from": "ink_recipe",
         "values": {
@@ -6992,13 +6993,13 @@
           }
         }
       },
-      "features": [],
-      "printWith": "key_slash"
+      "features": []
     },
     {
       "id": "ink_key_up",
       "name": "Up legend inlay",
       "color": "#f0ead6",
+      "printWith": "key_up",
       "link": {
         "from": "ink_recipe",
         "values": {
@@ -7016,13 +7017,13 @@
           }
         }
       },
-      "features": [],
-      "printWith": "key_up"
+      "features": []
     },
     {
       "id": "ink_key_end",
       "name": "End legend inlay",
       "color": "#f0ead6",
+      "printWith": "key_end",
       "link": {
         "from": "ink_recipe",
         "values": {
@@ -7041,13 +7042,13 @@
           }
         }
       },
-      "features": [],
-      "printWith": "key_end"
+      "features": []
     },
     {
       "id": "ink_key_ralt",
       "name": "Right Alt legend inlay",
       "color": "#f0ead6",
+      "printWith": "key_ralt",
       "link": {
         "from": "ink_recipe",
         "values": {
@@ -7066,13 +7067,13 @@
           }
         }
       },
-      "features": [],
-      "printWith": "key_ralt"
+      "features": []
     },
     {
       "id": "ink_key_fn",
       "name": "Fn legend inlay",
       "color": "#f0ead6",
+      "printWith": "key_fn",
       "link": {
         "from": "ink_recipe",
         "values": {
@@ -7091,13 +7092,13 @@
           }
         }
       },
-      "features": [],
-      "printWith": "key_fn"
+      "features": []
     },
     {
       "id": "ink_key_rctrl",
       "name": "Right Ctrl legend inlay",
       "color": "#f0ead6",
+      "printWith": "key_rctrl",
       "link": {
         "from": "ink_recipe",
         "values": {
@@ -7120,13 +7121,13 @@
           }
         }
       },
-      "features": [],
-      "printWith": "key_rctrl"
+      "features": []
     },
     {
       "id": "ink_key_left",
       "name": "Left legend inlay",
       "color": "#f0ead6",
+      "printWith": "key_left",
       "link": {
         "from": "ink_recipe",
         "values": {
@@ -7144,13 +7145,13 @@
           }
         }
       },
-      "features": [],
-      "printWith": "key_left"
+      "features": []
     },
     {
       "id": "ink_key_down",
       "name": "Down legend inlay",
       "color": "#f0ead6",
+      "printWith": "key_down",
       "link": {
         "from": "ink_recipe",
         "values": {
@@ -7168,13 +7169,13 @@
           }
         }
       },
-      "features": [],
-      "printWith": "key_down"
+      "features": []
     },
     {
       "id": "ink_key_right",
       "name": "Right legend inlay",
       "color": "#f0ead6",
+      "printWith": "key_right",
       "link": {
         "from": "ink_recipe",
         "values": {
@@ -7192,13 +7193,13 @@
           }
         }
       },
-      "features": [],
-      "printWith": "key_right"
+      "features": []
     },
     {
       "id": "ink_key_lwin",
       "name": "Win (C=) legend inlay",
       "color": "#f0ead6",
+      "printWith": "key_lwin",
       "link": {
         "from": "ink_recipe",
         "values": {
@@ -7217,13 +7218,13 @@
           }
         }
       },
-      "features": [],
-      "printWith": "key_lwin"
+      "features": []
     },
     {
       "id": "ink_key_lalt",
       "name": "Left Alt legend inlay",
       "color": "#f0ead6",
+      "printWith": "key_lalt",
       "link": {
         "from": "ink_recipe",
         "values": {
@@ -7242,13 +7243,13 @@
           }
         }
       },
-      "features": [],
-      "printWith": "key_lalt"
+      "features": []
     },
     {
       "id": "ink_k_r1_1u",
       "name": "Esc legend inlay",
       "color": "#f0ead6",
+      "printWith": "k_r1_1u",
       "link": {
         "from": "ink_recipe",
         "values": {
@@ -7267,13 +7268,13 @@
           }
         }
       },
-      "features": [],
-      "printWith": "k_r1_1u"
+      "features": []
     },
     {
       "id": "ink_key_f1",
       "name": "F1 legend inlay",
       "color": "#f0ead6",
+      "printWith": "key_f1",
       "link": {
         "from": "ink_recipe",
         "values": {
@@ -7292,13 +7293,13 @@
           }
         }
       },
-      "features": [],
-      "printWith": "key_f1"
+      "features": []
     },
     {
       "id": "ink_key_f2",
       "name": "F2 legend inlay",
       "color": "#f0ead6",
+      "printWith": "key_f2",
       "link": {
         "from": "ink_recipe",
         "values": {
@@ -7317,13 +7318,13 @@
           }
         }
       },
-      "features": [],
-      "printWith": "key_f2"
+      "features": []
     },
     {
       "id": "ink_key_f3",
       "name": "F3 legend inlay",
       "color": "#f0ead6",
+      "printWith": "key_f3",
       "link": {
         "from": "ink_recipe",
         "values": {
@@ -7342,13 +7343,13 @@
           }
         }
       },
-      "features": [],
-      "printWith": "key_f3"
+      "features": []
     },
     {
       "id": "ink_key_f4",
       "name": "F4 legend inlay",
       "color": "#f0ead6",
+      "printWith": "key_f4",
       "link": {
         "from": "ink_recipe",
         "values": {
@@ -7367,13 +7368,13 @@
           }
         }
       },
-      "features": [],
-      "printWith": "key_f4"
+      "features": []
     },
     {
       "id": "ink_key_f5",
       "name": "F5 legend inlay",
       "color": "#f0ead6",
+      "printWith": "key_f5",
       "link": {
         "from": "ink_recipe",
         "values": {
@@ -7392,13 +7393,13 @@
           }
         }
       },
-      "features": [],
-      "printWith": "key_f5"
+      "features": []
     },
     {
       "id": "ink_key_f6",
       "name": "F6 legend inlay",
       "color": "#f0ead6",
+      "printWith": "key_f6",
       "link": {
         "from": "ink_recipe",
         "values": {
@@ -7417,13 +7418,13 @@
           }
         }
       },
-      "features": [],
-      "printWith": "key_f6"
+      "features": []
     },
     {
       "id": "ink_key_f7",
       "name": "F7 legend inlay",
       "color": "#f0ead6",
+      "printWith": "key_f7",
       "link": {
         "from": "ink_recipe",
         "values": {
@@ -7442,13 +7443,13 @@
           }
         }
       },
-      "features": [],
-      "printWith": "key_f7"
+      "features": []
     },
     {
       "id": "ink_key_f8",
       "name": "F8 legend inlay",
       "color": "#f0ead6",
+      "printWith": "key_f8",
       "link": {
         "from": "ink_recipe",
         "values": {
@@ -7467,13 +7468,13 @@
           }
         }
       },
-      "features": [],
-      "printWith": "key_f8"
+      "features": []
     },
     {
       "id": "ink_key_f9",
       "name": "F9 legend inlay",
       "color": "#f0ead6",
+      "printWith": "key_f9",
       "link": {
         "from": "ink_recipe",
         "values": {
@@ -7492,13 +7493,13 @@
           }
         }
       },
-      "features": [],
-      "printWith": "key_f9"
+      "features": []
     },
     {
       "id": "ink_key_f10",
       "name": "F10 legend inlay",
       "color": "#f0ead6",
+      "printWith": "key_f10",
       "link": {
         "from": "ink_recipe",
         "values": {
@@ -7517,13 +7518,13 @@
           }
         }
       },
-      "features": [],
-      "printWith": "key_f10"
+      "features": []
     },
     {
       "id": "ink_key_f11",
       "name": "F11 legend inlay",
       "color": "#f0ead6",
+      "printWith": "key_f11",
       "link": {
         "from": "ink_recipe",
         "values": {
@@ -7542,13 +7543,13 @@
           }
         }
       },
-      "features": [],
-      "printWith": "key_f11"
+      "features": []
     },
     {
       "id": "ink_key_f12",
       "name": "F12 legend inlay",
       "color": "#f0ead6",
+      "printWith": "key_f12",
       "link": {
         "from": "ink_recipe",
         "values": {
@@ -7567,13 +7568,13 @@
           }
         }
       },
-      "features": [],
-      "printWith": "key_f12"
+      "features": []
     },
     {
       "id": "ink_k_r1_2u",
       "name": "Backspace (RESTORE) legend inlay",
       "color": "#f0ead6",
+      "printWith": "k_r1_2u",
       "link": {
         "from": "ink_recipe",
         "values": {
@@ -7596,13 +7597,13 @@
           }
         }
       },
-      "features": [],
-      "printWith": "k_r1_2u"
+      "features": []
     },
     {
       "id": "ink_key_del",
       "name": "Del legend inlay",
       "color": "#f0ead6",
+      "printWith": "key_del",
       "link": {
         "from": "ink_recipe",
         "values": {
@@ -7621,13 +7622,13 @@
           }
         }
       },
-      "features": [],
-      "printWith": "key_del"
+      "features": []
     },
     {
       "id": "ink_key_grave",
       "name": "` ~ legend inlay",
       "color": "#f0ead6",
+      "printWith": "key_grave",
       "link": {
         "from": "ink_recipe",
         "values": {
@@ -7649,13 +7650,13 @@
           }
         }
       },
-      "features": [],
-      "printWith": "key_grave"
+      "features": []
     },
     {
       "id": "ink_key_minus",
       "name": "- _ legend inlay",
       "color": "#f0ead6",
+      "printWith": "key_minus",
       "link": {
         "from": "ink_recipe",
         "values": {
@@ -7677,13 +7678,13 @@
           }
         }
       },
-      "features": [],
-      "printWith": "key_minus"
+      "features": []
     },
     {
       "id": "ink_key_equal",
       "name": "= + legend inlay",
       "color": "#f0ead6",
+      "printWith": "key_equal",
       "link": {
         "from": "ink_recipe",
         "values": {
@@ -7705,13 +7706,13 @@
           }
         }
       },
-      "features": [],
-      "printWith": "key_equal"
+      "features": []
     },
     {
       "id": "ink_key_1",
       "name": "1 ! legend inlay",
       "color": "#f0ead6",
+      "printWith": "key_1",
       "link": {
         "from": "ink_recipe",
         "values": {
@@ -7741,13 +7742,13 @@
           }
         }
       },
-      "features": [],
-      "printWith": "key_1"
+      "features": []
     },
     {
       "id": "ink_key_2",
       "name": "2 @ legend inlay",
       "color": "#f0ead6",
+      "printWith": "key_2",
       "link": {
         "from": "ink_recipe",
         "values": {
@@ -7777,13 +7778,13 @@
           }
         }
       },
-      "features": [],
-      "printWith": "key_2"
+      "features": []
     },
     {
       "id": "ink_key_3",
       "name": "3 # legend inlay",
       "color": "#f0ead6",
+      "printWith": "key_3",
       "link": {
         "from": "ink_recipe",
         "values": {
@@ -7813,13 +7814,13 @@
           }
         }
       },
-      "features": [],
-      "printWith": "key_3"
+      "features": []
     },
     {
       "id": "ink_key_4",
       "name": "4 $ legend inlay",
       "color": "#f0ead6",
+      "printWith": "key_4",
       "link": {
         "from": "ink_recipe",
         "values": {
@@ -7849,13 +7850,13 @@
           }
         }
       },
-      "features": [],
-      "printWith": "key_4"
+      "features": []
     },
     {
       "id": "ink_key_5",
       "name": "5 % legend inlay",
       "color": "#f0ead6",
+      "printWith": "key_5",
       "link": {
         "from": "ink_recipe",
         "values": {
@@ -7885,13 +7886,13 @@
           }
         }
       },
-      "features": [],
-      "printWith": "key_5"
+      "features": []
     },
     {
       "id": "ink_key_6",
       "name": "6 ^ legend inlay",
       "color": "#f0ead6",
+      "printWith": "key_6",
       "link": {
         "from": "ink_recipe",
         "values": {
@@ -7921,13 +7922,13 @@
           }
         }
       },
-      "features": [],
-      "printWith": "key_6"
+      "features": []
     },
     {
       "id": "ink_key_7",
       "name": "7 & legend inlay",
       "color": "#f0ead6",
+      "printWith": "key_7",
       "link": {
         "from": "ink_recipe",
         "values": {
@@ -7957,13 +7958,13 @@
           }
         }
       },
-      "features": [],
-      "printWith": "key_7"
+      "features": []
     },
     {
       "id": "ink_key_8",
       "name": "8 * legend inlay",
       "color": "#f0ead6",
+      "printWith": "key_8",
       "link": {
         "from": "ink_recipe",
         "values": {
@@ -7993,13 +7994,13 @@
           }
         }
       },
-      "features": [],
-      "printWith": "key_8"
+      "features": []
     },
     {
       "id": "ink_key_9",
       "name": "9 ( legend inlay",
       "color": "#f0ead6",
+      "printWith": "key_9",
       "link": {
         "from": "ink_recipe",
         "values": {
@@ -8029,13 +8030,13 @@
           }
         }
       },
-      "features": [],
-      "printWith": "key_9"
+      "features": []
     },
     {
       "id": "ink_key_0",
       "name": "0 ) legend inlay",
       "color": "#f0ead6",
+      "printWith": "key_0",
       "link": {
         "from": "ink_recipe",
         "values": {
@@ -8065,8 +8066,7 @@
           }
         }
       },
-      "features": [],
-      "printWith": "key_0"
+      "features": []
     }
   ],
   "requirements": [
@@ -8080,37 +8080,16 @@
         "*_body.side[*]"
       ],
       "description": "Print each keycap with the open bottom toward the platform, tilted ~30-45°, supports only on the skirt rim and inside the cavity; tops (dish or spacebar crown) and outer sides stay free of support marks, so the cup opening faces the platform (no suction cup)."
-    }
-  ],
-  "interfaces": [],
-  "hardware": [],
-  "manufacturing": {
-    "process": "sla",
-    "profileId": "fdm_generic_04_petg",
-    "buildVolume": [
-      256,
-      256,
-      256
-    ]
-  },
-  "configurations": [
+    },
     {
-      "id": "c64",
-      "name": "C64 sculpt",
-      "values": {
-        "sa_r1_h": 15.9,
-        "sa_r2_h": 13.9,
-        "sa_r3_h": 13.5,
-        "sa_r4_h": 13.9,
-        "sa_r1_tilt": 18,
-        "sa_r2_tilt": 10,
-        "sa_r4_tilt": -12,
-        "dish_depth": 1.8,
-        "side_bulge": 0.4
-      }
+      "id": "universal_set",
+      "type": "text",
+      "value": "Universal MX keycap set: covers the common keyboard layouts, not only the Ajazz 75%, and is shared for others to print",
+      "description": "A universal keycap set others can print for common MX keyboards, not just this Ajazz 75%.",
+      "pinned": true,
+      "source": "user"
     }
   ],
-  "configuration": "c64",
   "assembly": {
     "instances": [
       {
@@ -10014,5 +9993,34 @@
         }
       }
     ]
-  }
+  },
+  "interfaces": [],
+  "hardware": [],
+  "manufacturing": {
+    "process": "sla",
+    "profileId": "fdm_generic_04_petg",
+    "buildVolume": [
+      256,
+      256,
+      256
+    ]
+  },
+  "configurations": [
+    {
+      "id": "c64",
+      "name": "C64 sculpt",
+      "values": {
+        "sa_r1_h": 15.9,
+        "sa_r2_h": 13.9,
+        "sa_r3_h": 13.5,
+        "sa_r4_h": 13.9,
+        "sa_r1_tilt": 18,
+        "sa_r2_tilt": 10,
+        "sa_r4_tilt": -12,
+        "dish_depth": 1.8,
+        "side_bulge": 0.4
+      }
+    }
+  ],
+  "configuration": "c64"
 }

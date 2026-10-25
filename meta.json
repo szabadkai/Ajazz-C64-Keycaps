@@ -1,6 +1,6 @@
 {
-  "savedAt": "2026-10-13T06:09:48.402Z",
-  "hash": "sha256:604d1364c31cbb5d",
+  "savedAt": "2026-10-25T13:36:41.988Z",
+  "hash": "sha256:480f446b396bfd2c",
   "schemaVersion": 2,
   "parts": {
     "key_recipe": {
@@ -1658,6 +1658,6 @@
     "instances": "7e89d9917be1",
     "hardware": "e3b0c44298fc"
   },
-  "geometry": "8e0a5390fb1af339",
-  "naming": 3
+  "geometry": "0a045783ce637d3a",
+  "naming": 4
 }
