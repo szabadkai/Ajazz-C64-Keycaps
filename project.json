@@ -2159,8 +2159,7 @@
           }
         }
       },
-      "features": [],
-      "reference": "helper"
+      "features": []
     },
     {
       "id": "k_r1_2u",
@@ -2585,8 +2584,7 @@
           "direction": "normal",
           "operation": "subtract"
         }
-      ],
-      "reference": "helper"
+      ]
     },
     {
       "id": "k_r2_1u",
@@ -2639,8 +2637,7 @@
           }
         }
       },
-      "features": [],
-      "reference": "helper"
+      "features": []
     },
     {
       "id": "k_r3_1_75u",
@@ -2667,8 +2664,7 @@
           }
         }
       },
-      "features": [],
-      "reference": "helper"
+      "features": []
     },
     {
       "id": "k_r3_2_25u",
@@ -3078,8 +3074,7 @@
           "direction": "normal",
           "operation": "subtract"
         }
-      ],
-      "reference": "helper"
+      ]
     },
     {
       "id": "k_r3_6_25u",
@@ -3275,8 +3270,7 @@
           "anchor": "center",
           "operation": "intersect"
         }
-      ],
-      "reference": "helper"
+      ]
     },
     {
       "id": "k_r4_1u",
@@ -3316,8 +3310,7 @@
           "key_tilt": "sa_r4_tilt"
         }
       },
-      "features": [],
-      "reference": "helper"
+      "features": []
     },
     {
       "id": "k_r4_1_75u",
@@ -3348,8 +3341,7 @@
           }
         }
       },
-      "features": [],
-      "reference": "helper"
+      "features": []
     },
     {
       "id": "k_r4_2_25u",
@@ -3766,8 +3758,7 @@
           "direction": "normal",
           "operation": "subtract"
         }
-      ],
-      "reference": "helper"
+      ]
     },
     {
       "id": "key_s",
@@ -3997,8 +3988,7 @@
           ],
           "radius": "homing_r"
         }
-      ],
-      "reference": "helper"
+      ]
     },
     {
       "id": "key_g",
@@ -4025,8 +4015,7 @@
           }
         }
       },
-      "features": [],
-      "reference": "helper"
+      "features": []
     },
     {
       "id": "key_h",
@@ -4053,8 +4042,7 @@
           }
         }
       },
-      "features": [],
-      "reference": "helper"
+      "features": []
     },
     {
       "id": "key_j",
@@ -4237,8 +4225,7 @@
           ],
           "radius": "homing_r"
         }
-      ],
-      "reference": "helper"
+      ]
     },
     {
       "id": "key_k",
@@ -4265,8 +4252,7 @@
           }
         }
       },
-      "features": [],
-      "reference": "helper"
+      "features": []
     },
     {
       "id": "key_l",
@@ -4293,8 +4279,7 @@
           }
         }
       },
-      "features": [],
-      "reference": "helper"
+      "features": []
     },
     {
       "id": "key_semicolon",
@@ -4320,8 +4305,7 @@
           }
         }
       },
-      "features": [],
-      "reference": "helper"
+      "features": []
     },
     {
       "id": "key_quote",
@@ -4347,8 +4331,7 @@
           }
         }
       },
-      "features": [],
-      "reference": "helper"
+      "features": []
     },
     {
       "id": "key_pgdn",
@@ -4374,8 +4357,7 @@
           }
         }
       },
-      "features": [],
-      "reference": "helper"
+      "features": []
     },
     {
       "id": "key_w",
@@ -4456,8 +4438,7 @@
           }
         }
       },
-      "features": [],
-      "reference": "helper"
+      "features": []
     },
     {
       "id": "key_t",
@@ -4484,8 +4465,7 @@
           }
         }
       },
-      "features": [],
-      "reference": "helper"
+      "features": []
     },
     {
       "id": "key_y",
@@ -4512,8 +4492,7 @@
           }
         }
       },
-      "features": [],
-      "reference": "helper"
+      "features": []
     },
     {
       "id": "key_u",
@@ -4540,8 +4519,7 @@
           }
         }
       },
-      "features": [],
-      "reference": "helper"
+      "features": []
     },
     {
       "id": "key_i",
@@ -4568,8 +4546,7 @@
           }
         }
       },
-      "features": [],
-      "reference": "helper"
+      "features": []
     },
     {
       "id": "key_o",
@@ -4596,8 +4573,7 @@
           }
         }
       },
-      "features": [],
-      "reference": "helper"
+      "features": []
     },
     {
       "id": "key_p",
@@ -4624,8 +4600,7 @@
           }
         }
       },
-      "features": [],
-      "reference": "helper"
+      "features": []
     },
     {
       "id": "key_lbracket",
@@ -4654,8 +4629,7 @@
           }
         }
       },
-      "features": [],
-      "reference": "helper"
+      "features": []
     },
     {
       "id": "key_rbracket",
@@ -4684,8 +4658,7 @@
           }
         }
       },
-      "features": [],
-      "reference": "helper"
+      "features": []
     },
     {
       "id": "key_pgup",
@@ -4711,8 +4684,7 @@
           }
         }
       },
-      "features": [],
-      "reference": "helper"
+      "features": []
     },
     {
       "id": "key_f1",
@@ -4737,8 +4709,7 @@
           }
         }
       },
-      "features": [],
-      "reference": "helper"
+      "features": []
     },
     {
       "id": "key_f2",
@@ -4763,8 +4734,7 @@
           }
         }
       },
-      "features": [],
-      "reference": "helper"
+      "features": []
     },
     {
       "id": "key_f3",
@@ -4789,8 +4759,7 @@
           }
         }
       },
-      "features": [],
-      "reference": "helper"
+      "features": []
     },
     {
       "id": "key_f4",
@@ -4815,8 +4784,7 @@
           }
         }
       },
-      "features": [],
-      "reference": "helper"
+      "features": []
     },
     {
       "id": "key_f5",
@@ -4841,8 +4809,7 @@
           }
         }
       },
-      "features": [],
-      "reference": "helper"
+      "features": []
     },
     {
       "id": "key_f6",
@@ -4867,8 +4834,7 @@
           }
         }
       },
-      "features": [],
-      "reference": "helper"
+      "features": []
     },
     {
       "id": "key_f7",
@@ -4893,8 +4859,7 @@
           }
         }
       },
-      "features": [],
-      "reference": "helper"
+      "features": []
     },
     {
       "id": "key_f8",
@@ -4919,8 +4884,7 @@
           }
         }
       },
-      "features": [],
-      "reference": "helper"
+      "features": []
     },
     {
       "id": "key_f9",
@@ -4945,8 +4909,7 @@
           }
         }
       },
-      "features": [],
-      "reference": "helper"
+      "features": []
     },
     {
       "id": "key_f10",
@@ -4971,8 +4934,7 @@
           }
         }
       },
-      "features": [],
-      "reference": "helper"
+      "features": []
     },
     {
       "id": "key_f11",
@@ -4997,8 +4959,7 @@
           }
         }
       },
-      "features": [],
-      "reference": "helper"
+      "features": []
     },
     {
       "id": "key_f12",
@@ -5023,8 +4984,7 @@
           }
         }
       },
-      "features": [],
-      "reference": "helper"
+      "features": []
     },
     {
       "id": "key_grave",
@@ -5053,8 +5013,7 @@
           }
         }
       },
-      "features": [],
-      "reference": "helper"
+      "features": []
     },
     {
       "id": "key_1",
@@ -5091,8 +5050,7 @@
           }
         }
       },
-      "features": [],
-      "reference": "helper"
+      "features": []
     },
     {
       "id": "key_2",
@@ -5129,8 +5087,7 @@
           }
         }
       },
-      "features": [],
-      "reference": "helper"
+      "features": []
     },
     {
       "id": "key_3",
@@ -5167,8 +5124,7 @@
           }
         }
       },
-      "features": [],
-      "reference": "helper"
+      "features": []
     },
     {
       "id": "key_4",
@@ -5205,8 +5161,7 @@
           }
         }
       },
-      "features": [],
-      "reference": "helper"
+      "features": []
     },
     {
       "id": "key_5",
@@ -5243,8 +5198,7 @@
           }
         }
       },
-      "features": [],
-      "reference": "helper"
+      "features": []
     },
     {
       "id": "key_6",
@@ -5281,8 +5235,7 @@
           }
         }
       },
-      "features": [],
-      "reference": "helper"
+      "features": []
     },
     {
       "id": "key_7",
@@ -5319,8 +5272,7 @@
           }
         }
       },
-      "features": [],
-      "reference": "helper"
+      "features": []
     },
     {
       "id": "key_8",
@@ -5357,8 +5309,7 @@
           }
         }
       },
-      "features": [],
-      "reference": "helper"
+      "features": []
     },
     {
       "id": "key_9",
@@ -5395,8 +5346,7 @@
           }
         }
       },
-      "features": [],
-      "reference": "helper"
+      "features": []
     },
     {
       "id": "key_0",
@@ -5433,8 +5383,7 @@
           }
         }
       },
-      "features": [],
-      "reference": "helper"
+      "features": []
     },
     {
       "id": "key_minus",
@@ -5463,8 +5412,7 @@
           }
         }
       },
-      "features": [],
-      "reference": "helper"
+      "features": []
     },
     {
       "id": "key_equal",
@@ -5493,8 +5441,7 @@
           }
         }
       },
-      "features": [],
-      "reference": "helper"
+      "features": []
     },
     {
       "id": "key_del",
@@ -5519,8 +5466,7 @@
           }
         }
       },
-      "features": [],
-      "reference": "helper"
+      "features": []
     },
     {
       "id": "key_x",
@@ -5601,8 +5547,7 @@
           }
         }
       },
-      "features": [],
-      "reference": "helper"
+      "features": []
     },
     {
       "id": "key_b",
@@ -5629,8 +5574,7 @@
           }
         }
       },
-      "features": [],
-      "reference": "helper"
+      "features": []
     },
     {
       "id": "key_n",
@@ -5657,8 +5601,7 @@
           }
         }
       },
-      "features": [],
-      "reference": "helper"
+      "features": []
     },
     {
       "id": "key_m",
@@ -5685,8 +5628,7 @@
           }
         }
       },
-      "features": [],
-      "reference": "helper"
+      "features": []
     },
     {
       "id": "key_comma",
@@ -5712,8 +5654,7 @@
           }
         }
       },
-      "features": [],
-      "reference": "helper"
+      "features": []
     },
     {
       "id": "key_period",
@@ -5739,8 +5680,7 @@
           }
         }
       },
-      "features": [],
-      "reference": "helper"
+      "features": []
     },
     {
       "id": "key_slash",
@@ -5766,8 +5706,7 @@
           }
         }
       },
-      "features": [],
-      "reference": "helper"
+      "features": []
     },
     {
       "id": "key_up",
@@ -5791,8 +5730,7 @@
           }
         }
       },
-      "features": [],
-      "reference": "helper"
+      "features": []
     },
     {
       "id": "key_end",
@@ -5817,8 +5755,7 @@
           }
         }
       },
-      "features": [],
-      "reference": "helper"
+      "features": []
     },
     {
       "id": "key_ralt",
@@ -5843,8 +5780,7 @@
           }
         }
       },
-      "features": [],
-      "reference": "helper"
+      "features": []
     },
     {
       "id": "key_fn",
@@ -5869,8 +5805,7 @@
           }
         }
       },
-      "features": [],
-      "reference": "helper"
+      "features": []
     },
     {
       "id": "key_rctrl",
@@ -5899,8 +5834,7 @@
           }
         }
       },
-      "features": [],
-      "reference": "helper"
+      "features": []
     },
     {
       "id": "key_left",
@@ -5924,8 +5858,7 @@
           }
         }
       },
-      "features": [],
-      "reference": "helper"
+      "features": []
     },
     {
       "id": "key_down",
@@ -5949,8 +5882,7 @@
           }
         }
       },
-      "features": [],
-      "reference": "helper"
+      "features": []
     },
     {
       "id": "key_right",
@@ -5974,8 +5906,7 @@
           }
         }
       },
-      "features": [],
-      "reference": "helper"
+      "features": []
     },
     {
       "id": "key_lwin",
@@ -6001,8 +5932,7 @@
           }
         }
       },
-      "features": [],
-      "reference": "helper"
+      "features": []
     },
     {
       "id": "key_lalt",
@@ -6028,8 +5958,7 @@
           }
         }
       },
-      "features": [],
-      "reference": "helper"
+      "features": []
     },
     {
       "id": "key_backslash",
@@ -6042,8 +5971,7 @@
           "key_tilt": "sa_r2_tilt"
         }
       },
-      "features": [],
-      "reference": "helper"
+      "features": []
     },
     {
       "id": "ink_k_r3_1u",
@@ -6082,7 +6010,7 @@
         }
       },
       "features": [],
-      "reference": "helper"
+      "printWith": "k_r3_1_75u"
     },
     {
       "id": "ink_k_r3_2_25u",
@@ -6111,7 +6039,7 @@
           "operation": "new"
         }
       ],
-      "reference": "helper"
+      "printWith": "k_r3_2_25u"
     },
     {
       "id": "ink_key_s",
@@ -6189,7 +6117,7 @@
         }
       },
       "features": [],
-      "reference": "helper"
+      "printWith": "key_f"
     },
     {
       "id": "ink_key_g",
@@ -6215,7 +6143,7 @@
         }
       },
       "features": [],
-      "reference": "helper"
+      "printWith": "key_g"
     },
     {
       "id": "ink_key_h",
@@ -6241,7 +6169,7 @@
         }
       },
       "features": [],
-      "reference": "helper"
+      "printWith": "key_h"
     },
     {
       "id": "ink_key_j",
@@ -6267,7 +6195,7 @@
         }
       },
       "features": [],
-      "reference": "helper"
+      "printWith": "key_j"
     },
     {
       "id": "ink_key_k",
@@ -6293,7 +6221,7 @@
         }
       },
       "features": [],
-      "reference": "helper"
+      "printWith": "key_k"
     },
     {
       "id": "ink_key_l",
@@ -6319,7 +6247,7 @@
         }
       },
       "features": [],
-      "reference": "helper"
+      "printWith": "key_l"
     },
     {
       "id": "ink_key_semicolon",
@@ -6345,7 +6273,7 @@
         }
       },
       "features": [],
-      "reference": "helper"
+      "printWith": "key_semicolon"
     },
     {
       "id": "ink_key_quote",
@@ -6371,7 +6299,7 @@
         }
       },
       "features": [],
-      "reference": "helper"
+      "printWith": "key_quote"
     },
     {
       "id": "ink_key_pgdn",
@@ -6397,7 +6325,7 @@
         }
       },
       "features": [],
-      "reference": "helper"
+      "printWith": "key_pgdn"
     },
     {
       "id": "ink_k_r2_1u",
@@ -6448,7 +6376,7 @@
         }
       },
       "features": [],
-      "reference": "helper"
+      "printWith": "k_r2_1_5u"
     },
     {
       "id": "ink_key_w",
@@ -6526,7 +6454,7 @@
         }
       },
       "features": [],
-      "reference": "helper"
+      "printWith": "key_r"
     },
     {
       "id": "ink_key_t",
@@ -6552,7 +6480,7 @@
         }
       },
       "features": [],
-      "reference": "helper"
+      "printWith": "key_t"
     },
     {
       "id": "ink_key_y",
@@ -6578,7 +6506,7 @@
         }
       },
       "features": [],
-      "reference": "helper"
+      "printWith": "key_y"
     },
     {
       "id": "ink_key_u",
@@ -6604,7 +6532,7 @@
         }
       },
       "features": [],
-      "reference": "helper"
+      "printWith": "key_u"
     },
     {
       "id": "ink_key_i",
@@ -6630,7 +6558,7 @@
         }
       },
       "features": [],
-      "reference": "helper"
+      "printWith": "key_i"
     },
     {
       "id": "ink_key_o",
@@ -6656,7 +6584,7 @@
         }
       },
       "features": [],
-      "reference": "helper"
+      "printWith": "key_o"
     },
     {
       "id": "ink_key_p",
@@ -6682,7 +6610,7 @@
         }
       },
       "features": [],
-      "reference": "helper"
+      "printWith": "key_p"
     },
     {
       "id": "ink_key_lbracket",
@@ -6710,7 +6638,7 @@
         }
       },
       "features": [],
-      "reference": "helper"
+      "printWith": "key_lbracket"
     },
     {
       "id": "ink_key_rbracket",
@@ -6738,7 +6666,7 @@
         }
       },
       "features": [],
-      "reference": "helper"
+      "printWith": "key_rbracket"
     },
     {
       "id": "ink_key_backslash",
@@ -6767,7 +6695,7 @@
         }
       },
       "features": [],
-      "reference": "helper"
+      "printWith": "key_backslash"
     },
     {
       "id": "ink_key_pgup",
@@ -6793,7 +6721,7 @@
         }
       },
       "features": [],
-      "reference": "helper"
+      "printWith": "key_pgup"
     },
     {
       "id": "ink_k_r4_1u",
@@ -6848,7 +6776,7 @@
         }
       },
       "features": [],
-      "reference": "helper"
+      "printWith": "k_r4_1_25u"
     },
     {
       "id": "ink_k_r4_1_75u",
@@ -6877,7 +6805,7 @@
         }
       },
       "features": [],
-      "reference": "helper"
+      "printWith": "k_r4_1_75u"
     },
     {
       "id": "ink_k_r4_2_25u",
@@ -6906,7 +6834,7 @@
         }
       },
       "features": [],
-      "reference": "helper"
+      "printWith": "k_r4_2_25u"
     },
     {
       "id": "ink_key_x",
@@ -6984,7 +6912,7 @@
         }
       },
       "features": [],
-      "reference": "helper"
+      "printWith": "key_v"
     },
     {
       "id": "ink_key_b",
@@ -7010,7 +6938,7 @@
         }
       },
       "features": [],
-      "reference": "helper"
+      "printWith": "key_b"
     },
     {
       "id": "ink_key_n",
@@ -7036,7 +6964,7 @@
         }
       },
       "features": [],
-      "reference": "helper"
+      "printWith": "key_n"
     },
     {
       "id": "ink_key_m",
@@ -7062,7 +6990,7 @@
         }
       },
       "features": [],
-      "reference": "helper"
+      "printWith": "key_m"
     },
     {
       "id": "ink_key_comma",
@@ -7088,7 +7016,7 @@
         }
       },
       "features": [],
-      "reference": "helper"
+      "printWith": "key_comma"
     },
     {
       "id": "ink_key_period",
@@ -7114,7 +7042,7 @@
         }
       },
       "features": [],
-      "reference": "helper"
+      "printWith": "key_period"
     },
     {
       "id": "ink_key_slash",
@@ -7140,7 +7068,7 @@
         }
       },
       "features": [],
-      "reference": "helper"
+      "printWith": "key_slash"
     },
     {
       "id": "ink_key_up",
@@ -7164,7 +7092,7 @@
         }
       },
       "features": [],
-      "reference": "helper"
+      "printWith": "key_up"
     },
     {
       "id": "ink_key_end",
@@ -7189,7 +7117,7 @@
         }
       },
       "features": [],
-      "reference": "helper"
+      "printWith": "key_end"
     },
     {
       "id": "ink_key_ralt",
@@ -7214,7 +7142,7 @@
         }
       },
       "features": [],
-      "reference": "helper"
+      "printWith": "key_ralt"
     },
     {
       "id": "ink_key_fn",
@@ -7239,7 +7167,7 @@
         }
       },
       "features": [],
-      "reference": "helper"
+      "printWith": "key_fn"
     },
     {
       "id": "ink_key_rctrl",
@@ -7268,7 +7196,7 @@
         }
       },
       "features": [],
-      "reference": "helper"
+      "printWith": "key_rctrl"
     },
     {
       "id": "ink_key_left",
@@ -7292,7 +7220,7 @@
         }
       },
       "features": [],
-      "reference": "helper"
+      "printWith": "key_left"
     },
     {
       "id": "ink_key_down",
@@ -7316,7 +7244,7 @@
         }
       },
       "features": [],
-      "reference": "helper"
+      "printWith": "key_down"
     },
     {
       "id": "ink_key_right",
@@ -7340,7 +7268,7 @@
         }
       },
       "features": [],
-      "reference": "helper"
+      "printWith": "key_right"
     },
     {
       "id": "ink_key_lwin",
@@ -7365,7 +7293,7 @@
         }
       },
       "features": [],
-      "reference": "helper"
+      "printWith": "key_lwin"
     },
     {
       "id": "ink_key_lalt",
@@ -7390,7 +7318,7 @@
         }
       },
       "features": [],
-      "reference": "helper"
+      "printWith": "key_lalt"
     },
     {
       "id": "ink_k_r1_1u",
@@ -7415,7 +7343,7 @@
         }
       },
       "features": [],
-      "reference": "helper"
+      "printWith": "k_r1_1u"
     },
     {
       "id": "ink_key_f1",
@@ -7440,7 +7368,7 @@
         }
       },
       "features": [],
-      "reference": "helper"
+      "printWith": "key_f1"
     },
     {
       "id": "ink_key_f2",
@@ -7465,7 +7393,7 @@
         }
       },
       "features": [],
-      "reference": "helper"
+      "printWith": "key_f2"
     },
     {
       "id": "ink_key_f3",
@@ -7490,7 +7418,7 @@
         }
       },
       "features": [],
-      "reference": "helper"
+      "printWith": "key_f3"
     },
     {
       "id": "ink_key_f4",
@@ -7515,7 +7443,7 @@
         }
       },
       "features": [],
-      "reference": "helper"
+      "printWith": "key_f4"
     },
     {
       "id": "ink_key_f5",
@@ -7540,7 +7468,7 @@
         }
       },
       "features": [],
-      "reference": "helper"
+      "printWith": "key_f5"
     },
     {
       "id": "ink_key_f6",
@@ -7565,7 +7493,7 @@
         }
       },
       "features": [],
-      "reference": "helper"
+      "printWith": "key_f6"
     },
     {
       "id": "ink_key_f7",
@@ -7590,7 +7518,7 @@
         }
       },
       "features": [],
-      "reference": "helper"
+      "printWith": "key_f7"
     },
     {
       "id": "ink_key_f8",
@@ -7615,7 +7543,7 @@
         }
       },
       "features": [],
-      "reference": "helper"
+      "printWith": "key_f8"
     },
     {
       "id": "ink_key_f9",
@@ -7640,7 +7568,7 @@
         }
       },
       "features": [],
-      "reference": "helper"
+      "printWith": "key_f9"
     },
     {
       "id": "ink_key_f10",
@@ -7665,7 +7593,7 @@
         }
       },
       "features": [],
-      "reference": "helper"
+      "printWith": "key_f10"
     },
     {
       "id": "ink_key_f11",
@@ -7690,7 +7618,7 @@
         }
       },
       "features": [],
-      "reference": "helper"
+      "printWith": "key_f11"
     },
     {
       "id": "ink_key_f12",
@@ -7715,7 +7643,7 @@
         }
       },
       "features": [],
-      "reference": "helper"
+      "printWith": "key_f12"
     },
     {
       "id": "ink_k_r1_2u",
@@ -7744,7 +7672,7 @@
         }
       },
       "features": [],
-      "reference": "helper"
+      "printWith": "k_r1_2u"
     },
     {
       "id": "ink_key_del",
@@ -7769,7 +7697,7 @@
         }
       },
       "features": [],
-      "reference": "helper"
+      "printWith": "key_del"
     },
     {
       "id": "ink_key_grave",
@@ -7797,7 +7725,7 @@
         }
       },
       "features": [],
-      "reference": "helper"
+      "printWith": "key_grave"
     },
     {
       "id": "ink_key_minus",
@@ -7825,7 +7753,7 @@
         }
       },
       "features": [],
-      "reference": "helper"
+      "printWith": "key_minus"
     },
     {
       "id": "ink_key_equal",
@@ -7853,7 +7781,7 @@
         }
       },
       "features": [],
-      "reference": "helper"
+      "printWith": "key_equal"
     },
     {
       "id": "ink_key_1",
@@ -7889,7 +7817,7 @@
         }
       },
       "features": [],
-      "reference": "helper"
+      "printWith": "key_1"
     },
     {
       "id": "ink_key_2",
@@ -7925,7 +7853,7 @@
         }
       },
       "features": [],
-      "reference": "helper"
+      "printWith": "key_2"
     },
     {
       "id": "ink_key_3",
@@ -7961,7 +7889,7 @@
         }
       },
       "features": [],
-      "reference": "helper"
+      "printWith": "key_3"
     },
     {
       "id": "ink_key_4",
@@ -7997,7 +7925,7 @@
         }
       },
       "features": [],
-      "reference": "helper"
+      "printWith": "key_4"
     },
     {
       "id": "ink_key_5",
@@ -8033,7 +7961,7 @@
         }
       },
       "features": [],
-      "reference": "helper"
+      "printWith": "key_5"
     },
     {
       "id": "ink_key_6",
@@ -8069,7 +7997,7 @@
         }
       },
       "features": [],
-      "reference": "helper"
+      "printWith": "key_6"
     },
     {
       "id": "ink_key_7",
@@ -8105,7 +8033,7 @@
         }
       },
       "features": [],
-      "reference": "helper"
+      "printWith": "key_7"
     },
     {
       "id": "ink_key_8",
@@ -8141,7 +8069,7 @@
         }
       },
       "features": [],
-      "reference": "helper"
+      "printWith": "key_8"
     },
     {
       "id": "ink_key_9",
@@ -8177,7 +8105,7 @@
         }
       },
       "features": [],
-      "reference": "helper"
+      "printWith": "key_9"
     },
     {
       "id": "ink_key_0",
@@ -8213,7 +8141,7 @@
         }
       },
       "features": [],
-      "reference": "helper"
+      "printWith": "key_0"
     },
     {
       "id": "blank_r3_1u",
@@ -17247,15 +17175,9 @@
         "part": "k_r2_1u",
         "name": "Q",
         "placement": {
-          "rotate": [
-            {
-              "axis": "z",
-              "angle": 180
-            }
-          ],
           "translate": [
-            "-unit * 2",
             "unit * 2",
+            "-unit * 2",
             0
           ]
         }
@@ -17277,15 +17199,9 @@
         "part": "k_r3_1u",
         "name": "A",
         "placement": {
-          "rotate": [
-            {
-              "axis": "z",
-              "angle": 180
-            }
-          ],
           "translate": [
-            "-unit * 2.25",
-            "unit * 3",
+            "unit * 2.25",
+            "-unit * 3",
             0
           ]
         }
@@ -17319,15 +17235,9 @@
         "part": "k_r4_1u",
         "name": "Z",
         "placement": {
-          "rotate": [
-            {
-              "axis": "z",
-              "angle": 180
-            }
-          ],
           "translate": [
-            "-unit * 2.75",
-            "unit * 4",
+            "unit * 2.75",
+            "-unit * 4",
             0
           ]
         }
@@ -17373,15 +17283,9 @@
         "part": "key_s",
         "name": "S",
         "placement": {
-          "rotate": [
-            {
-              "axis": "z",
-              "angle": 180
-            }
-          ],
           "translate": [
-            "-unit * 3.25",
-            "unit * 3",
+            "unit * 3.25",
+            "-unit * 3",
             0
           ]
         }
@@ -17391,15 +17295,9 @@
         "part": "key_d",
         "name": "D",
         "placement": {
-          "rotate": [
-            {
-              "axis": "z",
-              "angle": 180
-            }
-          ],
           "translate": [
-            "-unit * 4.25",
-            "unit * 3",
+            "unit * 4.25",
+            "-unit * 3",
             0
           ]
         }
@@ -17517,15 +17415,9 @@
         "part": "key_w",
         "name": "W",
         "placement": {
-          "rotate": [
-            {
-              "axis": "z",
-              "angle": 180
-            }
-          ],
           "translate": [
-            "-unit * 3",
-            "unit * 2",
+            "unit * 3",
+            "-unit * 2",
             0
           ]
         }
@@ -17535,15 +17427,9 @@
         "part": "key_e",
         "name": "E",
         "placement": {
-          "rotate": [
-            {
-              "axis": "z",
-              "angle": 180
-            }
-          ],
           "translate": [
-            "-unit * 4",
-            "unit * 2",
+            "unit * 4",
+            "-unit * 2",
             0
           ]
         }
@@ -17985,15 +17871,9 @@
         "part": "key_x",
         "name": "X",
         "placement": {
-          "rotate": [
-            {
-              "axis": "z",
-              "angle": 180
-            }
-          ],
           "translate": [
-            "-unit * 3.75",
-            "unit * 4",
+            "unit * 3.75",
+            "-unit * 4",
             0
           ]
         }
@@ -18003,15 +17883,9 @@
         "part": "key_c",
         "name": "C",
         "placement": {
-          "rotate": [
-            {
-              "axis": "z",
-              "angle": 180
-            }
-          ],
           "translate": [
-            "-unit * 4.75",
-            "unit * 4",
+            "unit * 4.75",
+            "-unit * 4",
             0
           ]
         }
@@ -18236,15 +18110,9 @@
         "id": "ink_k_r3_1u",
         "part": "ink_k_r3_1u",
         "placement": {
-          "rotate": [
-            {
-              "axis": "z",
-              "angle": 180
-            }
-          ],
           "translate": [
-            "-unit * 2.25",
-            "unit * 3",
+            "unit * 2.25",
+            "-unit * 3",
             0
           ]
         }
@@ -18275,15 +18143,9 @@
         "id": "ink_key_s",
         "part": "ink_key_s",
         "placement": {
-          "rotate": [
-            {
-              "axis": "z",
-              "angle": 180
-            }
-          ],
           "translate": [
-            "-unit * 3.25",
-            "unit * 3",
+            "unit * 3.25",
+            "-unit * 3",
             0
           ]
         }
@@ -18292,15 +18154,9 @@
         "id": "ink_key_d",
         "part": "ink_key_d",
         "placement": {
-          "rotate": [
-            {
-              "axis": "z",
-              "angle": 180
-            }
-          ],
           "translate": [
-            "-unit * 4.25",
-            "unit * 3",
+            "unit * 4.25",
+            "-unit * 3",
             0
           ]
         }
@@ -18408,15 +18264,9 @@
         "id": "ink_k_r2_1u",
         "part": "ink_k_r2_1u",
         "placement": {
-          "rotate": [
-            {
-              "axis": "z",
-              "angle": 180
-            }
-          ],
           "translate": [
-            "-unit * 2",
             "unit * 2",
+            "-unit * 2",
             0
           ]
         }
@@ -18436,15 +18286,9 @@
         "id": "ink_key_w",
         "part": "ink_key_w",
         "placement": {
-          "rotate": [
-            {
-              "axis": "z",
-              "angle": 180
-            }
-          ],
           "translate": [
-            "-unit * 3",
-            "unit * 2",
+            "unit * 3",
+            "-unit * 2",
             0
           ]
         }
@@ -18453,15 +18297,9 @@
         "id": "ink_key_e",
         "part": "ink_key_e",
         "placement": {
-          "rotate": [
-            {
-              "axis": "z",
-              "angle": 180
-            }
-          ],
           "translate": [
-            "-unit * 4",
-            "unit * 2",
+            "unit * 4",
+            "-unit * 2",
             0
           ]
         }
@@ -18591,15 +18429,9 @@
         "id": "ink_k_r4_1u",
         "part": "ink_k_r4_1u",
         "placement": {
-          "rotate": [
-            {
-              "axis": "z",
-              "angle": 180
-            }
-          ],
           "translate": [
-            "-unit * 2.75",
-            "unit * 4",
+            "unit * 2.75",
+            "-unit * 4",
             0
           ]
         }
@@ -18641,15 +18473,9 @@
         "id": "ink_key_x",
         "part": "ink_key_x",
         "placement": {
-          "rotate": [
-            {
-              "axis": "z",
-              "angle": 180
-            }
-          ],
           "translate": [
-            "-unit * 3.75",
-            "unit * 4",
+            "unit * 3.75",
+            "-unit * 4",
             0
           ]
         }
@@ -18658,15 +18484,9 @@
         "id": "ink_key_c",
         "part": "ink_key_c",
         "placement": {
-          "rotate": [
-            {
-              "axis": "z",
-              "angle": 180
-            }
-          ],
           "translate": [
-            "-unit * 4.75",
-            "unit * 4",
+            "unit * 4.75",
+            "-unit * 4",
             0
           ]
         }
