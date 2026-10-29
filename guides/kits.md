@@ -63,3 +63,4 @@ Every part belongs to exactly one set (each set has its own spacebars: brown `k_
 - C64 add-on: `exports/keycaps-85627423.step` / `.3mf`
 - Blank: `exports/keycaps-e8ff5f65.step` / `.3mf`
 - Plain: `exports/keycaps-bfd3f6cf.step` / `.3mf`
+- C64 full set (75% + whole add-on: full-size ANSI with nav and numpad, plus tsangan mods and 7u space), 2026-10-29, same design: `exports/keycaps-d537c983.step` / `.3mf`
