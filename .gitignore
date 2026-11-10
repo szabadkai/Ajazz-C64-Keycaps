@@ -3,3 +3,5 @@
 # Exported files are made again from the design; the crash-recovery snapshots are covered by git.
 exports/
 snapshots/
+# Proposals not committed yet are not design history (ADR-0220).
+proposals.json
